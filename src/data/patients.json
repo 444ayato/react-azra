@@ -1,0 +1,5 @@
+[
+  { "id": "P001", "name": "Budi Santoso", "lastVisit": "2024-03-10", "status": "Healthy" },
+  { "id": "P002", "name": "Siti Aminah", "lastVisit": "2024-03-12", "status": "Treatment" },
+  { "id": "P003", "name": "Andi Wijaya", "lastVisit": "2024-03-15", "status": "Recovered" }
+]

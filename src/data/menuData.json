@@ -1,0 +1,11 @@
+{
+  "stats": [
+    { "id": 1, "label": "Total Patients", "value": "1,532", "color": "blue" },
+    { "id": 2, "label": "Appointments", "value": "42", "color": "green" },
+    { "id": 3, "label": "Reports Ready", "value": "12", "color": "purple" }
+  ],
+  "recentAppointments": [
+    { "id": "APT001", "patient": "John Doe", "service": "Root Canal", "status": "Confirmed" },
+    { "id": "APT002", "patient": "Jane Smith", "service": "Teeth Whitening", "status": "Pending" }
+  ]
+}

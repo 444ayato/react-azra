@@ -1,0 +1,4 @@
+[
+  { "id": "A101", "patientName": "Rina Rose", "date": "2024-05-20", "time": "10:00", "type": "Consultation" },
+  { "id": "A102", "patientName": "Doni Lee", "date": "2024-05-20", "time": "14:00", "type": "Teeth Whitening" }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1, "brand": "Porsche", "model": "911 GT3 RS", "year": 2023, "price": 223800, "image": "/img/porsche911.jpg",
+    "engine": { "type": "Flat-6", "displacement": "4.0L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 296, "zeroToSixty": 3.2, "horsepower": 518 },
+    "location": { "country": "Germany", "city": "Stuttgart" }
+  },
+  {
+    "id": 2, "brand": "Bugatti", "model": "Chiron Super Sport", "year": 2022, "price": 3800000, "image": "/img/bugattichiron.jpg",
+    "engine": { "type": "W16", "displacement": "8.0L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 440, "zeroToSixty": 2.4, "horsepower": 1578 },
+    "location": { "country": "France", "city": "Molsheim" }
+  },
+  {
+    "id": 3, "brand": "BMW", "model": "M4 Competition", "year": 2024, "price": 82200, "image": "/img/bmwM4.jpg",
+    "engine": { "type": "Inline-6", "displacement": "3.0L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 290, "zeroToSixty": 3.4, "horsepower": 503 },
+    "location": { "country": "Germany", "city": "Munich" }
+  },
+  {
+    "id": 4, "brand": "Ford", "model": "Mustang Dark Horse", "year": 2024, "price": 59270, "image": "/img/fordmustang.jpg",
+    "engine": { "type": "V8", "displacement": "5.0L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 270, "zeroToSixty": 3.7, "horsepower": 500 },
+    "location": { "country": "USA", "city": "Detroit" }
+  },
+  {
+    "id": 5, "brand": "Lamborghini", "model": "Revuelto", "year": 2024, "price": 608000, "image": "/img/lamborghinirevuelto.jpg",
+    "engine": { "type": "V12 Hybrid", "displacement": "6.5L", "fuel": "Hybrid" },
+    "performance": { "topSpeed": 350, "zeroToSixty": 2.5, "horsepower": 1001 },
+    "location": { "country": "Italy", "city": "Sant'Agata" }
+  },
+  {
+    "id": 6, "brand": "Ferrari", "model": "SF90 Stradale", "year": 2023, "price": 524815, "image": "/img/ferrariSF90.jpg",
+    "engine": { "type": "V8 Hybrid", "displacement": "4.0L", "fuel": "Hybrid" },
+    "performance": { "topSpeed": 340, "zeroToSixty": 2.5, "horsepower": 986 },
+    "location": { "country": "Italy", "city": "Maranello" }
+  },
+  {
+    "id": 7, "brand": "McLaren", "model": "750S", "year": 2024, "price": 324000, "image": "/img/mclaren750S.jpg",
+    "engine": { "type": "V8", "displacement": "4.0L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 332, "zeroToSixty": 2.8, "horsepower": 740 },
+    "location": { "country": "UK", "city": "Woking" }
+  },
+  {
+    "id": 8, "brand": "Aston Martin", "model": "DBS Volante", "year": 2023, "price": 397000, "image": "/img/astonmartin.jpg",
+    "engine": { "type": "V12", "displacement": "5.2L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 340, "zeroToSixty": 3.6, "horsepower": 715 },
+    "location": { "country": "UK", "city": "Gaydon" }
+  },
+  {
+    "id": 9, "brand": "Koenigsegg", "model": "Jesko Absolut", "year": 2024, "price": 3000000, "image": "/img/koenigseggjesko.jpg",
+    "engine": { "type": "V8", "displacement": "5.0L", "fuel": "Biofuel" },
+    "performance": { "topSpeed": 530, "zeroToSixty": 2.5, "horsepower": 1600 },
+    "location": { "country": "Sweden", "city": "Ängelholm" }
+  },
+  {
+    "id": 10, "brand": "Pagani", "model": "Utopia", "year": 2023, "price": 2190000, "image": "/img/paganiutopia.jpg",
+    "engine": { "type": "V12", "displacement": "6.0L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 350, "zeroToSixty": 2.8, "horsepower": 852 },
+    "location": { "country": "Italy", "city": "Modena" }
+  },
+  {
+    "id": 11, "brand": "Audi", "model": "R8 V10 GT", "year": 2023, "price": 249000, "image": "/img/audiR8.jpg",
+    "engine": { "type": "V10", "displacement": "5.2L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 320, "zeroToSixty": 3.4, "horsepower": 602 },
+    "location": { "country": "Germany", "city": "Ingolstadt" }
+  },
+  {
+    "id": 12, "brand": "Maserati", "model": "MC20 Cielo", "year": 2024, "price": 272000, "image": "/img/maseratiMC20.jpg",
+    "engine": { "type": "V6", "displacement": "3.0L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 325, "zeroToSixty": 2.9, "horsepower": 621 },
+    "location": { "country": "Italy", "city": "Modena" }
+  },
+  {
+    "id": 13, "brand": "Chevrolet", "model": "Corvette Z06", "year": 2023, "price": 105300, "image": "/img/chevroletcorvette.jpg",
+    "engine": { "type": "V8", "displacement": "5.5L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 312, "zeroToSixty": 2.6, "horsepower": 670 },
+    "location": { "country": "USA", "city": "Bowling Green" }
+  },
+  {
+    "id": 14, "brand": "Nissan", "model": "GT-R Nismo", "year": 2024, "price": 220990, "image": "/img/nissanGT-R.jpg",
+    "engine": { "type": "V6", "displacement": "3.8L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 315, "zeroToSixty": 2.5, "horsepower": 600 },
+    "location": { "country": "Japan", "city": "Yokohama" }
+  },
+  {
+    "id": 15, "brand": "Rimac", "model": "Nevera", "year": 2023, "price": 2200000, "image": "/img/rimacnevera.jpg",
+    "engine": { "type": "Electric", "displacement": "N/A", "fuel": "Electric" },
+    "performance": { "topSpeed": 412, "zeroToSixty": 1.81, "horsepower": 1914 },
+    "location": { "country": "Croatia", "city": "Sveta Nedelja" }
+  },
+  {
+    "id": 16, "brand": "Lotus", "model": "Emira", "year": 2024, "price": 77100, "image": "/img/lotusemira.jpg",
+    "engine": { "type": "V6", "displacement": "3.5L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 290, "zeroToSixty": 4.2, "horsepower": 400 },
+    "location": { "country": "UK", "city": "Hethel" }
+  },
+  {
+    "id": 17, "brand": "Mercedes-AMG", "model": "ONE", "year": 2023, "price": 2720000, "image": "/img/mercedes-AMG ONE.jpg",
+    "engine": { "type": "V6 Hybrid", "displacement": "1.6L", "fuel": "Hybrid" },
+    "performance": { "topSpeed": 352, "zeroToSixty": 2.9, "horsepower": 1063 },
+    "location": { "country": "Germany", "city": "Affalterbach" }
+  },
+  {
+    "id": 18, "brand": "Dodge", "model": "Challenger Demon", "year": 2023, "price": 96666, "image": "/img/dodgechallenger.jpg",
+    "engine": { "type": "V8", "displacement": "6.2L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 346, "zeroToSixty": 1.66, "horsepower": 1025 },
+    "location": { "country": "USA", "city": "Detroit" }
+  },
+  {
+    "id": 19, "brand": "Bentley", "model": "Continental GT", "year": 2024, "price": 291000, "image": "/img/bentleycontinental.jpg",
+    "engine": { "type": "W12", "displacement": "6.0L", "fuel": "Gasoline" },
+    "performance": { "topSpeed": 335, "zeroToSixty": 3.5, "horsepower": 650 },
+    "location": { "country": "UK", "city": "Crewe" }
+  },
+  {
+    "id": 20, "brand": "Rolls-Royce", "model": "Spectre", "year": 2024, "price": 420000, "image": "/img/rolls-royce.jpg",
+    "engine": { "type": "Electric", "displacement": "N/A", "fuel": "Electric" },
+    "performance": { "topSpeed": 250, "zeroToSixty": 4.4, "horsepower": 577 },
+    "location": { "country": "UK", "city": "Goodwood" }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "stats": [
+    { "id": 1, "label": "Total Patients", "value": "1,532", "trend": "+12%" },
+    { "id": 2, "label": "Appointments", "value": "42", "trend": "Today" },
+    { "id": 3, "label": "Available Doctors", "value": "8", "trend": "Active" }
+  ],
+  "recentActivity": [
+    { "time": "09:00 AM", "task": "Checkup with Sarah" },
+    { "time": "11:30 AM", "task": "Dental Scaling - Mike" }
+  ]
+}
