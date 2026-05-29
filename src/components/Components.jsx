@@ -346,6 +346,7 @@ export default function ComponentsPage() {
         <div className="flex justify-end gap-3">
           <Button type="secondary" onClick={() => setIsModalOpen(false)}>Kembali</Button>
           <Button type="success" onClick={() => setIsModalOpen(false)}>Ya, Konfirmasi</Button>
+          
         </div>
       </Modal>
 
