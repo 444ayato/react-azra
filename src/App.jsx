@@ -14,6 +14,9 @@ const Patients = lazy(() => import('./pages/PatientsPage'));
 const Appointment = lazy(() => import('./pages/AppointmentPage'));
 const Reports = lazy(() => import('./pages/ReportsPage'));
 
+// DIUBAH: diarahkan ke folder components/Components bukan pages/Components
+const ComponentsPage = lazy(() => import('./components/Components'));
+
 // --- Lazy Load Error Page ---
 const NotFound = lazy(() => import('./components/Error404'));
 
@@ -38,6 +41,7 @@ function App() {
           <Route path="/patients" element={<Patients />} />
           <Route path="/appointments" element={<Appointment />} />
           <Route path="/reports" element={<Reports />} />
+          <Route path="/components" element={<ComponentsPage />} />
         </Route>
 
         {/* 404 Page 

@@ -1,7 +1,12 @@
 import { NavLink } from 'react-router-dom';
 import { 
-  LayoutDashboard, Calendar, Users, 
-  ClipboardList, BarChart3, Settings 
+  LayoutDashboard, 
+  Calendar, 
+  Users, 
+  ClipboardList, 
+  BarChart3, 
+  Settings,
+  Component // Tambahan icon untuk halaman playground komponen
 } from 'lucide-react';
 
 export default function Sidebar() {
@@ -11,6 +16,7 @@ export default function Sidebar() {
     { name: 'Patients', path: '/patients', icon: <Users size={20}/> },
     { name: 'Appointment', path: '/appointments', icon: <ClipboardList size={20}/> },
     { name: 'Reports', path: '/reports', icon: <BarChart3 size={20}/> },
+    { name: 'Components', path: '/components', icon: <Component size={20}/> }, // Path playground komponen baru
   ];
 
   return (
