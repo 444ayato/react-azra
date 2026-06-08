@@ -5,7 +5,7 @@ import PageHeader from './PageHeader';
 // 1. BASIC COMPONENTS (MATERI 1)
 // =========================================================================
 
-function Button({ children, type = "primary", onClick, ...props }) {
+function Button({ children, type = "primary", htmlType = "button", onClick, ...props }) {
   const types = {
     primary: "bg-[#1376f8] hover:bg-opacity-90 text-white",
     secondary: "bg-gray-600 hover:bg-gray-700 text-white",
@@ -15,8 +15,9 @@ function Button({ children, type = "primary", onClick, ...props }) {
   };
   return (
     <button 
+      type={htmlType}
       onClick={onClick}
-      className={`${types[type]} px-5 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 active:scale-95 shadow-sm`}
+      className={`${types[type]} px-5 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 active:scale-95 shadow-sm cursor-pointer`}
       {...props}
     >
       {children}
@@ -162,10 +163,10 @@ function Modal({ isOpen, onClose, title, children }) {
   if (!isOpen) return null;
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm">
-      <div className="bg-white rounded-2xl border border-gray-100 shadow-2xl w-full max-w-md overflow-hidden">
+      <div className="bg-white rounded-2xl border border-gray-100 shadow-2xl w-full max-w-md overflow-hidden animate-in fade-in zoom-in-95 duration-150">
         <div className="p-6 border-b border-gray-100 flex justify-between items-center bg-gray-50">
           <h3 className="text-lg font-bold text-[#011632]">{title}</h3>
-          <button onClick={onClose} className="text-gray-400 hover:text-gray-600 font-bold text-xl">&times;</button>
+          <button onClick={onClose} className="text-gray-400 hover:text-gray-600 font-bold text-2xl leading-none cursor-pointer">&times;</button>
         </div>
         <div className="p-6">{children}</div>
       </div>
