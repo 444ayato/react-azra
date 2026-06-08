@@ -6,7 +6,8 @@ import {
   ClipboardList, 
   BarChart3, 
   Settings,
-  Component // Tambahan icon untuk halaman playground komponen
+  Component, // Icon untuk halaman playground komponen
+  UserCheck // TAMBAHAN: Icon untuk halaman CRM Pasien
 } from 'lucide-react';
 
 export default function Sidebar() {
@@ -16,7 +17,8 @@ export default function Sidebar() {
     { name: 'Patients', path: '/patients', icon: <Users size={20}/> },
     { name: 'Appointment', path: '/appointments', icon: <ClipboardList size={20}/> },
     { name: 'Reports', path: '/reports', icon: <BarChart3 size={20}/> },
-    { name: 'Components', path: '/components', icon: <Component size={20}/> }, // Path playground komponen baru
+    { name: 'Components', path: '/components', icon: <Component size={20}/> }, // Playground komponen
+    { name: 'CRM Pasien', path: '/crm', icon: <UserCheck size={20}/> }, // TAMBAHAN RUTE BARU DI SIDEBAR
   ];
 
   return (
@@ -46,7 +48,7 @@ export default function Sidebar() {
       </nav>
 
       <div className="p-8 border-t border-gray-100">
-        <button className="flex items-center gap-4 text-gray-400 hover:text-red-500 transition-colors px-4">
+        <button className="flex items-center gap-4 text-gray-400 hover:text-red-500 transition-colors px-4 cursor-pointer">
           <Settings size={20}/>
           <span className="font-medium">Settings</span>
         </button>
