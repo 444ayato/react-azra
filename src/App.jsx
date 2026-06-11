@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'; // TAMBAHAN: Import Navigate
 import MainLayout from './layouts/MainLayout';
 import AuthLayout from './layouts/AuthLayout';
 
@@ -14,16 +14,19 @@ const Patients = lazy(() => import('./pages/PatientsPage'));
 const Appointment = lazy(() => import('./pages/AppointmentPage'));
 const Reports = lazy(() => import('./pages/ReportsPage'));
 
-// TAMBAHAN: Lazy load untuk halaman CRM baru dengan komponen Radix UI
+// Lazy load untuk halaman CRM dengan komponen Radix UI
 const CrmPage = lazy(() => import('./pages/CrmPage'));
 
-// DIUBAH: diarahkan ke folder components/Components bukan pages/Components
+// Diarahkan ke folder components/Components bukan pages/Components
 const ComponentsPage = lazy(() => import('./components/Components'));
+
+// TAMBAHAN: Lazy load untuk halaman Guest (Tampilan Pasien Publik)
+const GuestPage = lazy(() => import('./pages/GuestPage'));
 
 // --- Lazy Load Error Page ---
 const NotFound = lazy(() => import('./components/Error404'));
 
-// Loading Fallback Komponen Sementara (Bisa disesuaikan dengan Spinner/Skeleton bawaan proyek)
+// Loading Fallback Komponen Sementara
 const PageLoading = () => (
   <div className="flex items-center justify-center min-h-screen bg-gray-50 text-sm text-gray-500 font-medium">
     Memuat halaman...
@@ -36,6 +39,18 @@ function App() {
       {/* Membungkus rute dengan Suspense karena menggunakan lazy loading */}
       <Suspense fallback={<PageLoading />}>
         <Routes>
+          
+          {/* PENGALIHAN UTAMA: 
+            Jika user membuka http://localhost:5173/, otomatis dialihkan ke halaman /login 
+          */}
+          <Route path="/" element={<Navigate to="/login" replace />} />
+
+          {/* TAMBAHAN RUTE BARU (GUEST/PASIEN):
+            Diletakkan di luar layout agar tampil penuh tanpa sidebar admin.
+            Bisa diakses lewat URL: http://localhost:5173/guest
+          */}
+          <Route path="/guest" element={<GuestPage />} />
+
           {/* Auth Group 
             Menggunakan AuthLayout untuk Login & Register 
           */}
@@ -44,17 +59,18 @@ function App() {
             <Route path="/register" element={<Register />} />
           </Route>
 
-          {/* Main App Group 
-            Menggunakan MainLayout (Sidebar + Header)
+          {/* Main App Group (ADMIN)
+            Menggunakan MainLayout (Sidebar + Header internal klinik)
+            SESUAIKAN DI SINI: Mengubah rute penampung utama menjadi /dashboard
           */}
           <Route element={<MainLayout />}>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/patients" element={<Patients />} />
             <Route path="/appointments" element={<Appointment />} />
             <Route path="/reports" element={<Reports />} />
             
-            {/* TAMBAHAN RUTE BARU: Diakses melalui URL http://localhost:5173/crm */}
+            {/* Halaman CRM Manajemen Khusus Admin */}
             <Route path="/crm" element={<CrmPage />} />
             
             <Route path="/components" element={<ComponentsPage />} />

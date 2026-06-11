@@ -1,7 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Login() {
+  // 1. Inisialisasi State untuk mengambil data input email
+  const [email, setEmail] = useState('');
+  const navigate = useNavigate();
+
+  // 2. Fungsi Logika saat tombol Log in ditekan
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Tentukan email penentu hak akses
+    const EMAIL_GUEST = 'guest@azra.com'; // Mengarah ke halaman guest yang kamu buat
+    const EMAIL_ADMIN = 'admin@azra.com'; // Mengarah ke halaman admin utama
+
+    if (email.trim().toLowerCase() === EMAIL_GUEST) {
+      navigate('/guest');
+    } else if (email.trim().toLowerCase() === EMAIL_ADMIN) {
+      navigate('/dashboard'); // Sesuaikan dengan rute admin kamu (misal: /dashboard atau /patients)
+    } else {
+      // Jika ketik email lain, beri peringatan agar user tahu email dummy-nya
+      alert('Email tidak dikenali. Gunakan admin@azra.com atau guest@azra.com');
+    }
+  };
+
   return (
     <div className="w-full max-w-md mx-auto">
       <div className="mb-10 text-center lg:text-left">
@@ -20,13 +42,18 @@ export default function Login() {
         <div className="flex-grow border-t border-gray-200"></div>
       </div>
 
-      <form className="space-y-5">
+      {/* 3. Pasang fungsi handleSubmit ke dalam tag form */}
+      <form className="space-y-5" onSubmit={handleSubmit}>
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+          {/* 4. Sambungkan input email dengan state */}
           <input 
             type="email" 
-            placeholder="Enter your Email" 
+            placeholder="Enter your Email (admin@azra.com / guest@azra.com)" 
             className="input-field"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
           />
         </div>
 
@@ -36,6 +63,7 @@ export default function Login() {
             type="password" 
             placeholder="Password" 
             className="input-field"
+            required
           />
         </div>
 

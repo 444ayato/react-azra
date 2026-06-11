@@ -12,7 +12,7 @@ import {
 
 export default function Sidebar() {
   const menuItems = [
-    { name: 'Dashboard', path: '/', icon: <LayoutDashboard size={20}/> },
+    { name: 'Dashboard', path: '/dashboard', icon: <LayoutDashboard size={20}/> },
     { name: 'Calendar', path: '/calendar', icon: <Calendar size={20}/> },
     { name: 'Patients', path: '/patients', icon: <Users size={20}/> },
     { name: 'Appointment', path: '/appointments', icon: <ClipboardList size={20}/> },
