@@ -1,0 +1,1001 @@
+ID Pasien,Nama Lengkap,Jenis Kelamin,Tanggal Lahir,Nomor HP,Alamat/Kota,Tanggal Daftar,Status Aktif,Keluhan Utama/Catatan Medis,Tindakan Gigi,Total Transaksi,Metode Pembayaran,Tanggal Transaksi,Sumber Pasien
+PSN-0001,Eko Santoso,Laki-laki,1999-12-10,081215516891,Medan,2025-11-18,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-11-30,Google Maps/Search
+PSN-0002,Siti Siregar,Perempuan,1987-05-25,081249802848,Makassar,2025-08-08,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-08-22,TikTok Video
+PSN-0003,Guntur Nugroho,Laki-laki,2010-01-31,081232472882,Malang,2024-05-26,Tidak Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-06-02,Spanduk Klinik
+PSN-0004,Lia Nugroho,Perempuan,1993-06-28,081265999367,Semarang,2024-01-31,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-01-31,Google Maps/Search
+PSN-0005,Lia Utami,Perempuan,1993-05-16,081263377153,Pekanbaru,2024-06-30,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-07-05,Google Maps/Search
+PSN-0006,Citra Hidayat,Perempuan,2001-03-24,081241563633,Surabaya,2024-07-09,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-07-21,Google Maps/Search
+PSN-0007,Irfan Siregar,Laki-laki,1983-01-08,081259704013,Yogyakarta,2024-10-12,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2024-10-15,Rekomendasi Teman
+PSN-0008,Kartika Sari,Perempuan,2014-02-20,081261876763,Semarang,2024-10-03,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-10-10,Rekomendasi Teman
+PSN-0009,Wati Utami,Perempuan,2010-10-17,081214298319,Medan,2024-07-01,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-07-12,Spanduk Klinik
+PSN-0010,Irfan Wijaya,Laki-laki,1983-10-01,081254940090,Surabaya,2024-07-10,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-07-22,Spanduk Klinik
+PSN-0011,Eka Wijaya,Perempuan,1984-05-10,081243931715,Medan,2024-09-11,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-09-14,TikTok Video
+PSN-0012,Ahmad Nugroho,Laki-laki,1977-01-20,081259343623,Makassar,2024-04-13,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-04-20,Rekomendasi Teman
+PSN-0013,Kurniawan Permata,Laki-laki,2003-06-23,081252806459,Jakarta,2024-04-28,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-05-09,Rekomendasi Teman
+PSN-0014,Gita Kusuma,Perempuan,1986-11-05,081290438413,Malang,2025-08-16,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-08-27,Google Maps/Search
+PSN-0015,Chandra Sari,Laki-laki,1989-01-08,081248528243,Bandung,2024-11-06,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Tunai,2024-11-16,TikTok Video
+PSN-0016,Kurniawan Nugroho,Laki-laki,2009-06-22,081279206245,Malang,2026-01-18,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2026-01-22,TikTok Video
+PSN-0017,Joko Permata,Laki-laki,1986-08-31,081221706871,Surabaya,2026-03-28,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Tunai,2026-03-29,TikTok Video
+PSN-0018,Dewi Sari,Perempuan,2012-11-03,081241216043,Pekanbaru,2024-11-29,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-12-09,TikTok Video
+PSN-0019,Hesti Pratama,Perempuan,1975-08-22,081244461970,Pekanbaru,2025-03-09,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-03-20,Spanduk Klinik
+PSN-0020,Hadi Nugroho,Laki-laki,2015-12-11,081285520949,Yogyakarta,2024-01-09,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2024-01-16,Instagram Ads
+PSN-0021,Taufik Pratama,Laki-laki,2010-02-01,081276927814,Semarang,2025-06-09,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-06-15,Spanduk Klinik
+PSN-0022,Rini Lestari,Perempuan,2000-08-08,081298847655,Jakarta,2025-10-06,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-10-15,Google Maps/Search
+PSN-0023,Gita Saputra,Perempuan,2011-03-17,081236696873,Jakarta,2025-03-01,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-03-14,TikTok Video
+PSN-0024,Joko Gunawan,Laki-laki,2012-07-18,081227707571,Semarang,2024-12-16,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-12-28,Google Maps/Search
+PSN-0025,Irfan Rahmawati,Laki-laki,1992-08-28,081247844937,Palembang,2025-12-02,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-12-07,Instagram Ads
+PSN-0026,Santoso Rahmawati,Laki-laki,1987-05-12,081267780996,Surabaya,2026-02-20,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2026-02-20,Spanduk Klinik
+PSN-0027,Fitri Sari,Perempuan,1988-04-04,081299970528,Bandung,2025-09-17,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,Tunai,2025-09-25,Brosur Komplek
+PSN-0028,Fitri Wibowo,Perempuan,2005-11-06,081254810869,Yogyakarta,2024-09-11,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-09-12,Instagram Ads
+PSN-0029,Budi Sari,Laki-laki,2015-12-25,081238646550,Yogyakarta,2025-11-07,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Transfer BCA,2025-11-19,Rekomendasi Teman
+PSN-0030,Wati Rahmawati,Perempuan,2002-08-15,081214444994,Yogyakarta,2026-02-21,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Bleaching Gigi (Pemutihan),3000000,Tunai,2026-03-07,TikTok Video
+PSN-0031,Ayu Sari,Perempuan,1982-03-05,081292341074,Medan,2025-04-12,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-04-14,Rekomendasi Teman
+PSN-0032,Dedi Nugroho,Laki-laki,1986-08-30,081228424865,Palembang,2025-11-18,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-11-25,Brosur Komplek
+PSN-0033,Kurniawan Rahmawati,Laki-laki,1992-10-16,081265502727,Pekanbaru,2024-07-06,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-07-17,Spanduk Klinik
+PSN-0034,Ahmad Wijaya,Laki-laki,1995-07-20,081296821069,Pekanbaru,2024-11-21,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2024-12-02,Brosur Komplek
+PSN-0035,Ayu Santoso,Perempuan,1999-06-02,081244619764,Semarang,2025-09-01,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2025-09-04,Spanduk Klinik
+PSN-0036,Eko Nugroho,Laki-laki,1998-10-16,081225592112,Makassar,2024-02-26,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-02-27,Rekomendasi Teman
+PSN-0037,Siti Wibowo,Perempuan,2009-09-15,081239885419,Yogyakarta,2025-12-09,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-12-20,TikTok Video
+PSN-0038,Eka Pratama,Perempuan,2013-07-30,081288718598,Yogyakarta,2024-01-24,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-02-05,Instagram Ads
+PSN-0039,Citra Nasution,Perempuan,1996-04-19,081234256945,Makassar,2024-05-25,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-06-08,Instagram Ads
+PSN-0040,Lia Nasution,Perempuan,2013-04-01,081210406044,Yogyakarta,2024-08-06,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-08-10,Google Maps/Search
+PSN-0041,Wahyu Sari,Laki-laki,1996-05-27,081223413845,Bandung,2024-05-15,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-05-21,Brosur Komplek
+PSN-0042,Lestari Pratama,Perempuan,2014-03-25,081246637940,Pekanbaru,2024-10-06,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2024-10-15,Google Maps/Search
+PSN-0043,Hadi Gunawan,Laki-laki,1994-12-06,081260572851,Malang,2024-09-14,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-09-22,Instagram Ads
+PSN-0044,Kurniawan Santoso,Laki-laki,1978-05-03,081227558107,Palembang,2024-03-03,Tidak Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-03-10,Rekomendasi Teman
+PSN-0045,Anisa Nugroho,Perempuan,2003-04-09,081271574835,Malang,2025-06-09,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-06-16,Instagram Ads
+PSN-0046,Kurniawan Wibowo,Laki-laki,1995-11-23,081217771281,Jakarta,2024-07-21,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-07-21,Spanduk Klinik
+PSN-0047,Fajar Permata,Laki-laki,1979-04-06,081244709421,Malang,2024-02-06,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-02-06,Spanduk Klinik
+PSN-0048,Prabowo Gunawan,Laki-laki,1998-11-13,081217166466,Makassar,2025-06-02,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-06-09,Instagram Ads
+PSN-0049,Gita Lestari,Perempuan,1990-08-24,081246588633,Surabaya,2024-07-19,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-07-24,Google Maps/Search
+PSN-0050,Rini Wijaya,Perempuan,2015-02-07,081289907055,Makassar,2025-07-16,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2025-07-28,Google Maps/Search
+PSN-0051,Lukman Hidayat,Laki-laki,2012-03-10,081251901605,Bandung,2026-01-24,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Tunai,2026-01-31,Google Maps/Search
+PSN-0052,Joko Saputra,Laki-laki,1998-03-21,081284136043,Surabaya,2024-05-20,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-05-27,TikTok Video
+PSN-0053,Hadi Wibowo,Laki-laki,1975-09-16,081241615167,Surabaya,2025-05-08,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-05-08,Instagram Ads
+PSN-0054,Kartika Pratama,Perempuan,1983-10-05,081289853577,Bandung,2024-01-14,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-01-16,Rekomendasi Teman
+PSN-0055,Siti Rahmawati,Perempuan,2014-05-17,081224527520,Palembang,2025-11-03,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-11-14,TikTok Video
+PSN-0056,Gita Wibowo,Perempuan,2006-10-01,081234127896,Surabaya,2024-01-18,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2024-01-31,Spanduk Klinik
+PSN-0057,Kartika Rahmawati,Perempuan,1988-09-15,081265477578,Semarang,2024-06-06,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2024-06-12,TikTok Video
+PSN-0058,Anisa Sari,Perempuan,1979-03-28,081296850016,Makassar,2025-12-03,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-12-03,Instagram Ads
+PSN-0059,Rini Wijaya,Perempuan,1986-11-20,081220053049,Medan,2024-09-04,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-09-13,Rekomendasi Teman
+PSN-0060,Gita Hidayat,Perempuan,2001-03-18,081291800265,Makassar,2024-09-07,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-09-09,Google Maps/Search
+PSN-0061,Siti Rahmawati,Perempuan,2009-09-23,081244910843,Jakarta,2025-05-22,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2025-05-26,Spanduk Klinik
+PSN-0062,Lukman Nugroho,Laki-laki,2005-10-28,081247789547,Malang,2024-11-26,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-11-27,Google Maps/Search
+PSN-0063,Lukman Wijaya,Laki-laki,1979-09-15,081296809326,Bandung,2024-01-29,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,Tunai,2024-02-09,Brosur Komplek
+PSN-0064,Wati Saputra,Perempuan,1996-04-05,081231838877,Malang,2026-01-27,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2026-02-06,Rekomendasi Teman
+PSN-0065,Diah Hidayat,Perempuan,1980-08-17,081277160439,Medan,2025-03-30,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-04-08,TikTok Video
+PSN-0066,Budi Saputra,Laki-laki,2006-08-19,081243623225,Pekanbaru,2025-04-15,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-04-23,Rekomendasi Teman
+PSN-0067,Chandra Nasution,Laki-laki,1997-03-23,081273192595,Medan,2024-10-01,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-10-08,TikTok Video
+PSN-0068,Dedi Lestari,Laki-laki,1989-06-18,081283513129,Palembang,2024-08-24,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-09-01,Spanduk Klinik
+PSN-0069,Budi Nasution,Laki-laki,1998-09-05,081251469066,Palembang,2025-10-29,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-10-31,Spanduk Klinik
+PSN-0070,Ahmad Nugroho,Laki-laki,2007-08-12,081279178961,Bandung,2026-01-29,Tidak Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Tunai,2026-01-29,Google Maps/Search
+PSN-0071,Hesti Nugroho,Perempuan,1993-04-28,081214087181,Bandung,2024-12-23,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-01-05,Instagram Ads
+PSN-0072,Rian Rahmawati,Laki-laki,1992-05-28,081253268363,Semarang,2024-02-08,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-02-21,Brosur Komplek
+PSN-0073,Mega Pratama,Perempuan,2001-09-18,081227567016,Semarang,2025-10-01,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-10-01,Instagram Ads
+PSN-0074,Mahendra Lestari,Laki-laki,1985-02-23,081229768156,Bandung,2024-05-28,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-06-05,Google Maps/Search
+PSN-0075,Hesti Permata,Perempuan,2011-03-23,081272909149,Semarang,2024-02-18,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-02-19,Brosur Komplek
+PSN-0076,Gita Utami,Perempuan,2011-03-06,081288411929,Malang,2025-02-08,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2025-02-12,Google Maps/Search
+PSN-0077,Irfan Wibowo,Laki-laki,2006-01-07,081292196159,Malang,2025-08-18,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-08-31,Instagram Ads
+PSN-0078,Gita Rahmawati,Perempuan,2013-10-30,081216958317,Yogyakarta,2025-01-13,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2025-01-20,TikTok Video
+PSN-0079,Ahmad Wijaya,Laki-laki,2015-12-27,081218710577,Medan,2025-07-16,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-07-25,TikTok Video
+PSN-0080,Hesti Utami,Perempuan,1998-09-22,081282025486,Palembang,2025-02-14,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2025-02-24,TikTok Video
+PSN-0081,Lukman Sari,Laki-laki,1986-02-05,081211286160,Makassar,2025-08-26,Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2025-08-26,Spanduk Klinik
+PSN-0082,Lia Saputra,Perempuan,1992-07-26,081225101428,Surabaya,2026-01-26,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2026-02-03,Brosur Komplek
+PSN-0083,Anisa Sari,Perempuan,1990-12-28,081268193382,Semarang,2025-01-24,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-02-07,Spanduk Klinik
+PSN-0084,Dedi Saputra,Laki-laki,1992-06-16,081244736616,Yogyakarta,2024-11-18,Tidak Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-11-21,Instagram Ads
+PSN-0085,Indah Gunawan,Perempuan,1993-05-12,081271268684,Semarang,2026-04-16,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,Tunai,2026-04-23,Brosur Komplek
+PSN-0086,Dedi Santoso,Laki-laki,2012-12-19,081217941741,Pekanbaru,2025-11-21,Tidak Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-11-29,Instagram Ads
+PSN-0087,Eko Saputra,Laki-laki,2014-04-08,081227027205,Medan,2025-05-01,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-05-04,TikTok Video
+PSN-0088,Ahmad Kusuma,Laki-laki,1982-03-17,081214824168,Medan,2024-02-19,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-02-19,TikTok Video
+PSN-0089,Lukman Rahmawati,Laki-laki,1984-01-19,081298838357,Bandung,2024-07-09,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-07-23,Google Maps/Search
+PSN-0090,Kurniawan Utami,Laki-laki,2003-02-07,081261652484,Jakarta,2024-11-25,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-11-26,Spanduk Klinik
+PSN-0091,Gita Gunawan,Perempuan,2010-12-11,081239624517,Jakarta,2026-01-17,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2026-01-31,Brosur Komplek
+PSN-0092,Anisa Saputra,Perempuan,1998-07-06,081279991428,Makassar,2024-04-08,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-04-22,Spanduk Klinik
+PSN-0093,Taufik Pratama,Laki-laki,1999-11-14,081253775313,Medan,2025-04-26,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-05-06,TikTok Video
+PSN-0094,Indah Kusuma,Perempuan,1976-03-12,081296144826,Jakarta,2025-04-01,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-04-06,Brosur Komplek
+PSN-0095,Hesti Pratama,Perempuan,1990-03-15,081291654099,Makassar,2026-03-09,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2026-03-19,Instagram Ads
+PSN-0096,Budi Pratama,Laki-laki,1978-09-10,081230192583,Surabaya,2024-11-04,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2024-11-04,TikTok Video
+PSN-0097,Ayu Santoso,Perempuan,2014-09-15,081239002551,Malang,2024-06-12,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-06-22,TikTok Video
+PSN-0098,Chandra Siregar,Laki-laki,1985-06-10,081244147141,Malang,2025-04-27,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-04-28,Spanduk Klinik
+PSN-0099,Dewi Pratama,Perempuan,1978-09-29,081244088724,Malang,2024-01-04,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-01-17,Brosur Komplek
+PSN-0100,Kartika Lestari,Perempuan,2000-11-06,081286288340,Surabaya,2024-08-14,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-08-22,Rekomendasi Teman
+PSN-0101,Ahmad Pratama,Laki-laki,1984-12-01,081296784007,Surabaya,2024-07-13,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-07-26,Google Maps/Search
+PSN-0102,Dedi Wibowo,Laki-laki,1986-06-09,081262163167,Palembang,2024-04-15,Tidak Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2024-04-24,Rekomendasi Teman
+PSN-0103,Wati Nasution,Perempuan,1982-02-11,081278899856,Medan,2025-11-30,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2025-12-02,Instagram Ads
+PSN-0104,Indah Lestari,Perempuan,1994-07-28,081236579714,Malang,2025-05-31,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2025-06-01,Brosur Komplek
+PSN-0105,Budi Hidayat,Laki-laki,1975-02-27,081222224768,Bandung,2024-10-31,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-11-06,Google Maps/Search
+PSN-0106,Irfan Wijaya,Laki-laki,2000-04-03,081290266233,Malang,2026-02-12,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2026-02-15,Brosur Komplek
+PSN-0107,Taufik Wibowo,Laki-laki,1999-08-15,081243084068,Jakarta,2026-01-09,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2026-01-20,TikTok Video
+PSN-0108,Dewi Wibowo,Perempuan,2015-01-22,081268135648,Jakarta,2026-04-09,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2026-04-18,Google Maps/Search
+PSN-0109,Fitri Pratama,Perempuan,1998-10-08,081215451370,Jakarta,2025-04-05,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-04-19,Spanduk Klinik
+PSN-0110,Nugroho Gunawan,Laki-laki,2011-03-06,081297874204,Pekanbaru,2024-09-10,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-09-24,TikTok Video
+PSN-0111,Kurniawan Permata,Laki-laki,1988-04-25,081225607801,Pekanbaru,2024-11-10,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-11-12,Google Maps/Search
+PSN-0112,Ayu Lestari,Perempuan,1993-05-29,081222504132,Yogyakarta,2025-08-21,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2025-08-23,Spanduk Klinik
+PSN-0113,Hadi Lestari,Laki-laki,1983-08-20,081235250924,Makassar,2025-05-23,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-05-29,Brosur Komplek
+PSN-0114,Budi Permata,Laki-laki,1975-05-21,081261576491,Jakarta,2026-03-09,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2026-03-13,Brosur Komplek
+PSN-0115,Gita Nugroho,Perempuan,2004-03-04,081213036895,Medan,2024-05-31,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2024-06-08,Rekomendasi Teman
+PSN-0116,Anisa Siregar,Perempuan,1975-03-03,081278604369,Medan,2025-11-12,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-11-20,TikTok Video
+PSN-0117,Lia Rahmawati,Perempuan,2012-04-24,081231333400,Medan,2025-04-19,Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2025-04-30,Brosur Komplek
+PSN-0118,Irfan Rahmawati,Laki-laki,1979-01-10,081276907783,Malang,2025-10-20,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2025-10-20,Instagram Ads
+PSN-0119,Taufik Santoso,Laki-laki,1989-04-13,081255380045,Makassar,2024-11-25,Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-12-09,Google Maps/Search
+PSN-0120,Taufik Utami,Laki-laki,2004-09-01,081240673874,Jakarta,2024-10-31,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-10-31,Instagram Ads
+PSN-0121,Gita Nugroho,Perempuan,1999-09-05,081246902050,Medan,2026-01-18,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2026-01-19,Brosur Komplek
+PSN-0122,Joko Saputra,Laki-laki,1979-07-13,081284207621,Medan,2025-02-28,Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-03-12,Instagram Ads
+PSN-0123,Santoso Santoso,Laki-laki,1997-09-11,081223312679,Surabaya,2025-01-01,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Tunai,2025-01-03,Spanduk Klinik
+PSN-0124,Budi Gunawan,Laki-laki,1976-01-31,081246856512,Medan,2024-04-17,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-05-01,Spanduk Klinik
+PSN-0125,Siti Nugroho,Perempuan,2007-09-13,081274018728,Semarang,2025-02-17,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-03-03,Brosur Komplek
+PSN-0126,Citra Nugroho,Perempuan,2003-03-02,081239347416,Bandung,2025-10-31,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2025-11-09,Google Maps/Search
+PSN-0127,Wati Nugroho,Perempuan,1999-04-09,081212100084,Palembang,2024-03-31,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-04-03,Spanduk Klinik
+PSN-0128,Rian Rahmawati,Laki-laki,1993-03-16,081256810954,Malang,2025-08-20,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-09-02,Rekomendasi Teman
+PSN-0129,Guntur Pratama,Laki-laki,1979-09-23,081249713820,Jakarta,2026-01-08,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2026-01-20,Brosur Komplek
+PSN-0130,Maya Utami,Perempuan,2004-04-17,081289501961,Jakarta,2024-05-17,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-05-24,Brosur Komplek
+PSN-0131,Rian Sari,Laki-laki,1996-03-12,081211934625,Jakarta,2024-01-01,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-01-13,TikTok Video
+PSN-0132,Kurniawan Permata,Laki-laki,1975-12-24,081272709492,Makassar,2024-12-27,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Tunai,2025-01-10,TikTok Video
+PSN-0133,Prabowo Kusuma,Laki-laki,1996-10-27,081228236591,Bandung,2024-04-28,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2024-04-29,Spanduk Klinik
+PSN-0134,Putri Siregar,Perempuan,1976-03-19,081214444918,Surabaya,2024-02-13,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-02-20,Spanduk Klinik
+PSN-0135,Ayu Nugroho,Perempuan,1980-05-16,081291606416,Pekanbaru,2024-05-14,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Tunai,2024-05-22,Spanduk Klinik
+PSN-0136,Fitri Permata,Perempuan,1991-02-27,081249292269,Bandung,2025-10-12,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-10-22,Spanduk Klinik
+PSN-0137,Dedi Nugroho,Laki-laki,1979-02-16,081289328922,Yogyakarta,2024-02-24,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2024-03-07,Google Maps/Search
+PSN-0138,Fitri Permata,Perempuan,1984-02-26,081290665056,Malang,2024-11-08,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-11-09,TikTok Video
+PSN-0139,Anisa Saputra,Perempuan,1988-06-04,081268653083,Medan,2024-10-10,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-10-10,Google Maps/Search
+PSN-0140,Prabowo Sari,Laki-laki,1981-10-15,081271673202,Jakarta,2025-02-18,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2025-02-18,Spanduk Klinik
+PSN-0141,Rian Sari,Laki-laki,1984-09-17,081233027320,Palembang,2025-02-20,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-03-03,TikTok Video
+PSN-0142,Siti Santoso,Perempuan,1989-08-22,081279011999,Surabaya,2024-04-23,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-05-07,TikTok Video
+PSN-0143,Mega Kusuma,Perempuan,2012-12-31,081274146653,Medan,2025-08-25,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-09-03,Rekomendasi Teman
+PSN-0144,Eka Santoso,Perempuan,1992-07-24,081286937208,Jakarta,2025-06-01,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-06-01,Instagram Ads
+PSN-0145,Dedi Utami,Laki-laki,1978-08-12,081233063681,Medan,2024-11-06,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-11-06,Instagram Ads
+PSN-0146,Citra Kusuma,Perempuan,2014-04-20,081216623734,Makassar,2024-09-10,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-09-18,Brosur Komplek
+PSN-0147,Hesti Nasution,Perempuan,2007-03-09,081275643466,Makassar,2025-03-27,Tidak Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-03-27,Rekomendasi Teman
+PSN-0148,Dewi Hidayat,Perempuan,2008-07-15,081212031075,Yogyakarta,2026-03-16,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2026-03-16,Brosur Komplek
+PSN-0149,Ahmad Nugroho,Laki-laki,2014-10-01,081266445735,Palembang,2024-04-23,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-04-24,Brosur Komplek
+PSN-0150,Mega Santoso,Perempuan,2007-03-16,081235274515,Jakarta,2025-11-06,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-11-14,Instagram Ads
+PSN-0151,Dewi Rahmawati,Perempuan,1983-04-28,081254122334,Jakarta,2025-09-15,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-09-28,Brosur Komplek
+PSN-0152,Lukman Sari,Laki-laki,1991-09-28,081239586145,Medan,2024-06-10,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-06-15,Brosur Komplek
+PSN-0153,Siti Wijaya,Perempuan,1990-06-01,081278849300,Malang,2025-02-27,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-03-09,Google Maps/Search
+PSN-0154,Chandra Nasution,Laki-laki,1979-03-09,081252561845,Palembang,2025-11-24,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-11-29,Brosur Komplek
+PSN-0155,Joko Saputra,Laki-laki,1994-08-21,081246590773,Bandung,2026-01-12,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-01-26,Instagram Ads
+PSN-0156,Santoso Santoso,Laki-laki,1984-08-18,081251019197,Palembang,2024-06-09,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-06-16,Google Maps/Search
+PSN-0157,Maya Rahmawati,Perempuan,1984-04-24,081238288644,Malang,2024-01-18,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Transfer BCA,2024-02-01,Instagram Ads
+PSN-0158,Irfan Wijaya,Laki-laki,2002-04-07,081233943604,Medan,2025-10-06,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-10-17,Spanduk Klinik
+PSN-0159,Lukman Siregar,Laki-laki,2002-05-03,081266663343,Jakarta,2024-02-07,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-02-20,Spanduk Klinik
+PSN-0160,Prabowo Pratama,Laki-laki,2012-06-07,081246078559,Surabaya,2024-12-25,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-01-04,Rekomendasi Teman
+PSN-0161,Irfan Wibowo,Laki-laki,2004-01-30,081259741226,Jakarta,2024-01-10,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,Tunai,2024-01-10,Google Maps/Search
+PSN-0162,Wati Lestari,Perempuan,2004-11-02,081243579863,Surabaya,2024-12-30,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-01-11,Rekomendasi Teman
+PSN-0163,Nugroho Siregar,Laki-laki,2001-03-10,081283810112,Pekanbaru,2025-05-27,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Tunai,2025-05-31,Instagram Ads
+PSN-0164,Anisa Santoso,Perempuan,2003-07-03,081276572246,Surabaya,2025-09-18,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Tunai,2025-09-22,Spanduk Klinik
+PSN-0165,Fajar Sari,Laki-laki,1979-12-24,081255741536,Surabaya,2025-07-02,Aktif,"Gigi depan patah sedikit akibat benturan",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-07-11,Google Maps/Search
+PSN-0166,Anisa Sari,Perempuan,1978-08-25,081292761826,Jakarta,2024-11-18,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2024-11-25,Brosur Komplek
+PSN-0167,Citra Saputra,Perempuan,1983-10-22,081248567237,Jakarta,2025-05-16,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-05-21,Rekomendasi Teman
+PSN-0168,Lukman Permata,Laki-laki,1987-11-19,081262513437,Palembang,2024-03-01,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-03-12,TikTok Video
+PSN-0169,Lestari Sari,Perempuan,1995-11-22,081223067712,Semarang,2024-11-27,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-12-11,Rekomendasi Teman
+PSN-0170,Rini Santoso,Perempuan,1996-07-11,081296219173,Palembang,2024-06-21,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2024-07-05,Instagram Ads
+PSN-0171,Hesti Siregar,Perempuan,1980-05-27,081214577482,Jakarta,2024-01-07,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-01-20,Spanduk Klinik
+PSN-0172,Chandra Permata,Laki-laki,2006-10-31,081236862284,Medan,2025-03-08,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Transfer BCA,2025-03-13,TikTok Video
+PSN-0173,Wati Nasution,Perempuan,1995-04-27,081289453977,Jakarta,2024-01-18,Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,Tunai,2024-01-31,Instagram Ads
+PSN-0174,Irfan Santoso,Laki-laki,2003-12-04,081218543884,Yogyakarta,2025-12-24,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-12-28,TikTok Video
+PSN-0175,Eko Utami,Laki-laki,1989-12-09,081229333446,Semarang,2024-06-06,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-06-20,TikTok Video
+PSN-0176,Wati Saputra,Perempuan,1993-08-09,081246011480,Yogyakarta,2025-10-07,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-10-14,TikTok Video
+PSN-0177,Budi Permata,Laki-laki,2015-11-30,081270359098,Palembang,2024-05-23,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-05-28,TikTok Video
+PSN-0178,Fitri Gunawan,Perempuan,2014-07-06,081231743631,Palembang,2024-08-29,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-09-02,Brosur Komplek
+PSN-0179,Kartika Rahmawati,Perempuan,1998-01-16,081223158546,Jakarta,2025-09-29,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2025-10-05,Rekomendasi Teman
+PSN-0180,Hadi Siregar,Laki-laki,1989-02-25,081296215111,Palembang,2024-08-30,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-09-13,Instagram Ads
+PSN-0181,Eko Nasution,Laki-laki,1992-09-27,081227833210,Medan,2024-11-12,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-11-25,Spanduk Klinik
+PSN-0182,Siti Santoso,Perempuan,1991-08-23,081278943905,Bandung,2024-10-18,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-10-26,Instagram Ads
+PSN-0183,Dedi Rahmawati,Laki-laki,2013-01-19,081254161083,Jakarta,2025-08-28,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2025-09-09,Brosur Komplek
+PSN-0184,Gita Nugroho,Perempuan,1989-09-19,081272730479,Yogyakarta,2024-01-30,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2024-02-08,Brosur Komplek
+PSN-0185,Siti Nasution,Perempuan,1997-12-30,081288303494,Yogyakarta,2025-04-01,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-04-03,Instagram Ads
+PSN-0186,Wati Gunawan,Perempuan,1992-10-21,081274028527,Palembang,2024-11-18,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-11-29,TikTok Video
+PSN-0187,Gita Pratama,Perempuan,1992-03-04,081261158019,Yogyakarta,2024-05-02,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-05-02,TikTok Video
+PSN-0188,Indah Lestari,Perempuan,1980-04-08,081270571588,Pekanbaru,2026-04-21,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2026-04-27,Instagram Ads
+PSN-0189,Taufik Gunawan,Laki-laki,1990-06-14,081215753562,Jakarta,2024-12-26,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-01-09,Google Maps/Search
+PSN-0190,Siti Siregar,Perempuan,1998-10-09,081232046414,Malang,2026-03-24,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2026-03-25,Google Maps/Search
+PSN-0191,Guntur Permata,Laki-laki,2001-07-03,081280763320,Palembang,2025-01-18,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-01-31,Google Maps/Search
+PSN-0192,Dedi Permata,Laki-laki,1977-10-23,081265279162,Palembang,2025-09-23,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-09-27,Spanduk Klinik
+PSN-0193,Eko Siregar,Laki-laki,2002-12-08,081246768339,Bandung,2024-03-04,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-03-14,Google Maps/Search
+PSN-0194,Rini Pratama,Perempuan,1987-12-14,081212531858,Medan,2024-02-23,Tidak Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-03-06,Google Maps/Search
+PSN-0195,Putri Rahmawati,Perempuan,1994-10-16,081241335518,Bandung,2025-07-30,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-08-09,TikTok Video
+PSN-0196,Maya Pratama,Perempuan,2002-04-26,081270066483,Makassar,2024-05-06,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-05-09,Google Maps/Search
+PSN-0197,Rian Sari,Laki-laki,2013-07-12,081253555932,Palembang,2024-01-01,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-01-11,Instagram Ads
+PSN-0198,Budi Nasution,Laki-laki,2011-05-07,081284881490,Pekanbaru,2025-08-30,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-09-04,Spanduk Klinik
+PSN-0199,Kartika Nugroho,Perempuan,1997-11-23,081287275427,Medan,2025-11-21,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2025-12-03,Rekomendasi Teman
+PSN-0200,Hesti Santoso,Perempuan,1996-05-19,081230088507,Pekanbaru,2025-04-06,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-04-08,Spanduk Klinik
+PSN-0201,Rian Nugroho,Laki-laki,1989-07-25,081249915322,Pekanbaru,2024-05-01,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-05-12,Google Maps/Search
+PSN-0202,Joko Saputra,Laki-laki,1981-12-21,081214054571,Palembang,2026-04-08,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2026-04-17,Brosur Komplek
+PSN-0203,Fajar Saputra,Laki-laki,1978-07-19,081229444378,Jakarta,2026-01-16,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2026-01-16,Spanduk Klinik
+PSN-0204,Dedi Gunawan,Laki-laki,2009-01-25,081287562935,Pekanbaru,2025-09-24,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Tunai,2025-09-25,Instagram Ads
+PSN-0205,Eka Nugroho,Perempuan,2010-02-27,081223349906,Jakarta,2024-11-06,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,Tunai,2024-11-14,Instagram Ads
+PSN-0206,Eko Wijaya,Laki-laki,2011-11-03,081273939379,Semarang,2024-03-01,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-03-05,Brosur Komplek
+PSN-0207,Lia Lestari,Perempuan,2001-05-15,081225234617,Makassar,2024-05-18,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-05-27,TikTok Video
+PSN-0208,Siti Rahmawati,Perempuan,1999-10-04,081274667586,Surabaya,2024-06-18,Aktif,"Kontrol rutin behel bulanan",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-06-27,Rekomendasi Teman
+PSN-0209,Hadi Wijaya,Laki-laki,1979-04-08,081212467249,Yogyakarta,2025-07-06,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-07-17,Rekomendasi Teman
+PSN-0210,Irfan Nugroho,Laki-laki,1977-05-13,081263283628,Surabaya,2025-04-14,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2025-04-16,Brosur Komplek
+PSN-0211,Fajar Hidayat,Laki-laki,1990-06-29,081244245824,Palembang,2025-05-22,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2025-05-30,Rekomendasi Teman
+PSN-0212,Mega Utami,Perempuan,1991-06-23,081288352797,Semarang,2024-02-28,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-03-03,Rekomendasi Teman
+PSN-0213,Ayu Utami,Perempuan,1975-10-29,081230491020,Yogyakarta,2024-03-05,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-03-16,Rekomendasi Teman
+PSN-0214,Wahyu Nasution,Laki-laki,2008-10-25,081270689340,Pekanbaru,2025-02-09,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2025-02-12,Spanduk Klinik
+PSN-0215,Lukman Hidayat,Laki-laki,2011-03-04,081240380358,Malang,2024-04-28,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-05-03,Rekomendasi Teman
+PSN-0216,Lestari Saputra,Perempuan,1979-08-31,081295833764,Jakarta,2024-03-11,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2024-03-23,Brosur Komplek
+PSN-0217,Lukman Permata,Laki-laki,1996-10-19,081251170342,Pekanbaru,2024-05-08,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2024-05-08,Instagram Ads
+PSN-0218,Anisa Saputra,Perempuan,1996-09-02,081261527576,Malang,2024-05-06,Tidak Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-05-08,Google Maps/Search
+PSN-0219,Siti Rahmawati,Perempuan,2011-01-09,081226943804,Pekanbaru,2024-05-27,Tidak Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-06-08,Rekomendasi Teman
+PSN-0220,Wati Wibowo,Perempuan,1978-03-06,081228030027,Makassar,2024-02-04,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2024-02-13,Instagram Ads
+PSN-0221,Indah Utami,Perempuan,1987-01-30,081291939201,Pekanbaru,2024-01-19,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-02-02,TikTok Video
+PSN-0222,Citra Permata,Perempuan,1978-03-21,081270709808,Palembang,2025-04-06,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2025-04-17,TikTok Video
+PSN-0223,Fajar Permata,Laki-laki,1984-07-26,081237769581,Semarang,2024-10-14,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-10-14,Spanduk Klinik
+PSN-0224,Anisa Hidayat,Perempuan,2006-10-06,081283949416,Bandung,2025-05-04,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2025-05-17,Rekomendasi Teman
+PSN-0225,Lukman Nasution,Laki-laki,2002-12-05,081241328062,Surabaya,2025-08-19,Tidak Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-08-27,Rekomendasi Teman
+PSN-0226,Wahyu Utami,Laki-laki,1976-06-16,081240847559,Palembang,2026-01-21,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2026-01-27,Spanduk Klinik
+PSN-0227,Hadi Hidayat,Laki-laki,1985-08-27,081282359836,Bandung,2025-07-27,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-07-30,Instagram Ads
+PSN-0228,Gita Lestari,Perempuan,2000-08-28,081218687690,Malang,2025-04-13,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Tunai,2025-04-16,Spanduk Klinik
+PSN-0229,Lestari Santoso,Perempuan,2014-11-29,081214451801,Medan,2024-06-16,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-06-30,Google Maps/Search
+PSN-0230,Lukman Santoso,Laki-laki,2000-09-08,081268117237,Malang,2024-04-29,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-05-03,Instagram Ads
+PSN-0231,Indah Permata,Perempuan,2008-11-23,081292811753,Pekanbaru,2024-01-11,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-01-14,Instagram Ads
+PSN-0232,Ahmad Sari,Laki-laki,1986-08-13,081298954293,Makassar,2026-03-22,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2026-04-05,Rekomendasi Teman
+PSN-0233,Fitri Rahmawati,Perempuan,2010-04-11,081257959469,Palembang,2024-05-28,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-05-30,Spanduk Klinik
+PSN-0234,Dedi Santoso,Laki-laki,2013-04-23,081279662442,Surabaya,2026-01-14,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2026-01-20,Rekomendasi Teman
+PSN-0235,Rian Rahmawati,Laki-laki,1987-03-25,081246181743,Jakarta,2024-02-02,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2024-02-06,Google Maps/Search
+PSN-0236,Maya Gunawan,Perempuan,2006-08-14,081249730222,Makassar,2025-09-29,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Tunai,2025-10-04,TikTok Video
+PSN-0237,Santoso Wibowo,Laki-laki,1994-03-19,081223618853,Semarang,2024-05-10,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-05-15,Rekomendasi Teman
+PSN-0238,Dewi Hidayat,Perempuan,1986-07-10,081228487054,Makassar,2026-02-14,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Asuransi Swasta,2026-02-14,Rekomendasi Teman
+PSN-0239,Kurniawan Santoso,Laki-laki,1995-06-08,081282091573,Semarang,2025-04-07,Tidak Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-04-13,Spanduk Klinik
+PSN-0240,Gita Nasution,Perempuan,1987-06-08,081251832812,Jakarta,2024-04-18,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-04-19,Instagram Ads
+PSN-0241,Rini Nugroho,Perempuan,2013-12-11,081220669509,Makassar,2025-06-03,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-06-17,Brosur Komplek
+PSN-0242,Dedi Gunawan,Laki-laki,2007-05-25,081262018533,Medan,2025-08-10,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-08-13,TikTok Video
+PSN-0243,Ayu Nasution,Perempuan,2008-04-30,081246329923,Surabaya,2024-01-30,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-02-10,Google Maps/Search
+PSN-0244,Lia Lestari,Perempuan,1998-01-29,081215661641,Semarang,2026-02-26,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2026-02-27,Spanduk Klinik
+PSN-0245,Maya Utami,Perempuan,1996-08-27,081299797941,Surabaya,2025-08-16,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Transfer BCA,2025-08-19,Rekomendasi Teman
+PSN-0246,Lia Santoso,Perempuan,2013-06-02,081241413566,Medan,2024-07-18,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-07-18,TikTok Video
+PSN-0247,Eko Nasution,Laki-laki,1976-06-22,081274099863,Malang,2025-11-02,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-11-11,Rekomendasi Teman
+PSN-0248,Lukman Rahmawati,Laki-laki,1980-06-07,081216950096,Makassar,2025-04-27,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-04-29,Brosur Komplek
+PSN-0249,Indah Nugroho,Perempuan,2007-02-11,081282820746,Palembang,2024-12-13,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Tunai,2024-12-18,Rekomendasi Teman
+PSN-0250,Ahmad Siregar,Laki-laki,1976-07-29,081294473904,Yogyakarta,2024-07-29,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-08-04,Rekomendasi Teman
+PSN-0251,Eka Sari,Perempuan,1997-12-11,081223391712,Yogyakarta,2024-03-11,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-03-24,TikTok Video
+PSN-0252,Lukman Siregar,Laki-laki,1983-10-02,081225336264,Malang,2025-01-28,Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,Tunai,2025-01-30,Google Maps/Search
+PSN-0253,Eka Utami,Perempuan,1986-09-07,081225763168,Makassar,2025-03-29,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-03-29,TikTok Video
+PSN-0254,Siti Gunawan,Perempuan,1997-02-22,081253295214,Makassar,2026-02-28,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2026-03-07,Rekomendasi Teman
+PSN-0255,Joko Pratama,Laki-laki,1976-08-23,081232714462,Surabaya,2026-04-14,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2026-04-25,Rekomendasi Teman
+PSN-0256,Nugroho Pratama,Laki-laki,1982-01-13,081261553159,Pekanbaru,2025-08-13,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-08-14,Spanduk Klinik
+PSN-0257,Kurniawan Nugroho,Laki-laki,2013-02-02,081268129013,Yogyakarta,2024-01-31,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-02-14,Google Maps/Search
+PSN-0258,Ayu Wijaya,Perempuan,1999-11-16,081257762700,Jakarta,2026-02-27,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2026-03-04,Instagram Ads
+PSN-0259,Putri Nasution,Perempuan,2015-02-24,081210244757,Bandung,2025-06-05,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-06-06,Brosur Komplek
+PSN-0260,Ahmad Hidayat,Laki-laki,1975-01-27,081222973169,Jakarta,2026-01-19,Tidak Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Tunai,2026-01-26,Google Maps/Search
+PSN-0261,Rian Wijaya,Laki-laki,2000-09-15,081279716246,Malang,2026-04-05,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2026-04-19,Instagram Ads
+PSN-0262,Santoso Saputra,Laki-laki,1993-05-23,081239100803,Surabaya,2024-02-04,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-02-11,TikTok Video
+PSN-0263,Lukman Nugroho,Laki-laki,1983-04-13,081233743214,Pekanbaru,2024-11-06,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-11-12,Google Maps/Search
+PSN-0264,Lia Wibowo,Perempuan,1980-03-18,081240848225,Bandung,2025-06-10,Tidak Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Tunai,2025-06-17,Rekomendasi Teman
+PSN-0265,Dedi Lestari,Laki-laki,2000-08-29,081243515791,Malang,2026-01-01,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-01-14,Google Maps/Search
+PSN-0266,Irfan Pratama,Laki-laki,2013-04-13,081212463404,Semarang,2025-09-21,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2025-10-04,Rekomendasi Teman
+PSN-0267,Lia Utami,Perempuan,1982-10-18,081224911383,Medan,2024-04-24,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-04-27,Google Maps/Search
+PSN-0268,Mega Wibowo,Perempuan,2005-02-22,081296086015,Malang,2025-02-24,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2025-03-02,Google Maps/Search
+PSN-0269,Hesti Kusuma,Perempuan,2010-11-03,081231560924,Medan,2025-05-07,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-05-17,Instagram Ads
+PSN-0270,Rini Permata,Perempuan,1992-09-18,081234653779,Palembang,2025-02-03,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-02-04,Brosur Komplek
+PSN-0271,Lia Hidayat,Perempuan,1999-05-31,081216835541,Bandung,2024-10-03,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2024-10-12,Google Maps/Search
+PSN-0272,Dedi Nasution,Laki-laki,1988-06-18,081297964378,Surabaya,2024-07-24,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-08-05,Brosur Komplek
+PSN-0273,Eko Santoso,Laki-laki,1989-10-18,081227937159,Malang,2024-02-24,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2024-03-06,Google Maps/Search
+PSN-0274,Guntur Wibowo,Laki-laki,1995-05-19,081228045110,Semarang,2024-09-09,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-09-11,Rekomendasi Teman
+PSN-0275,Kurniawan Santoso,Laki-laki,2012-11-19,081261060273,Surabaya,2024-06-09,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-06-23,Google Maps/Search
+PSN-0276,Putri Utami,Perempuan,2010-12-09,081268569874,Semarang,2025-03-14,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-03-15,Instagram Ads
+PSN-0277,Eko Utami,Laki-laki,1985-06-16,081272765270,Surabaya,2024-11-05,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-11-18,Spanduk Klinik
+PSN-0278,Fitri Lestari,Perempuan,1984-01-19,081221254429,Jakarta,2025-07-03,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2025-07-12,Rekomendasi Teman
+PSN-0279,Mahendra Permata,Laki-laki,2007-02-11,081228597558,Surabaya,2024-08-31,Tidak Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-09-08,Google Maps/Search
+PSN-0280,Hesti Sari,Perempuan,2006-03-10,081286240157,Surabaya,2024-10-08,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2024-10-13,Brosur Komplek
+PSN-0281,Fitri Pratama,Perempuan,2012-08-10,081233441698,Yogyakarta,2025-09-28,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2025-10-04,Rekomendasi Teman
+PSN-0282,Indah Permata,Perempuan,1978-09-23,081290122573,Makassar,2024-05-26,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-05-30,Spanduk Klinik
+PSN-0283,Fitri Wibowo,Perempuan,1999-06-30,081274636487,Medan,2024-01-26,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-02-03,TikTok Video
+PSN-0284,Irfan Kusuma,Laki-laki,2004-06-01,081213182961,Semarang,2024-01-14,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-01-21,Rekomendasi Teman
+PSN-0285,Rini Permata,Perempuan,1981-04-06,081248161940,Malang,2024-02-26,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-03-05,Brosur Komplek
+PSN-0286,Wahyu Wibowo,Laki-laki,1997-02-09,081264340292,Pekanbaru,2024-05-13,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-05-24,Spanduk Klinik
+PSN-0287,Budi Nugroho,Laki-laki,1981-10-04,081220363526,Medan,2025-08-18,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-08-26,TikTok Video
+PSN-0288,Indah Lestari,Perempuan,2012-10-31,081267720607,Yogyakarta,2026-03-16,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,Tunai,2026-03-19,TikTok Video
+PSN-0289,Joko Pratama,Laki-laki,1979-04-29,081278443310,Malang,2024-06-05,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-06-10,TikTok Video
+PSN-0290,Budi Wibowo,Laki-laki,2009-01-25,081276520329,Palembang,2025-08-15,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-08-21,Google Maps/Search
+PSN-0291,Lestari Sari,Perempuan,2011-11-18,081216041604,Medan,2025-08-05,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-08-10,TikTok Video
+PSN-0292,Indah Wibowo,Perempuan,2009-01-16,081267408682,Medan,2024-04-18,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-04-30,Google Maps/Search
+PSN-0293,Taufik Sari,Laki-laki,1975-06-21,081242422413,Pekanbaru,2024-11-14,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-11-19,Instagram Ads
+PSN-0294,Kartika Sari,Perempuan,1985-02-19,081221687894,Palembang,2024-07-14,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-07-26,Google Maps/Search
+PSN-0295,Indah Rahmawati,Perempuan,2003-12-28,081241027238,Makassar,2025-06-01,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-06-02,Google Maps/Search
+PSN-0296,Kartika Kusuma,Perempuan,2000-03-14,081232329858,Yogyakarta,2024-02-03,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Tunai,2024-02-14,TikTok Video
+PSN-0297,Diah Nasution,Perempuan,1995-02-28,081283148124,Pekanbaru,2025-04-03,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-04-03,Spanduk Klinik
+PSN-0298,Wati Hidayat,Perempuan,1976-04-26,081244998807,Malang,2024-02-05,Tidak Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-02-19,Spanduk Klinik
+PSN-0299,Eko Wijaya,Laki-laki,1987-06-23,081279402907,Malang,2024-06-28,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-06-28,TikTok Video
+PSN-0300,Rian Sari,Laki-laki,2012-10-05,081222783476,Semarang,2024-10-28,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-11-01,Rekomendasi Teman
+PSN-0301,Fajar Nasution,Laki-laki,2015-12-27,081281073118,Medan,2024-06-04,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2024-06-14,Instagram Ads
+PSN-0302,Fajar Saputra,Laki-laki,2010-05-01,081255767433,Jakarta,2025-11-03,Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-11-11,Instagram Ads
+PSN-0303,Diah Wibowo,Perempuan,2002-07-11,081255307663,Palembang,2025-10-31,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-10-31,Rekomendasi Teman
+PSN-0304,Ayu Siregar,Perempuan,1975-11-06,081271464533,Semarang,2025-06-12,Tidak Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-06-21,Instagram Ads
+PSN-0305,Eka Santoso,Perempuan,1985-04-13,081265134681,Surabaya,2026-03-26,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2026-03-28,Spanduk Klinik
+PSN-0306,Lukman Gunawan,Laki-laki,1982-02-01,081271497356,Pekanbaru,2025-05-08,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-05-20,Brosur Komplek
+PSN-0307,Guntur Sari,Laki-laki,1988-05-28,081239220935,Medan,2025-08-28,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2025-09-04,Rekomendasi Teman
+PSN-0308,Guntur Sari,Laki-laki,1985-12-12,081274782421,Semarang,2024-08-04,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2024-08-05,Brosur Komplek
+PSN-0309,Eko Siregar,Laki-laki,1997-01-28,081215506938,Makassar,2025-08-01,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2025-08-06,Instagram Ads
+PSN-0310,Chandra Pratama,Laki-laki,2005-01-30,081288409707,Yogyakarta,2024-07-04,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-07-18,Brosur Komplek
+PSN-0311,Wahyu Siregar,Laki-laki,1977-04-06,081232903673,Malang,2024-12-23,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-01-04,Brosur Komplek
+PSN-0312,Dedi Sari,Laki-laki,1989-11-02,081240687643,Bandung,2025-08-03,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-08-09,Spanduk Klinik
+PSN-0313,Nugroho Santoso,Laki-laki,2003-09-04,081283556540,Makassar,2024-06-24,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-07-01,TikTok Video
+PSN-0314,Dedi Wijaya,Laki-laki,1985-10-20,081245808545,Jakarta,2024-09-23,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Transfer BCA,2024-09-23,Spanduk Klinik
+PSN-0315,Rian Saputra,Laki-laki,1990-02-26,081266127686,Malang,2026-03-15,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2026-03-24,Spanduk Klinik
+PSN-0316,Rini Nasution,Perempuan,1992-11-14,081263097835,Malang,2025-07-04,Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2025-07-05,Spanduk Klinik
+PSN-0317,Mega Sari,Perempuan,2008-08-26,081268640458,Bandung,2024-03-26,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2024-04-07,Google Maps/Search
+PSN-0318,Fajar Santoso,Laki-laki,1976-10-03,081273081282,Pekanbaru,2026-02-06,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Kartu Kredit,2026-02-20,TikTok Video
+PSN-0319,Rini Nugroho,Perempuan,2015-06-23,081216826784,Jakarta,2024-12-29,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-01-08,TikTok Video
+PSN-0320,Nugroho Hidayat,Laki-laki,1993-12-12,081251061692,Pekanbaru,2025-06-28,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-07-03,Instagram Ads
+PSN-0321,Gita Saputra,Perempuan,1989-05-14,081227822251,Palembang,2024-06-26,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-07-09,Rekomendasi Teman
+PSN-0322,Ahmad Wijaya,Laki-laki,2001-08-05,081254598672,Malang,2026-03-02,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2026-03-09,TikTok Video
+PSN-0323,Irfan Wijaya,Laki-laki,1982-04-05,081268051927,Palembang,2025-04-16,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Transfer BCA,2025-04-22,Instagram Ads
+PSN-0324,Guntur Pratama,Laki-laki,2009-10-12,081216378826,Bandung,2024-05-28,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-06-02,Instagram Ads
+PSN-0325,Indah Santoso,Perempuan,2007-09-23,081233642584,Bandung,2024-06-27,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-07-08,Rekomendasi Teman
+PSN-0326,Rian Saputra,Laki-laki,1996-02-14,081246593503,Semarang,2025-06-30,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-07-13,Instagram Ads
+PSN-0327,Lestari Pratama,Perempuan,1979-06-10,081222549328,Bandung,2025-06-28,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-06-30,Brosur Komplek
+PSN-0328,Kartika Utami,Perempuan,1984-12-16,081230380482,Medan,2024-06-15,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-06-28,Google Maps/Search
+PSN-0329,Kurniawan Permata,Laki-laki,2000-09-05,081217176833,Surabaya,2025-12-11,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-12-15,Brosur Komplek
+PSN-0330,Eko Lestari,Laki-laki,1987-06-02,081265922610,Palembang,2025-11-19,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-11-23,Spanduk Klinik
+PSN-0331,Santoso Saputra,Laki-laki,1980-01-30,081214475065,Bandung,2024-10-25,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-11-05,Spanduk Klinik
+PSN-0332,Dewi Siregar,Perempuan,1988-07-22,081291531824,Palembang,2024-05-21,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-05-31,Google Maps/Search
+PSN-0333,Eka Wibowo,Perempuan,1985-10-09,081297841795,Pekanbaru,2025-02-08,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-02-08,Spanduk Klinik
+PSN-0334,Rini Nasution,Perempuan,1977-01-18,081266166727,Pekanbaru,2025-11-07,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-11-07,Instagram Ads
+PSN-0335,Chandra Rahmawati,Laki-laki,2009-10-28,081267235428,Medan,2025-07-29,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-08-10,Google Maps/Search
+PSN-0336,Fajar Lestari,Laki-laki,1977-05-08,081220138984,Medan,2024-02-19,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-02-23,Spanduk Klinik
+PSN-0337,Kurniawan Lestari,Laki-laki,1990-07-20,081251182367,Medan,2024-12-28,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-01-09,Instagram Ads
+PSN-0338,Mega Wibowo,Perempuan,1980-08-14,081278412837,Makassar,2024-03-16,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Transfer BCA,2024-03-18,Brosur Komplek
+PSN-0339,Maya Hidayat,Perempuan,2011-10-28,081261299085,Bandung,2025-09-25,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2025-09-27,Google Maps/Search
+PSN-0340,Guntur Utami,Laki-laki,1975-08-30,081217617158,Semarang,2024-08-17,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-08-21,Instagram Ads
+PSN-0341,Maya Saputra,Perempuan,1977-11-14,081292578055,Semarang,2024-10-24,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-11-01,Rekomendasi Teman
+PSN-0342,Nugroho Wijaya,Laki-laki,2006-09-11,081257682177,Bandung,2025-04-24,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-05-04,Rekomendasi Teman
+PSN-0343,Eko Permata,Laki-laki,1976-11-18,081213554902,Palembang,2025-07-29,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-08-02,TikTok Video
+PSN-0344,Chandra Utami,Laki-laki,2012-02-08,081233623814,Surabaya,2025-05-19,Tidak Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-05-20,TikTok Video
+PSN-0345,Taufik Nugroho,Laki-laki,1993-05-29,081263420778,Medan,2026-01-28,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2026-02-08,Instagram Ads
+PSN-0346,Wati Kusuma,Perempuan,2010-11-10,081222021014,Surabaya,2026-04-13,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2026-04-26,Instagram Ads
+PSN-0347,Lia Gunawan,Perempuan,1975-11-21,081215837844,Pekanbaru,2026-04-10,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,Tunai,2026-04-16,Brosur Komplek
+PSN-0348,Hadi Pratama,Laki-laki,2002-05-26,081279743393,Palembang,2024-05-04,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-05-13,Brosur Komplek
+PSN-0349,Maya Gunawan,Perempuan,2015-04-05,081243408943,Medan,2025-11-04,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-11-06,Spanduk Klinik
+PSN-0350,Nugroho Kusuma,Laki-laki,1978-01-21,081296307819,Jakarta,2025-02-22,Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-02-27,Brosur Komplek
+PSN-0351,Mega Wijaya,Perempuan,1976-12-18,081216034727,Surabaya,2024-06-15,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-06-18,Rekomendasi Teman
+PSN-0352,Wati Nasution,Perempuan,1982-06-01,081297161806,Palembang,2024-09-28,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-10-08,Rekomendasi Teman
+PSN-0353,Kurniawan Nugroho,Laki-laki,1992-02-19,081253166576,Yogyakarta,2024-08-18,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-08-25,Instagram Ads
+PSN-0354,Budi Santoso,Laki-laki,1977-01-28,081211491062,Jakarta,2025-02-05,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-02-19,Spanduk Klinik
+PSN-0355,Siti Wibowo,Perempuan,2005-10-18,081247804650,Pekanbaru,2025-06-29,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2025-07-03,Rekomendasi Teman
+PSN-0356,Lukman Sari,Laki-laki,2014-01-24,081271312626,Pekanbaru,2025-05-14,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2025-05-15,Brosur Komplek
+PSN-0357,Hesti Nasution,Perempuan,1975-12-15,081241233483,Malang,2024-11-26,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-12-06,Google Maps/Search
+PSN-0358,Mega Utami,Perempuan,1998-01-27,081234692667,Yogyakarta,2026-01-20,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2026-02-02,Rekomendasi Teman
+PSN-0359,Siti Santoso,Perempuan,2015-06-14,081297203100,Yogyakarta,2024-05-14,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,Transfer BCA,2024-05-18,Google Maps/Search
+PSN-0360,Lia Kusuma,Perempuan,1999-10-19,081280754500,Semarang,2025-10-23,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-11-01,Google Maps/Search
+PSN-0361,Ahmad Sari,Laki-laki,1997-05-26,081253879355,Palembang,2025-06-25,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-07-02,Rekomendasi Teman
+PSN-0362,Taufik Wijaya,Laki-laki,1979-10-18,081226381017,Yogyakarta,2026-04-24,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,QRIS Mandiri,2026-04-30,Rekomendasi Teman
+PSN-0363,Lia Santoso,Perempuan,1994-03-21,081253636634,Malang,2026-03-23,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2026-04-05,Rekomendasi Teman
+PSN-0364,Guntur Lestari,Laki-laki,1990-05-01,081290661272,Makassar,2024-09-30,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2024-09-30,TikTok Video
+PSN-0365,Citra Sari,Perempuan,2008-03-19,081243890730,Palembang,2024-03-03,Tidak Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-03-17,Brosur Komplek
+PSN-0366,Rini Lestari,Perempuan,1994-11-02,081270329769,Malang,2026-02-17,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2026-02-24,Rekomendasi Teman
+PSN-0367,Dedi Lestari,Laki-laki,1985-04-07,081216355253,Pekanbaru,2025-03-27,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-04-01,Rekomendasi Teman
+PSN-0368,Taufik Siregar,Laki-laki,1978-04-20,081255891158,Malang,2025-12-27,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2026-01-02,Instagram Ads
+PSN-0369,Hesti Hidayat,Perempuan,1995-09-17,081229209439,Malang,2025-02-06,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-02-08,TikTok Video
+PSN-0370,Maya Permata,Perempuan,1999-07-11,081217265765,Medan,2026-01-20,Tidak Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2026-01-23,TikTok Video
+PSN-0371,Prabowo Gunawan,Laki-laki,2005-05-17,081282897955,Semarang,2026-02-07,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2026-02-21,Brosur Komplek
+PSN-0372,Ayu Santoso,Perempuan,2006-03-17,081258648655,Palembang,2024-10-30,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-11-02,Instagram Ads
+PSN-0373,Lia Nugroho,Perempuan,2014-12-04,081267424376,Jakarta,2025-03-04,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-03-06,Google Maps/Search
+PSN-0374,Kurniawan Wibowo,Laki-laki,1984-09-19,081291551037,Pekanbaru,2026-01-09,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-01-11,Google Maps/Search
+PSN-0375,Dewi Nasution,Perempuan,1992-11-23,081219316690,Malang,2024-06-08,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-06-10,Google Maps/Search
+PSN-0376,Dedi Wijaya,Laki-laki,2001-04-02,081296670885,Jakarta,2026-02-14,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2026-02-19,Google Maps/Search
+PSN-0377,Rian Utami,Laki-laki,2010-07-19,081215832908,Bandung,2025-10-05,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-10-18,Brosur Komplek
+PSN-0378,Irfan Wijaya,Laki-laki,2013-07-26,081265720115,Palembang,2025-08-19,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-08-21,Spanduk Klinik
+PSN-0379,Eka Wibowo,Perempuan,2013-09-30,081269471474,Palembang,2024-05-03,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-05-17,TikTok Video
+PSN-0380,Citra Kusuma,Perempuan,1985-06-20,081225393169,Makassar,2024-10-09,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-10-11,Rekomendasi Teman
+PSN-0381,Taufik Santoso,Laki-laki,2013-09-30,081217802545,Pekanbaru,2025-05-10,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2025-05-11,TikTok Video
+PSN-0382,Siti Wibowo,Perempuan,1998-04-05,081299110687,Palembang,2026-02-25,Tidak Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2026-03-05,Instagram Ads
+PSN-0383,Kurniawan Hidayat,Laki-laki,2008-04-28,081222411116,Medan,2024-10-30,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-11-02,Spanduk Klinik
+PSN-0384,Mahendra Nasution,Laki-laki,1979-07-08,081266433669,Malang,2025-07-31,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Tunai,2025-08-01,Instagram Ads
+PSN-0385,Dedi Nasution,Laki-laki,1982-02-23,081273525839,Malang,2024-10-24,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-11-02,Google Maps/Search
+PSN-0386,Wahyu Permata,Laki-laki,1998-04-29,081220604761,Makassar,2025-05-05,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Tunai,2025-05-11,Google Maps/Search
+PSN-0387,Kartika Nasution,Perempuan,1984-03-17,081295771832,Malang,2025-11-25,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-12-01,Instagram Ads
+PSN-0388,Rini Wibowo,Perempuan,2003-06-19,081274669963,Semarang,2025-04-08,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-04-15,Instagram Ads
+PSN-0389,Eka Nasution,Perempuan,1986-09-09,081277093463,Palembang,2024-10-04,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-10-12,TikTok Video
+PSN-0390,Hesti Santoso,Perempuan,2003-11-02,081295931983,Medan,2025-09-20,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2025-09-30,Google Maps/Search
+PSN-0391,Anisa Kusuma,Perempuan,1992-07-27,081232230227,Bandung,2024-03-24,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Transfer BCA,2024-03-24,Brosur Komplek
+PSN-0392,Mahendra Santoso,Laki-laki,2001-03-25,081229079406,Jakarta,2024-06-19,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-07-01,Spanduk Klinik
+PSN-0393,Guntur Sari,Laki-laki,2003-07-24,081239223646,Yogyakarta,2024-09-14,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Tunai,2024-09-22,TikTok Video
+PSN-0394,Mega Pratama,Perempuan,2013-11-29,081281337642,Bandung,2024-07-18,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-07-25,Google Maps/Search
+PSN-0395,Hadi Wibowo,Laki-laki,1978-02-24,081272145568,Makassar,2024-06-29,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-07-03,Instagram Ads
+PSN-0396,Eka Lestari,Perempuan,2001-12-05,081291654044,Surabaya,2025-11-24,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-12-07,Instagram Ads
+PSN-0397,Maya Permata,Perempuan,1978-05-12,081263340987,Yogyakarta,2025-09-15,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-09-19,TikTok Video
+PSN-0398,Maya Hidayat,Perempuan,2005-10-17,081299981193,Jakarta,2026-01-11,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2026-01-17,Google Maps/Search
+PSN-0399,Rian Rahmawati,Laki-laki,2007-08-02,081290281573,Semarang,2025-10-16,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-10-30,Google Maps/Search
+PSN-0400,Eko Wibowo,Laki-laki,2014-02-01,081269159318,Semarang,2024-07-07,Tidak Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-07-13,Google Maps/Search
+PSN-0401,Fitri Rahmawati,Perempuan,1995-07-31,081283879801,Bandung,2025-02-02,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2025-02-15,Instagram Ads
+PSN-0402,Anisa Sari,Perempuan,1999-10-31,081253831289,Malang,2025-08-25,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-08-26,TikTok Video
+PSN-0403,Wahyu Gunawan,Laki-laki,2015-10-01,081265836725,Semarang,2026-03-14,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2026-03-26,Spanduk Klinik
+PSN-0404,Dedi Hidayat,Laki-laki,1995-10-01,081263808891,Makassar,2025-07-19,Tidak Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-07-23,TikTok Video
+PSN-0405,Wahyu Hidayat,Laki-laki,1981-09-24,081268373018,Jakarta,2024-06-15,Aktif,"Gigi depan patah sedikit akibat benturan",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-06-20,TikTok Video
+PSN-0406,Gita Permata,Perempuan,1992-10-12,081289608568,Pekanbaru,2025-02-22,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-03-08,Instagram Ads
+PSN-0407,Fitri Pratama,Perempuan,1998-12-18,081233322074,Yogyakarta,2024-10-18,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-10-23,TikTok Video
+PSN-0408,Lestari Wijaya,Perempuan,1998-09-18,081216149616,Pekanbaru,2024-10-29,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-10-30,Spanduk Klinik
+PSN-0409,Rini Wibowo,Perempuan,2003-10-29,081213836436,Yogyakarta,2024-04-20,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2024-04-24,Google Maps/Search
+PSN-0410,Diah Santoso,Perempuan,1988-12-05,081270932363,Palembang,2025-11-03,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-11-12,TikTok Video
+PSN-0411,Kurniawan Hidayat,Laki-laki,2002-04-04,081237197114,Surabaya,2025-12-15,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2025-12-15,TikTok Video
+PSN-0412,Ayu Siregar,Perempuan,2001-07-23,081259508227,Malang,2024-02-02,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2024-02-02,Spanduk Klinik
+PSN-0413,Rian Utami,Laki-laki,1987-06-10,081219565957,Surabaya,2024-04-27,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2024-05-11,Instagram Ads
+PSN-0414,Joko Saputra,Laki-laki,2007-11-08,081262677255,Yogyakarta,2024-11-10,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2024-11-21,Instagram Ads
+PSN-0415,Lia Saputra,Perempuan,1987-04-29,081253348514,Medan,2025-02-21,Aktif,"Kontrol rutin behel bulanan",Pembersihan Karang Gigi (Scaling),350000,Tunai,2025-02-24,Google Maps/Search
+PSN-0416,Chandra Wijaya,Laki-laki,2015-03-27,081245118890,Palembang,2025-03-04,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-03-14,Instagram Ads
+PSN-0417,Prabowo Permata,Laki-laki,2003-09-22,081267219682,Surabaya,2026-01-08,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-01-10,Instagram Ads
+PSN-0418,Eka Pratama,Perempuan,1989-08-06,081277100435,Pekanbaru,2024-04-27,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-05-06,TikTok Video
+PSN-0419,Wahyu Nasution,Laki-laki,1976-09-02,081298436047,Surabaya,2025-03-11,Tidak Aktif,"Kontrol rutin behel bulanan",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2025-03-16,Rekomendasi Teman
+PSN-0420,Mega Santoso,Perempuan,1984-10-09,081258043198,Malang,2025-02-06,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-02-12,Spanduk Klinik
+PSN-0421,Lestari Pratama,Perempuan,2006-12-22,081238532562,Malang,2024-06-06,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2024-06-13,TikTok Video
+PSN-0422,Rian Hidayat,Laki-laki,1984-07-24,081282193478,Yogyakarta,2024-01-18,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-01-29,Rekomendasi Teman
+PSN-0423,Gita Gunawan,Perempuan,1986-09-28,081219202506,Semarang,2026-04-09,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-04-17,TikTok Video
+PSN-0424,Maya Siregar,Perempuan,1990-12-24,081227535780,Jakarta,2025-07-02,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-07-08,Brosur Komplek
+PSN-0425,Nugroho Siregar,Laki-laki,2014-05-15,081219442990,Medan,2025-02-28,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-03-06,Rekomendasi Teman
+PSN-0426,Dewi Lestari,Perempuan,1992-01-02,081213232315,Jakarta,2025-05-30,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-06-11,Google Maps/Search
+PSN-0427,Irfan Siregar,Laki-laki,1994-05-27,081235894532,Palembang,2025-06-20,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Tunai,2025-06-25,TikTok Video
+PSN-0428,Gita Saputra,Perempuan,1979-12-21,081227600778,Malang,2024-11-03,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-11-12,Instagram Ads
+PSN-0429,Lestari Rahmawati,Perempuan,1989-11-29,081273966932,Yogyakarta,2025-10-04,Tidak Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2025-10-04,TikTok Video
+PSN-0430,Fitri Rahmawati,Perempuan,1986-12-31,081224783099,Surabaya,2024-05-16,Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-05-16,Rekomendasi Teman
+PSN-0431,Wati Wijaya,Perempuan,1981-02-15,081222527936,Palembang,2026-01-06,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2026-01-19,Google Maps/Search
+PSN-0432,Santoso Pratama,Laki-laki,1978-02-11,081221120513,Jakarta,2026-03-20,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2026-03-27,Rekomendasi Teman
+PSN-0433,Lestari Siregar,Perempuan,2001-03-12,081252133788,Palembang,2025-06-15,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-06-24,Spanduk Klinik
+PSN-0434,Maya Gunawan,Perempuan,1977-12-17,081291174635,Medan,2025-12-03,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-12-14,Brosur Komplek
+PSN-0435,Wati Gunawan,Perempuan,2002-02-06,081284636745,Pekanbaru,2024-07-02,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-07-12,Rekomendasi Teman
+PSN-0436,Rini Gunawan,Perempuan,1980-05-06,081273608222,Bandung,2024-06-13,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2024-06-22,TikTok Video
+PSN-0437,Irfan Lestari,Laki-laki,1996-08-22,081245891295,Malang,2024-06-12,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,Tunai,2024-06-21,Rekomendasi Teman
+PSN-0438,Citra Santoso,Perempuan,2002-01-12,081262399057,Semarang,2025-06-06,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-06-19,Brosur Komplek
+PSN-0439,Ahmad Wijaya,Laki-laki,1988-10-15,081280934245,Semarang,2026-01-06,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2026-01-09,Instagram Ads
+PSN-0440,Fajar Nugroho,Laki-laki,1983-11-07,081254940366,Medan,2026-04-09,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2026-04-09,Instagram Ads
+PSN-0441,Anisa Kusuma,Perempuan,1990-03-30,081242926317,Yogyakarta,2024-05-04,Tidak Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-05-05,Instagram Ads
+PSN-0442,Prabowo Sari,Laki-laki,2014-02-24,081260840690,Makassar,2024-07-18,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-07-29,Instagram Ads
+PSN-0443,Joko Santoso,Laki-laki,2010-09-12,081282871735,Yogyakarta,2026-01-26,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2026-01-30,Google Maps/Search
+PSN-0444,Eko Permata,Laki-laki,1992-02-06,081249412689,Yogyakarta,2025-05-05,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-05-16,TikTok Video
+PSN-0445,Eko Hidayat,Laki-laki,2011-01-16,081298391278,Semarang,2025-08-17,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-08-22,Brosur Komplek
+PSN-0446,Irfan Pratama,Laki-laki,1981-09-11,081260905491,Palembang,2025-07-10,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-07-14,TikTok Video
+PSN-0447,Taufik Sari,Laki-laki,1991-03-22,081255811381,Surabaya,2025-06-14,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-06-23,Rekomendasi Teman
+PSN-0448,Anisa Kusuma,Perempuan,1987-12-26,081259198964,Pekanbaru,2025-11-25,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Tunai,2025-11-28,TikTok Video
+PSN-0449,Hesti Wibowo,Perempuan,1983-09-19,081276375682,Malang,2025-06-05,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-06-18,TikTok Video
+PSN-0450,Rini Kusuma,Perempuan,2005-05-19,081258307410,Malang,2026-03-13,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2026-03-23,Google Maps/Search
+PSN-0451,Rian Pratama,Laki-laki,1977-03-18,081260068029,Malang,2025-06-15,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2025-06-15,TikTok Video
+PSN-0452,Siti Wibowo,Perempuan,2008-03-02,081236205503,Malang,2026-02-11,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,Tunai,2026-02-24,TikTok Video
+PSN-0453,Lukman Nugroho,Laki-laki,1987-06-17,081251686213,Bandung,2024-11-19,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-12-02,Brosur Komplek
+PSN-0454,Nugroho Siregar,Laki-laki,1985-11-08,081276407027,Semarang,2025-06-01,Tidak Aktif,"Kontrol rutin behel bulanan",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2025-06-07,Rekomendasi Teman
+PSN-0455,Taufik Pratama,Laki-laki,2014-03-28,081222134333,Malang,2025-06-11,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2025-06-13,Spanduk Klinik
+PSN-0456,Kartika Santoso,Perempuan,2012-06-08,081215627756,Semarang,2026-03-31,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2026-04-06,Instagram Ads
+PSN-0457,Ayu Hidayat,Perempuan,1986-03-10,081235663956,Malang,2024-05-01,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-05-10,Instagram Ads
+PSN-0458,Lukman Gunawan,Laki-laki,1996-01-22,081254691078,Jakarta,2025-01-21,Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-01-26,TikTok Video
+PSN-0459,Fajar Permata,Laki-laki,1987-01-07,081239235766,Yogyakarta,2025-10-10,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-10-15,Google Maps/Search
+PSN-0460,Eka Santoso,Perempuan,2006-06-24,081220920708,Makassar,2024-05-04,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-05-12,Brosur Komplek
+PSN-0461,Siti Hidayat,Perempuan,1992-12-29,081271393672,Medan,2024-12-30,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-01-13,Brosur Komplek
+PSN-0462,Rian Permata,Laki-laki,2004-01-16,081251737587,Medan,2025-09-02,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-09-05,Brosur Komplek
+PSN-0463,Dedi Nugroho,Laki-laki,2010-03-03,081286480878,Jakarta,2026-02-09,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-02-12,Rekomendasi Teman
+PSN-0464,Kurniawan Pratama,Laki-laki,1975-10-17,081267023030,Pekanbaru,2025-02-06,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-02-17,Instagram Ads
+PSN-0465,Lia Santoso,Perempuan,2008-01-08,081243303621,Malang,2025-04-22,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-05-02,TikTok Video
+PSN-0466,Indah Hidayat,Perempuan,2010-08-23,081219988158,Medan,2025-09-10,Tidak Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-09-21,Spanduk Klinik
+PSN-0467,Joko Rahmawati,Laki-laki,1984-05-01,081221103357,Makassar,2024-03-22,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-04-03,Brosur Komplek
+PSN-0468,Fitri Wibowo,Perempuan,2005-11-05,081255628604,Yogyakarta,2025-10-19,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-10-28,Instagram Ads
+PSN-0469,Kurniawan Siregar,Laki-laki,2007-01-27,081277408988,Makassar,2024-09-06,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-09-07,Spanduk Klinik
+PSN-0470,Ahmad Santoso,Laki-laki,1976-11-30,081270478145,Malang,2024-01-22,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Transfer BCA,2024-01-28,Rekomendasi Teman
+PSN-0471,Diah Rahmawati,Perempuan,2014-10-25,081229107607,Medan,2025-06-13,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2025-06-24,Instagram Ads
+PSN-0472,Lestari Rahmawati,Perempuan,1977-02-13,081290789307,Malang,2025-10-15,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-10-23,Spanduk Klinik
+PSN-0473,Lestari Siregar,Perempuan,2005-01-21,081240638643,Semarang,2024-08-01,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-08-01,Google Maps/Search
+PSN-0474,Anisa Wijaya,Perempuan,2005-12-05,081216506068,Semarang,2024-03-28,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-04-06,Spanduk Klinik
+PSN-0475,Chandra Siregar,Laki-laki,2006-11-18,081260206931,Pekanbaru,2024-01-20,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-02-03,Spanduk Klinik
+PSN-0476,Rian Wibowo,Laki-laki,2002-02-24,081279984552,Semarang,2024-05-06,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Transfer BCA,2024-05-20,TikTok Video
+PSN-0477,Hadi Utami,Laki-laki,1978-12-15,081259099393,Malang,2025-05-25,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-05-27,Google Maps/Search
+PSN-0478,Santoso Wijaya,Laki-laki,1986-03-01,081219584928,Pekanbaru,2025-07-06,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-07-16,Rekomendasi Teman
+PSN-0479,Rian Sari,Laki-laki,1988-11-19,081299264635,Jakarta,2024-07-20,Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-08-03,TikTok Video
+PSN-0480,Lukman Sari,Laki-laki,1989-06-19,081281360838,Pekanbaru,2026-03-27,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2026-03-27,Brosur Komplek
+PSN-0481,Wahyu Santoso,Laki-laki,1997-05-18,081262310081,Pekanbaru,2024-05-31,Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-06-05,Google Maps/Search
+PSN-0482,Fajar Gunawan,Laki-laki,1993-06-05,081210288808,Surabaya,2024-01-19,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-01-28,Instagram Ads
+PSN-0483,Wahyu Nugroho,Laki-laki,2008-01-04,081230642918,Semarang,2024-02-04,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-02-09,Rekomendasi Teman
+PSN-0484,Eka Pratama,Perempuan,1976-11-06,081239378464,Makassar,2026-02-15,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2026-02-21,Rekomendasi Teman
+PSN-0485,Dewi Kusuma,Perempuan,1992-01-05,081295390587,Bandung,2024-06-09,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-06-13,Google Maps/Search
+PSN-0486,Hadi Nugroho,Laki-laki,2001-04-25,081234033047,Yogyakarta,2024-01-09,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-01-21,Instagram Ads
+PSN-0487,Lia Sari,Perempuan,1995-07-21,081243861164,Yogyakarta,2024-09-03,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2024-09-12,Google Maps/Search
+PSN-0488,Putri Rahmawati,Perempuan,2010-02-18,081225265783,Palembang,2025-04-24,Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-05-08,Instagram Ads
+PSN-0489,Lia Nugroho,Perempuan,2007-09-01,081238377579,Palembang,2024-05-21,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2024-05-24,TikTok Video
+PSN-0490,Dewi Permata,Perempuan,2011-01-22,081256805486,Palembang,2026-01-18,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Tunai,2026-01-30,Google Maps/Search
+PSN-0491,Joko Siregar,Laki-laki,1998-06-14,081297971198,Malang,2026-03-06,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2026-03-13,Brosur Komplek
+PSN-0492,Anisa Wibowo,Perempuan,2001-06-27,081296434884,Semarang,2024-08-22,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-09-02,TikTok Video
+PSN-0493,Kurniawan Nasution,Laki-laki,1976-04-28,081272684203,Jakarta,2025-12-09,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-12-19,Rekomendasi Teman
+PSN-0494,Eka Utami,Perempuan,1984-05-06,081282535990,Pekanbaru,2024-01-05,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-01-17,TikTok Video
+PSN-0495,Rian Pratama,Laki-laki,1978-11-02,081283214036,Palembang,2024-02-29,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-02-29,Instagram Ads
+PSN-0496,Lia Rahmawati,Perempuan,1992-03-21,081275039674,Semarang,2024-06-13,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-06-20,Rekomendasi Teman
+PSN-0497,Kurniawan Nugroho,Laki-laki,2001-11-13,081213015748,Pekanbaru,2025-10-29,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Transfer BCA,2025-11-09,Brosur Komplek
+PSN-0498,Mega Lestari,Perempuan,1995-06-15,081282032852,Malang,2025-06-05,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2025-06-15,Google Maps/Search
+PSN-0499,Eko Pratama,Laki-laki,1988-03-23,081210264802,Malang,2024-01-10,Tidak Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-01-22,Brosur Komplek
+PSN-0500,Wahyu Rahmawati,Laki-laki,1978-04-21,081295212012,Palembang,2025-02-02,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-02-15,Brosur Komplek
+PSN-0501,Prabowo Sari,Laki-laki,1994-01-10,081242988000,Surabaya,2024-07-11,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-07-19,Instagram Ads
+PSN-0502,Wahyu Santoso,Laki-laki,1985-10-27,081257864522,Bandung,2026-04-04,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2026-04-15,TikTok Video
+PSN-0503,Chandra Gunawan,Laki-laki,2003-03-25,081233456212,Pekanbaru,2026-04-27,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2026-05-10,Brosur Komplek
+PSN-0504,Citra Utami,Perempuan,1992-08-25,081227044557,Malang,2025-06-18,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-06-22,TikTok Video
+PSN-0505,Fitri Nasution,Perempuan,2000-01-26,081256981121,Malang,2024-01-13,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-01-13,Brosur Komplek
+PSN-0506,Siti Permata,Perempuan,1991-04-16,081236306138,Palembang,2024-03-26,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2024-03-29,TikTok Video
+PSN-0507,Santoso Nugroho,Laki-laki,1988-03-14,081250636803,Yogyakarta,2025-11-01,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-11-01,Spanduk Klinik
+PSN-0508,Nugroho Permata,Laki-laki,2002-02-15,081238228855,Semarang,2025-04-29,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-04-29,Instagram Ads
+PSN-0509,Maya Wijaya,Perempuan,1986-11-26,081228154577,Yogyakarta,2025-03-28,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-04-04,Google Maps/Search
+PSN-0510,Ayu Lestari,Perempuan,1987-09-25,081289250064,Jakarta,2025-08-20,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-08-21,Spanduk Klinik
+PSN-0511,Ayu Nugroho,Perempuan,1975-04-24,081217470945,Palembang,2024-08-19,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-08-22,Spanduk Klinik
+PSN-0512,Dedi Hidayat,Laki-laki,1993-09-15,081239475814,Malang,2025-05-03,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-05-14,Rekomendasi Teman
+PSN-0513,Chandra Pratama,Laki-laki,2007-07-06,081288339161,Surabaya,2025-07-07,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-07-13,Rekomendasi Teman
+PSN-0514,Kartika Siregar,Perempuan,1981-01-25,081210965705,Palembang,2024-02-29,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-03-11,Brosur Komplek
+PSN-0515,Wati Nasution,Perempuan,1978-11-25,081276144898,Pekanbaru,2024-05-14,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Transfer BCA,2024-05-20,TikTok Video
+PSN-0516,Maya Kusuma,Perempuan,2008-09-12,081286264034,Jakarta,2025-12-25,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Transfer BCA,2025-12-27,Spanduk Klinik
+PSN-0517,Hesti Rahmawati,Perempuan,1991-09-21,081210400751,Palembang,2025-11-01,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Transfer BCA,2025-11-02,TikTok Video
+PSN-0518,Citra Gunawan,Perempuan,1976-04-26,081210934638,Malang,2026-01-25,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2026-02-01,TikTok Video
+PSN-0519,Gita Wijaya,Perempuan,1992-11-26,081283271652,Palembang,2025-02-24,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-02-25,Brosur Komplek
+PSN-0520,Lia Nasution,Perempuan,1992-10-31,081242772965,Jakarta,2024-12-20,Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-12-24,Google Maps/Search
+PSN-0521,Wati Hidayat,Perempuan,1984-10-09,081229043760,Bandung,2026-03-27,Tidak Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Tunai,2026-04-06,TikTok Video
+PSN-0522,Rian Rahmawati,Laki-laki,1991-02-11,081263427309,Yogyakarta,2024-02-18,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-02-19,TikTok Video
+PSN-0523,Rian Kusuma,Laki-laki,2000-05-22,081223488910,Yogyakarta,2025-01-28,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-02-07,Google Maps/Search
+PSN-0524,Gita Lestari,Perempuan,2005-03-11,081245632181,Bandung,2025-05-28,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-05-30,Brosur Komplek
+PSN-0525,Wati Saputra,Perempuan,2001-03-29,081277142099,Jakarta,2024-09-22,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-09-25,Rekomendasi Teman
+PSN-0526,Chandra Lestari,Laki-laki,1990-10-27,081292570477,Palembang,2024-04-15,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-04-23,Google Maps/Search
+PSN-0527,Santoso Rahmawati,Laki-laki,2006-11-16,081248786796,Palembang,2024-05-07,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-05-19,Spanduk Klinik
+PSN-0528,Eka Sari,Perempuan,1988-11-06,081240169322,Semarang,2024-01-25,Aktif,"Gigi depan patah sedikit akibat benturan",Bleaching Gigi (Pemutihan),3000000,Tunai,2024-01-25,Google Maps/Search
+PSN-0529,Nugroho Hidayat,Laki-laki,1998-11-14,081217417645,Bandung,2026-04-27,Tidak Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2026-04-27,Google Maps/Search
+PSN-0530,Citra Lestari,Perempuan,1983-03-20,081255536725,Jakarta,2025-09-03,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-09-08,TikTok Video
+PSN-0531,Dewi Nasution,Perempuan,1993-07-14,081290477497,Pekanbaru,2024-03-01,Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2024-03-05,Spanduk Klinik
+PSN-0532,Diah Pratama,Perempuan,2009-10-28,081216006193,Jakarta,2025-04-17,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Tunai,2025-04-21,TikTok Video
+PSN-0533,Taufik Kusuma,Laki-laki,2002-02-02,081251749987,Palembang,2025-11-15,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-11-16,TikTok Video
+PSN-0534,Dewi Lestari,Perempuan,1981-09-13,081283177755,Makassar,2025-04-13,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-04-19,Brosur Komplek
+PSN-0535,Irfan Nasution,Laki-laki,1981-03-21,081276144297,Makassar,2025-11-30,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2025-12-03,Rekomendasi Teman
+PSN-0536,Santoso Pratama,Laki-laki,1989-04-01,081250143014,Bandung,2024-08-05,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Tunai,2024-08-18,Spanduk Klinik
+PSN-0537,Rian Saputra,Laki-laki,1988-04-29,081225108885,Makassar,2026-01-03,Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2026-01-11,Google Maps/Search
+PSN-0538,Hadi Kusuma,Laki-laki,1999-12-01,081235887124,Makassar,2025-01-01,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,Tunai,2025-01-11,Brosur Komplek
+PSN-0539,Taufik Nugroho,Laki-laki,2000-11-23,081241352217,Semarang,2024-09-04,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-09-06,Instagram Ads
+PSN-0540,Chandra Permata,Laki-laki,1983-11-16,081236753110,Yogyakarta,2024-04-23,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-04-27,Spanduk Klinik
+PSN-0541,Budi Santoso,Laki-laki,2006-02-26,081229070558,Jakarta,2026-01-19,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2026-01-20,Brosur Komplek
+PSN-0542,Maya Sari,Perempuan,2006-08-30,081229519983,Palembang,2024-03-15,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-03-22,TikTok Video
+PSN-0543,Citra Utami,Perempuan,2005-05-08,081260109613,Makassar,2024-12-18,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-12-20,Spanduk Klinik
+PSN-0544,Maya Lestari,Perempuan,1988-01-29,081241974257,Malang,2024-02-26,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2024-03-08,Rekomendasi Teman
+PSN-0545,Rian Hidayat,Laki-laki,2002-12-17,081236787358,Pekanbaru,2026-03-17,Tidak Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2026-03-24,TikTok Video
+PSN-0546,Dedi Kusuma,Laki-laki,1997-09-27,081245954763,Semarang,2026-01-17,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Tunai,2026-01-26,Instagram Ads
+PSN-0547,Rini Sari,Perempuan,2009-12-11,081221975272,Surabaya,2026-04-05,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Tunai,2026-04-09,Brosur Komplek
+PSN-0548,Prabowo Sari,Laki-laki,1990-11-19,081280608412,Pekanbaru,2024-09-23,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-09-28,TikTok Video
+PSN-0549,Hadi Rahmawati,Laki-laki,2003-02-07,081274328950,Yogyakarta,2025-12-11,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-12-14,TikTok Video
+PSN-0550,Hesti Gunawan,Perempuan,2011-12-24,081230516090,Bandung,2025-02-15,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2025-02-27,Rekomendasi Teman
+PSN-0551,Ayu Permata,Perempuan,1994-06-07,081299886997,Surabaya,2025-04-04,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2025-04-14,Google Maps/Search
+PSN-0552,Guntur Hidayat,Laki-laki,1989-08-21,081223781408,Palembang,2026-01-02,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2026-01-12,TikTok Video
+PSN-0553,Mega Wijaya,Perempuan,2003-05-22,081268303245,Bandung,2024-04-14,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-04-20,Rekomendasi Teman
+PSN-0554,Irfan Hidayat,Laki-laki,2002-09-22,081210425757,Semarang,2025-09-28,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-10-10,Instagram Ads
+PSN-0555,Citra Rahmawati,Perempuan,1992-07-03,081257005425,Jakarta,2024-03-26,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-04-06,Brosur Komplek
+PSN-0556,Lia Rahmawati,Perempuan,2011-05-19,081253891606,Medan,2026-02-06,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-02-16,Instagram Ads
+PSN-0557,Santoso Wibowo,Laki-laki,2004-06-08,081282720512,Makassar,2024-10-09,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-10-22,Spanduk Klinik
+PSN-0558,Maya Kusuma,Perempuan,1991-03-14,081223254516,Palembang,2025-01-17,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-01-25,TikTok Video
+PSN-0559,Irfan Pratama,Laki-laki,1977-03-11,081256749117,Palembang,2025-06-21,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-06-22,Rekomendasi Teman
+PSN-0560,Kartika Gunawan,Perempuan,2002-10-25,081255447260,Bandung,2024-10-31,Tidak Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-10-31,Instagram Ads
+PSN-0561,Gita Utami,Perempuan,1993-11-10,081245116184,Yogyakarta,2026-03-17,Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2026-03-30,TikTok Video
+PSN-0562,Eko Rahmawati,Laki-laki,2007-09-17,081297658473,Jakarta,2025-08-12,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Transfer BCA,2025-08-24,Brosur Komplek
+PSN-0563,Mahendra Santoso,Laki-laki,2005-06-10,081298759868,Malang,2025-02-27,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-03-05,TikTok Video
+PSN-0564,Hadi Hidayat,Laki-laki,2007-08-18,081219331393,Malang,2025-09-24,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Transfer BCA,2025-09-26,Instagram Ads
+PSN-0565,Anisa Saputra,Perempuan,1982-04-05,081250919845,Bandung,2024-11-18,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2024-11-29,Instagram Ads
+PSN-0566,Rini Saputra,Perempuan,2009-05-12,081236115550,Yogyakarta,2025-07-11,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-07-19,Brosur Komplek
+PSN-0567,Indah Wijaya,Perempuan,2009-01-12,081294998424,Bandung,2026-01-19,Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2026-01-24,Brosur Komplek
+PSN-0568,Gita Hidayat,Perempuan,1995-09-18,081277870084,Jakarta,2024-01-28,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-01-30,Brosur Komplek
+PSN-0569,Anisa Gunawan,Perempuan,2007-12-17,081296741476,Makassar,2025-03-21,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2025-04-02,Instagram Ads
+PSN-0570,Ahmad Saputra,Laki-laki,1984-09-16,081269222057,Makassar,2025-12-13,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-12-21,Spanduk Klinik
+PSN-0571,Budi Santoso,Laki-laki,2006-12-06,081223638957,Surabaya,2026-02-16,Aktif,"Gigi depan patah sedikit akibat benturan",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2026-02-16,Instagram Ads
+PSN-0572,Hesti Siregar,Perempuan,1997-05-04,081256359648,Makassar,2025-03-12,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2025-03-16,Google Maps/Search
+PSN-0573,Lukman Lestari,Laki-laki,1987-04-18,081289364380,Malang,2024-12-30,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,Tunai,2025-01-01,TikTok Video
+PSN-0574,Rian Sari,Laki-laki,2013-11-14,081286984189,Makassar,2024-05-01,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Tunai,2024-05-05,Instagram Ads
+PSN-0575,Guntur Saputra,Laki-laki,1989-12-18,081279858839,Malang,2025-05-23,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-06-04,Brosur Komplek
+PSN-0576,Siti Gunawan,Perempuan,1983-06-05,081241692670,Semarang,2026-02-18,Aktif,"Gigi depan patah sedikit akibat benturan",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2026-03-03,TikTok Video
+PSN-0577,Hadi Utami,Laki-laki,1983-08-31,081242607559,Palembang,2026-04-13,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2026-04-25,Rekomendasi Teman
+PSN-0578,Anisa Saputra,Perempuan,2009-11-12,081285164802,Bandung,2024-04-29,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-05-06,Instagram Ads
+PSN-0579,Wati Pratama,Perempuan,1978-05-25,081242502067,Bandung,2024-09-22,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-10-06,TikTok Video
+PSN-0580,Citra Rahmawati,Perempuan,2000-07-31,081245427337,Jakarta,2025-04-07,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,Tunai,2025-04-21,Brosur Komplek
+PSN-0581,Siti Gunawan,Perempuan,1991-12-31,081278872585,Surabaya,2024-06-12,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-06-15,Spanduk Klinik
+PSN-0582,Wahyu Nasution,Laki-laki,2008-07-18,081273050317,Jakarta,2026-03-20,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2026-03-20,Spanduk Klinik
+PSN-0583,Ayu Pratama,Perempuan,1985-01-06,081217263359,Bandung,2025-03-16,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-03-24,Instagram Ads
+PSN-0584,Siti Siregar,Perempuan,1996-03-20,081218340940,Yogyakarta,2025-03-26,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-04-01,Spanduk Klinik
+PSN-0585,Wahyu Nugroho,Laki-laki,2003-07-10,081284454012,Makassar,2025-01-08,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2025-01-13,Rekomendasi Teman
+PSN-0586,Lestari Pratama,Perempuan,2009-07-22,081246773608,Medan,2024-02-14,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-02-24,Rekomendasi Teman
+PSN-0587,Siti Permata,Perempuan,2000-03-14,081218840544,Bandung,2025-02-01,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-02-05,Spanduk Klinik
+PSN-0588,Mega Rahmawati,Perempuan,1988-03-20,081246348244,Palembang,2024-05-01,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-05-06,Google Maps/Search
+PSN-0589,Fitri Saputra,Perempuan,1997-07-15,081215978566,Medan,2025-01-22,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-02-03,Instagram Ads
+PSN-0590,Kurniawan Gunawan,Laki-laki,2015-04-21,081287136262,Surabaya,2025-06-28,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-07-05,Rekomendasi Teman
+PSN-0591,Maya Siregar,Perempuan,1985-07-04,081268482171,Semarang,2026-01-15,Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2026-01-17,TikTok Video
+PSN-0592,Kartika Lestari,Perempuan,1994-11-13,081234764127,Makassar,2025-08-08,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-08-22,Spanduk Klinik
+PSN-0593,Taufik Lestari,Laki-laki,1994-08-05,081253813828,Yogyakarta,2024-03-23,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-04-06,Spanduk Klinik
+PSN-0594,Putri Santoso,Perempuan,2012-02-10,081218927485,Surabaya,2025-06-14,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2025-06-15,Google Maps/Search
+PSN-0595,Putri Saputra,Perempuan,2005-03-14,081262687849,Pekanbaru,2024-07-06,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-07-15,Instagram Ads
+PSN-0596,Kartika Lestari,Perempuan,1992-08-18,081216729938,Jakarta,2025-01-10,Aktif,"Kontrol rutin behel bulanan",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-01-13,Brosur Komplek
+PSN-0597,Prabowo Wijaya,Laki-laki,2004-02-06,081218372847,Makassar,2025-05-24,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-05-27,Brosur Komplek
+PSN-0598,Fitri Lestari,Perempuan,2013-12-24,081261982579,Pekanbaru,2025-10-06,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-10-09,Instagram Ads
+PSN-0599,Maya Wijaya,Perempuan,2011-01-05,081223209402,Palembang,2026-01-05,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-01-16,Spanduk Klinik
+PSN-0600,Rini Santoso,Perempuan,1994-03-17,081257838698,Makassar,2025-04-24,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-04-28,Spanduk Klinik
+PSN-0601,Budi Santoso,Laki-laki,1992-10-16,081244445991,Malang,2024-12-26,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-12-26,Instagram Ads
+PSN-0602,Mega Gunawan,Perempuan,1986-10-28,081258901695,Semarang,2025-12-01,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-12-14,Brosur Komplek
+PSN-0603,Chandra Gunawan,Laki-laki,1998-05-19,081222129069,Pekanbaru,2025-12-21,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-12-28,Spanduk Klinik
+PSN-0604,Fitri Rahmawati,Perempuan,1987-10-12,081236984791,Semarang,2024-02-22,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-03-02,Brosur Komplek
+PSN-0605,Hesti Rahmawati,Perempuan,1984-01-02,081264174865,Pekanbaru,2025-09-02,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-09-12,Brosur Komplek
+PSN-0606,Hadi Kusuma,Laki-laki,1978-06-03,081248177364,Yogyakarta,2025-11-08,Tidak Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-11-09,Spanduk Klinik
+PSN-0607,Santoso Santoso,Laki-laki,2008-04-04,081211354889,Medan,2025-04-03,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-04-07,TikTok Video
+PSN-0608,Lukman Pratama,Laki-laki,1998-02-20,081294699465,Palembang,2024-01-07,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-01-14,Rekomendasi Teman
+PSN-0609,Mahendra Pratama,Laki-laki,2000-02-08,081215034609,Surabaya,2026-03-10,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2026-03-11,Brosur Komplek
+PSN-0610,Fitri Nasution,Perempuan,1976-05-08,081281396791,Makassar,2024-01-17,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-01-31,Rekomendasi Teman
+PSN-0611,Ayu Utami,Perempuan,2011-06-01,081264944384,Medan,2025-09-22,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-09-27,Google Maps/Search
+PSN-0612,Rian Permata,Laki-laki,2007-08-12,081255441788,Semarang,2024-06-14,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-06-14,Brosur Komplek
+PSN-0613,Irfan Wijaya,Laki-laki,1978-12-22,081239917917,Medan,2026-04-12,Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2026-04-25,Google Maps/Search
+PSN-0614,Eka Rahmawati,Perempuan,2010-06-16,081272695710,Malang,2024-09-20,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2024-10-03,Spanduk Klinik
+PSN-0615,Citra Wibowo,Perempuan,1984-04-14,081237738783,Malang,2025-02-08,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-02-17,Rekomendasi Teman
+PSN-0616,Anisa Nasution,Perempuan,2015-09-02,081249117372,Malang,2024-04-10,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2024-04-16,Spanduk Klinik
+PSN-0617,Diah Saputra,Perempuan,1997-10-17,081225936086,Yogyakarta,2024-04-13,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-04-26,Spanduk Klinik
+PSN-0618,Diah Permata,Perempuan,2012-06-04,081233578358,Bandung,2025-08-06,Aktif,"Kontrol rutin behel bulanan",Pembersihan Karang Gigi (Scaling),350000,Tunai,2025-08-18,Google Maps/Search
+PSN-0619,Diah Pratama,Perempuan,2003-04-22,081278247686,Bandung,2024-01-23,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2024-01-23,Rekomendasi Teman
+PSN-0620,Eko Santoso,Laki-laki,2015-07-16,081232052531,Palembang,2026-03-02,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2026-03-05,Brosur Komplek
+PSN-0621,Hesti Sari,Perempuan,1975-12-07,081294283958,Bandung,2025-04-10,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-04-20,Google Maps/Search
+PSN-0622,Putri Saputra,Perempuan,1986-07-28,081276751037,Bandung,2024-12-07,Aktif,"Gigi depan patah sedikit akibat benturan",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-12-20,TikTok Video
+PSN-0623,Guntur Wijaya,Laki-laki,2004-03-01,081269752131,Makassar,2025-05-31,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-06-08,Instagram Ads
+PSN-0624,Hadi Siregar,Laki-laki,2009-12-15,081298981568,Palembang,2025-09-24,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-10-05,Google Maps/Search
+PSN-0625,Diah Nasution,Perempuan,2000-10-23,081296874257,Medan,2024-01-07,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-01-16,Brosur Komplek
+PSN-0626,Rini Nugroho,Perempuan,1979-08-18,081227805948,Semarang,2025-06-11,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-06-15,Brosur Komplek
+PSN-0627,Chandra Wibowo,Laki-laki,1996-12-26,081230675387,Medan,2024-03-05,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-03-19,Spanduk Klinik
+PSN-0628,Mahendra Siregar,Laki-laki,1994-10-10,081267749813,Malang,2025-08-31,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2025-09-13,Brosur Komplek
+PSN-0629,Rian Siregar,Laki-laki,2013-06-01,081261638532,Palembang,2026-04-13,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2026-04-18,Google Maps/Search
+PSN-0630,Putri Wibowo,Perempuan,2004-02-21,081244829080,Pekanbaru,2025-07-09,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,Tunai,2025-07-20,Spanduk Klinik
+PSN-0631,Prabowo Wijaya,Laki-laki,2003-12-30,081213235601,Bandung,2024-08-05,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2024-08-13,TikTok Video
+PSN-0632,Santoso Wijaya,Laki-laki,2005-03-01,081275656799,Medan,2024-05-10,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-05-16,Google Maps/Search
+PSN-0633,Wati Nasution,Perempuan,2002-01-29,081225716290,Bandung,2024-12-26,Tidak Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-01-04,Instagram Ads
+PSN-0634,Ahmad Nasution,Laki-laki,1990-04-05,081236808452,Semarang,2024-11-23,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-12-05,Rekomendasi Teman
+PSN-0635,Lestari Kusuma,Perempuan,1985-02-24,081289092624,Surabaya,2025-05-01,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2025-05-06,Rekomendasi Teman
+PSN-0636,Citra Santoso,Perempuan,1993-08-29,081250377760,Jakarta,2024-08-09,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-08-21,TikTok Video
+PSN-0637,Ayu Lestari,Perempuan,1987-09-11,081224842515,Malang,2026-01-30,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2026-02-04,TikTok Video
+PSN-0638,Ahmad Nasution,Laki-laki,1998-06-30,081285463260,Malang,2025-08-16,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-08-17,Google Maps/Search
+PSN-0639,Santoso Lestari,Laki-laki,1978-04-01,081225268002,Malang,2025-12-02,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-12-11,TikTok Video
+PSN-0640,Santoso Nugroho,Laki-laki,1983-02-19,081297946396,Semarang,2024-02-02,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-02-07,Rekomendasi Teman
+PSN-0641,Dewi Nasution,Perempuan,1998-10-22,081265963014,Makassar,2025-12-02,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-12-05,Spanduk Klinik
+PSN-0642,Ahmad Santoso,Laki-laki,2011-09-18,081249302264,Malang,2026-04-05,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2026-04-17,Brosur Komplek
+PSN-0643,Eko Permata,Laki-laki,2011-04-11,081265670177,Jakarta,2026-04-20,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Transfer BCA,2026-04-28,Spanduk Klinik
+PSN-0644,Fajar Santoso,Laki-laki,2015-10-05,081270592446,Malang,2025-12-14,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-12-17,TikTok Video
+PSN-0645,Mega Gunawan,Perempuan,1995-07-05,081220283010,Malang,2025-09-12,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-09-18,TikTok Video
+PSN-0646,Anisa Nasution,Perempuan,1976-02-26,081293921417,Bandung,2026-02-04,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Tunai,2026-02-09,TikTok Video
+PSN-0647,Kartika Nugroho,Perempuan,2008-06-30,081291903780,Makassar,2025-08-23,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-08-29,Brosur Komplek
+PSN-0648,Joko Nasution,Laki-laki,1983-04-16,081274592415,Surabaya,2024-01-26,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-02-01,Brosur Komplek
+PSN-0649,Anisa Sari,Perempuan,1993-12-01,081272965183,Bandung,2024-12-28,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-01-06,Instagram Ads
+PSN-0650,Fajar Santoso,Laki-laki,1998-08-25,081214402122,Surabaya,2024-01-13,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-01-18,Rekomendasi Teman
+PSN-0651,Putri Lestari,Perempuan,1987-02-24,081287429477,Surabaya,2025-05-18,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-05-28,Spanduk Klinik
+PSN-0652,Dedi Saputra,Laki-laki,1983-07-03,081222762500,Bandung,2025-10-20,Tidak Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-10-22,Rekomendasi Teman
+PSN-0653,Fitri Siregar,Perempuan,1997-07-02,081211727437,Makassar,2024-07-08,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-07-09,TikTok Video
+PSN-0654,Eka Rahmawati,Perempuan,1986-10-21,081252746063,Pekanbaru,2025-10-21,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-10-26,Brosur Komplek
+PSN-0655,Taufik Santoso,Laki-laki,1985-07-28,081247212991,Bandung,2024-09-22,Tidak Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-09-27,Google Maps/Search
+PSN-0656,Citra Lestari,Perempuan,1997-03-30,081282767799,Makassar,2024-07-06,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-07-15,TikTok Video
+PSN-0657,Budi Lestari,Laki-laki,1996-08-08,081242011178,Palembang,2024-07-22,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-07-24,Rekomendasi Teman
+PSN-0658,Gita Santoso,Perempuan,1995-09-09,081263714819,Semarang,2025-02-14,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2025-02-18,Google Maps/Search
+PSN-0659,Nugroho Sari,Laki-laki,2013-08-17,081256117975,Medan,2024-02-23,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2024-02-27,Spanduk Klinik
+PSN-0660,Ayu Nugroho,Perempuan,2011-02-26,081212225819,Yogyakarta,2025-03-11,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-03-13,Brosur Komplek
+PSN-0661,Putri Siregar,Perempuan,1997-02-28,081259581753,Bandung,2024-03-17,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-03-26,TikTok Video
+PSN-0662,Lestari Saputra,Perempuan,1991-07-10,081220876177,Yogyakarta,2024-08-18,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2024-08-27,Rekomendasi Teman
+PSN-0663,Ahmad Nugroho,Laki-laki,1983-05-29,081284076587,Semarang,2024-11-09,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-11-09,Spanduk Klinik
+PSN-0664,Prabowo Sari,Laki-laki,2005-10-29,081274583439,Surabaya,2024-02-10,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-02-21,Rekomendasi Teman
+PSN-0665,Fajar Pratama,Laki-laki,1982-07-02,081222180158,Palembang,2025-07-09,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-07-23,Google Maps/Search
+PSN-0666,Taufik Gunawan,Laki-laki,2005-01-08,081228907128,Bandung,2024-08-10,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-08-23,Rekomendasi Teman
+PSN-0667,Nugroho Hidayat,Laki-laki,1984-10-19,081218105260,Palembang,2026-02-21,Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2026-02-27,Google Maps/Search
+PSN-0668,Wati Rahmawati,Perempuan,2010-10-09,081232587561,Semarang,2025-07-13,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Tunai,2025-07-16,Instagram Ads
+PSN-0669,Gita Nasution,Perempuan,1987-06-27,081226305809,Jakarta,2025-03-31,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2025-04-11,Spanduk Klinik
+PSN-0670,Rini Siregar,Perempuan,1988-09-26,081282226126,Malang,2025-02-11,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-02-21,TikTok Video
+PSN-0671,Budi Saputra,Laki-laki,2011-01-13,081272174957,Palembang,2024-01-14,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-01-22,TikTok Video
+PSN-0672,Prabowo Pratama,Laki-laki,2004-08-18,081242089700,Pekanbaru,2025-04-07,Tidak Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-04-17,TikTok Video
+PSN-0673,Ahmad Sari,Laki-laki,1995-08-06,081245885330,Pekanbaru,2024-06-05,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-06-12,TikTok Video
+PSN-0674,Diah Nugroho,Perempuan,2000-03-13,081266723460,Jakarta,2024-01-31,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2024-02-02,Brosur Komplek
+PSN-0675,Citra Hidayat,Perempuan,1997-10-28,081278381195,Medan,2025-07-03,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-07-16,Brosur Komplek
+PSN-0676,Dedi Wibowo,Laki-laki,1980-12-29,081234637581,Medan,2024-10-06,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2024-10-12,Google Maps/Search
+PSN-0677,Nugroho Saputra,Laki-laki,1990-12-17,081271004833,Surabaya,2025-07-09,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-07-10,Spanduk Klinik
+PSN-0678,Rini Wijaya,Perempuan,2010-10-19,081233023308,Medan,2024-07-26,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-08-05,Instagram Ads
+PSN-0679,Santoso Permata,Laki-laki,1999-11-12,081281172713,Semarang,2025-06-24,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-06-24,Google Maps/Search
+PSN-0680,Chandra Hidayat,Laki-laki,1975-06-27,081233911329,Semarang,2025-12-01,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Tunai,2025-12-14,Spanduk Klinik
+PSN-0681,Diah Nasution,Perempuan,1998-04-20,081280078682,Malang,2024-04-10,Tidak Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2024-04-17,Google Maps/Search
+PSN-0682,Dedi Kusuma,Laki-laki,1998-08-22,081270848486,Jakarta,2024-04-07,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-04-11,Brosur Komplek
+PSN-0683,Rian Wijaya,Laki-laki,1988-07-14,081235480613,Bandung,2025-08-24,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-08-26,Brosur Komplek
+PSN-0684,Rini Lestari,Perempuan,1982-09-14,081277712615,Malang,2025-01-17,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Transfer BCA,2025-01-30,Brosur Komplek
+PSN-0685,Rian Lestari,Laki-laki,1994-08-24,081270157400,Makassar,2025-09-29,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2025-10-08,Spanduk Klinik
+PSN-0686,Maya Permata,Perempuan,1987-03-28,081242083264,Jakarta,2025-05-21,Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-05-25,Spanduk Klinik
+PSN-0687,Fitri Rahmawati,Perempuan,1976-12-13,081258722877,Medan,2024-06-07,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-06-15,Spanduk Klinik
+PSN-0688,Lia Lestari,Perempuan,2006-08-22,081264767699,Semarang,2025-08-06,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2025-08-16,Rekomendasi Teman
+PSN-0689,Santoso Pratama,Laki-laki,2007-05-26,081242610904,Yogyakarta,2026-04-10,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2026-04-12,Spanduk Klinik
+PSN-0690,Eko Utami,Laki-laki,2003-08-13,081268806366,Bandung,2025-06-04,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-06-11,Rekomendasi Teman
+PSN-0691,Santoso Lestari,Laki-laki,1977-05-22,081295262491,Palembang,2026-01-17,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2026-01-25,TikTok Video
+PSN-0692,Anisa Lestari,Perempuan,1997-04-20,081290361242,Makassar,2024-01-02,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-01-03,Google Maps/Search
+PSN-0693,Rini Wibowo,Perempuan,1977-12-26,081254531076,Jakarta,2024-10-31,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-11-02,Instagram Ads
+PSN-0694,Siti Saputra,Perempuan,1997-03-27,081248945532,Surabaya,2025-06-27,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2025-07-03,Google Maps/Search
+PSN-0695,Rini Hidayat,Perempuan,1980-09-22,081247853204,Pekanbaru,2024-12-07,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-12-10,Brosur Komplek
+PSN-0696,Rian Nugroho,Laki-laki,1985-06-28,081250102143,Surabaya,2024-01-04,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-01-06,Brosur Komplek
+PSN-0697,Joko Siregar,Laki-laki,1987-02-10,081270437084,Bandung,2024-05-25,Tidak Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2024-06-04,Spanduk Klinik
+PSN-0698,Santoso Hidayat,Laki-laki,1989-04-10,081238408435,Makassar,2025-02-14,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-02-26,Instagram Ads
+PSN-0699,Kurniawan Permata,Laki-laki,1978-07-20,081294657673,Bandung,2024-08-11,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-08-16,Brosur Komplek
+PSN-0700,Maya Santoso,Perempuan,2014-12-03,081273728291,Malang,2025-12-27,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2026-01-01,TikTok Video
+PSN-0701,Mega Gunawan,Perempuan,2000-05-10,081275941494,Malang,2024-06-02,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-06-04,Google Maps/Search
+PSN-0702,Lukman Nasution,Laki-laki,1982-07-28,081214063158,Surabaya,2026-03-13,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2026-03-22,Spanduk Klinik
+PSN-0703,Anisa Utami,Perempuan,1978-03-30,081240329754,Makassar,2026-03-14,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2026-03-28,TikTok Video
+PSN-0704,Lestari Nugroho,Perempuan,1980-05-06,081228868284,Makassar,2025-08-01,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-08-12,Instagram Ads
+PSN-0705,Anisa Wibowo,Perempuan,2001-03-16,081293140113,Yogyakarta,2025-12-20,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-12-29,TikTok Video
+PSN-0706,Eko Wijaya,Laki-laki,2002-09-08,081212874500,Jakarta,2025-01-13,Aktif,"Gusi sering berdarah saat sikat gigi",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-01-20,Rekomendasi Teman
+PSN-0707,Ahmad Wibowo,Laki-laki,2010-06-06,081279760463,Yogyakarta,2025-04-20,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-04-28,Google Maps/Search
+PSN-0708,Siti Lestari,Perempuan,2007-04-03,081267696919,Pekanbaru,2024-07-08,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-07-11,Brosur Komplek
+PSN-0709,Joko Nugroho,Laki-laki,1994-01-25,081287332936,Pekanbaru,2024-04-14,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-04-21,Google Maps/Search
+PSN-0710,Chandra Saputra,Laki-laki,2013-07-10,081245266497,Makassar,2024-12-19,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-12-22,Rekomendasi Teman
+PSN-0711,Maya Pratama,Perempuan,2014-06-17,081297704898,Malang,2024-05-18,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Asuransi Swasta,2024-06-01,Spanduk Klinik
+PSN-0712,Budi Nugroho,Laki-laki,1977-07-25,081283231014,Medan,2025-10-25,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2025-10-26,TikTok Video
+PSN-0713,Wahyu Sari,Laki-laki,1982-11-13,081238396136,Malang,2025-04-13,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-04-18,Spanduk Klinik
+PSN-0714,Rini Permata,Perempuan,1977-05-05,081216136335,Surabaya,2026-01-22,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2026-02-04,Rekomendasi Teman
+PSN-0715,Mahendra Wijaya,Laki-laki,1990-06-13,081270678708,Makassar,2025-09-28,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2025-09-28,Instagram Ads
+PSN-0716,Rian Utami,Laki-laki,1983-12-19,081220572555,Jakarta,2026-01-29,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2026-01-29,Brosur Komplek
+PSN-0717,Eka Nugroho,Perempuan,1979-04-20,081289445330,Jakarta,2025-03-01,Aktif,"Gigi depan patah sedikit akibat benturan",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-03-06,Rekomendasi Teman
+PSN-0718,Anisa Hidayat,Perempuan,1996-04-05,081286422180,Semarang,2026-02-09,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2026-02-15,Instagram Ads
+PSN-0719,Citra Nasution,Perempuan,1980-07-23,081238887686,Jakarta,2025-04-26,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-05-07,Brosur Komplek
+PSN-0720,Wahyu Utami,Laki-laki,1977-07-21,081215929749,Palembang,2024-10-02,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-10-03,Instagram Ads
+PSN-0721,Kartika Nasution,Perempuan,1992-12-06,081297968799,Palembang,2026-04-08,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2026-04-21,Google Maps/Search
+PSN-0722,Joko Nasution,Laki-laki,1989-12-08,081264193252,Medan,2024-10-13,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-10-19,Spanduk Klinik
+PSN-0723,Chandra Sari,Laki-laki,1989-08-13,081293587504,Malang,2024-10-02,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-10-03,Brosur Komplek
+PSN-0724,Ayu Wibowo,Perempuan,1978-07-12,081281034407,Makassar,2024-10-05,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-10-19,Spanduk Klinik
+PSN-0725,Indah Santoso,Perempuan,1993-09-13,081225646583,Medan,2024-07-18,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-07-24,Rekomendasi Teman
+PSN-0726,Eko Rahmawati,Laki-laki,1983-10-04,081244300663,Malang,2024-12-02,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-12-16,Spanduk Klinik
+PSN-0727,Budi Santoso,Laki-laki,1976-07-14,081232998079,Semarang,2024-02-02,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-02-02,TikTok Video
+PSN-0728,Eko Utami,Laki-laki,2004-09-08,081284579313,Semarang,2024-01-07,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-01-20,Spanduk Klinik
+PSN-0729,Indah Wijaya,Perempuan,1978-02-03,081216040230,Pekanbaru,2024-12-23,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-12-23,Brosur Komplek
+PSN-0730,Lestari Santoso,Perempuan,2006-12-08,081258108533,Pekanbaru,2024-01-18,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-01-30,Instagram Ads
+PSN-0731,Diah Sari,Perempuan,1996-11-12,081214867900,Makassar,2024-07-06,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-07-12,Google Maps/Search
+PSN-0732,Siti Saputra,Perempuan,2012-05-02,081216226573,Surabaya,2024-02-21,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-02-23,Google Maps/Search
+PSN-0733,Hesti Gunawan,Perempuan,1995-06-13,081230849066,Jakarta,2024-01-08,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-01-15,Instagram Ads
+PSN-0734,Fitri Wibowo,Perempuan,2012-09-21,081261725703,Pekanbaru,2024-11-29,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-12-04,TikTok Video
+PSN-0735,Putri Wibowo,Perempuan,1980-08-15,081232523100,Palembang,2024-04-27,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-05-06,Instagram Ads
+PSN-0736,Hesti Pratama,Perempuan,1995-06-19,081277597061,Pekanbaru,2024-03-03,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-03-06,Google Maps/Search
+PSN-0737,Prabowo Permata,Laki-laki,1987-03-06,081254637299,Surabaya,2024-06-09,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-06-09,Google Maps/Search
+PSN-0738,Fajar Pratama,Laki-laki,2014-01-07,081226804091,Semarang,2024-12-04,Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-12-08,Instagram Ads
+PSN-0739,Prabowo Sari,Laki-laki,2009-05-08,081238006416,Makassar,2024-02-24,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-03-06,TikTok Video
+PSN-0740,Lestari Hidayat,Perempuan,1988-06-29,081250235163,Malang,2025-12-22,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-12-28,Instagram Ads
+PSN-0741,Siti Saputra,Perempuan,2006-08-03,081281254345,Pekanbaru,2025-01-08,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-01-08,Google Maps/Search
+PSN-0742,Fitri Sari,Perempuan,1982-03-12,081297603773,Surabaya,2024-04-27,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2024-04-30,Google Maps/Search
+PSN-0743,Rian Gunawan,Laki-laki,1976-07-09,081210954390,Semarang,2026-03-13,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Asuransi Swasta,2026-03-20,Rekomendasi Teman
+PSN-0744,Ayu Wibowo,Perempuan,1996-12-09,081282974369,Jakarta,2025-02-07,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2025-02-16,Instagram Ads
+PSN-0745,Maya Sari,Perempuan,1984-04-12,081233060226,Pekanbaru,2026-02-16,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Asuransi Swasta,2026-02-20,Brosur Komplek
+PSN-0746,Nugroho Wijaya,Laki-laki,1975-11-21,081270067769,Medan,2025-12-14,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Transfer BCA,2025-12-19,TikTok Video
+PSN-0747,Maya Nasution,Perempuan,2015-08-07,081287502277,Surabaya,2024-10-17,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-10-27,TikTok Video
+PSN-0748,Joko Utami,Laki-laki,2003-09-12,081220158106,Yogyakarta,2024-01-30,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-01-30,Rekomendasi Teman
+PSN-0749,Budi Rahmawati,Laki-laki,1983-04-22,081256142679,Bandung,2024-12-20,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Tunai,2024-12-28,Google Maps/Search
+PSN-0750,Dedi Saputra,Laki-laki,2001-06-16,081242930946,Makassar,2024-07-05,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-07-15,Rekomendasi Teman
+PSN-0751,Indah Siregar,Perempuan,2013-06-07,081297424591,Medan,2024-04-29,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-05-08,Google Maps/Search
+PSN-0752,Dewi Pratama,Perempuan,1992-03-16,081233064649,Surabaya,2024-07-10,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-07-16,Brosur Komplek
+PSN-0753,Hesti Permata,Perempuan,2009-07-25,081275762953,Bandung,2025-01-14,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2025-01-17,Google Maps/Search
+PSN-0754,Lukman Pratama,Laki-laki,1995-01-22,081241057825,Surabaya,2025-12-26,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2026-01-03,Spanduk Klinik
+PSN-0755,Guntur Santoso,Laki-laki,2006-06-27,081262588111,Bandung,2025-09-04,Aktif,"Kontrol rutin behel bulanan",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2025-09-08,Google Maps/Search
+PSN-0756,Lukman Rahmawati,Laki-laki,1977-06-01,081242561433,Bandung,2024-02-17,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Tunai,2024-02-27,Brosur Komplek
+PSN-0757,Lukman Nugroho,Laki-laki,1986-03-25,081298239925,Bandung,2026-04-03,Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2026-04-15,TikTok Video
+PSN-0758,Nugroho Wibowo,Laki-laki,1983-05-23,081290092720,Palembang,2025-02-23,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2025-02-24,Spanduk Klinik
+PSN-0759,Citra Pratama,Perempuan,2013-02-25,081244710193,Surabaya,2024-12-15,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-12-21,Instagram Ads
+PSN-0760,Citra Nasution,Perempuan,2011-11-02,081211137600,Yogyakarta,2024-03-20,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-03-21,Google Maps/Search
+PSN-0761,Lia Pratama,Perempuan,2004-03-10,081249463832,Semarang,2025-09-15,Tidak Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-09-17,Google Maps/Search
+PSN-0762,Gita Hidayat,Perempuan,1984-05-11,081222285871,Yogyakarta,2026-03-14,Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2026-03-20,Brosur Komplek
+PSN-0763,Anisa Lestari,Perempuan,1986-03-23,081286163978,Palembang,2024-08-10,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-08-12,Instagram Ads
+PSN-0764,Citra Pratama,Perempuan,1995-03-30,081275413753,Surabaya,2024-09-28,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2024-10-06,TikTok Video
+PSN-0765,Mahendra Wibowo,Laki-laki,1987-04-06,081215168973,Bandung,2024-08-22,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-08-28,Spanduk Klinik
+PSN-0766,Indah Permata,Perempuan,1979-08-10,081248759889,Semarang,2025-09-17,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-09-17,Brosur Komplek
+PSN-0767,Lestari Permata,Perempuan,2000-07-21,081222418889,Yogyakarta,2025-11-03,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Transfer BCA,2025-11-08,Google Maps/Search
+PSN-0768,Hesti Gunawan,Perempuan,2010-09-17,081249647407,Jakarta,2025-06-19,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-06-26,Instagram Ads
+PSN-0769,Eko Pratama,Laki-laki,1980-06-30,081237256054,Palembang,2024-06-16,Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-06-29,Spanduk Klinik
+PSN-0770,Maya Santoso,Perempuan,1984-06-27,081281158156,Jakarta,2024-09-05,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,Transfer BCA,2024-09-19,TikTok Video
+PSN-0771,Lia Utami,Perempuan,2009-03-06,081255718831,Jakarta,2026-01-21,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2026-01-26,Instagram Ads
+PSN-0772,Diah Saputra,Perempuan,1978-10-27,081263574623,Makassar,2024-08-18,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2024-08-31,Rekomendasi Teman
+PSN-0773,Anisa Nasution,Perempuan,2015-11-18,081220934047,Yogyakarta,2025-07-01,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-07-13,Google Maps/Search
+PSN-0774,Rini Saputra,Perempuan,1987-02-10,081247908040,Malang,2024-10-21,Tidak Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-10-26,Google Maps/Search
+PSN-0775,Maya Nasution,Perempuan,1999-01-25,081211098143,Jakarta,2025-06-10,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-06-11,TikTok Video
+PSN-0776,Wati Siregar,Perempuan,2013-02-23,081243483526,Jakarta,2025-12-08,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2025-12-19,Spanduk Klinik
+PSN-0777,Dewi Lestari,Perempuan,1994-05-01,081228712308,Yogyakarta,2024-10-20,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-10-26,Rekomendasi Teman
+PSN-0778,Mega Wijaya,Perempuan,1985-03-15,081233119388,Pekanbaru,2025-06-06,Tidak Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-06-17,TikTok Video
+PSN-0779,Diah Utami,Perempuan,2015-11-10,081230052210,Pekanbaru,2025-10-23,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-11-03,Brosur Komplek
+PSN-0780,Prabowo Permata,Laki-laki,2002-04-06,081267010083,Jakarta,2025-12-22,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Tunai,2025-12-29,TikTok Video
+PSN-0781,Chandra Hidayat,Laki-laki,1986-12-30,081227638134,Semarang,2024-12-20,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-12-22,Spanduk Klinik
+PSN-0782,Wati Rahmawati,Perempuan,2002-11-12,081257584555,Yogyakarta,2025-06-20,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-06-22,Google Maps/Search
+PSN-0783,Ahmad Lestari,Laki-laki,1997-02-25,081245870373,Jakarta,2025-11-09,Aktif,"Gigi linu pas minum air dingin",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-11-20,Brosur Komplek
+PSN-0784,Eka Pratama,Perempuan,1995-10-08,081291466127,Malang,2024-12-16,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2024-12-27,Spanduk Klinik
+PSN-0785,Wati Nasution,Perempuan,1978-09-21,081287558554,Palembang,2025-10-12,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2025-10-12,Rekomendasi Teman
+PSN-0786,Indah Santoso,Perempuan,2011-11-26,081282174405,Semarang,2025-12-01,Tidak Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-12-15,TikTok Video
+PSN-0787,Rini Nugroho,Perempuan,2000-02-07,081273137694,Yogyakarta,2024-02-10,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-02-23,Rekomendasi Teman
+PSN-0788,Kurniawan Nasution,Laki-laki,1991-10-07,081280250211,Jakarta,2025-03-03,Aktif,"Gigi depan patah sedikit akibat benturan",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2025-03-13,Brosur Komplek
+PSN-0789,Guntur Santoso,Laki-laki,2012-10-23,081244450631,Malang,2024-08-17,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-08-23,Rekomendasi Teman
+PSN-0790,Citra Utami,Perempuan,1998-09-30,081241084425,Yogyakarta,2026-02-12,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2026-02-12,Google Maps/Search
+PSN-0791,Kartika Permata,Perempuan,1996-08-04,081292897623,Pekanbaru,2024-09-22,Tidak Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-09-26,Spanduk Klinik
+PSN-0792,Gita Santoso,Perempuan,1993-10-27,081242159130,Jakarta,2025-12-06,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,Tunai,2025-12-09,Rekomendasi Teman
+PSN-0793,Budi Hidayat,Laki-laki,2011-12-18,081241796403,Palembang,2026-04-17,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2026-04-17,Instagram Ads
+PSN-0794,Ayu Utami,Perempuan,1997-01-09,081242175537,Palembang,2025-04-11,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Tunai,2025-04-19,TikTok Video
+PSN-0795,Wati Pratama,Perempuan,1997-07-19,081272681263,Bandung,2025-06-07,Tidak Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-06-19,TikTok Video
+PSN-0796,Mahendra Saputra,Laki-laki,1984-03-20,081285314645,Semarang,2025-11-08,Aktif,"Kontrol rutin behel bulanan",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2025-11-18,TikTok Video
+PSN-0797,Ayu Wibowo,Perempuan,1984-06-25,081278163123,Makassar,2024-01-30,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2024-01-30,TikTok Video
+PSN-0798,Rini Saputra,Perempuan,1981-02-21,081214556927,Pekanbaru,2024-01-27,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-02-05,TikTok Video
+PSN-0799,Mahendra Nugroho,Laki-laki,1977-04-07,081285514529,Medan,2025-06-28,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-07-10,TikTok Video
+PSN-0800,Kartika Nugroho,Perempuan,2001-09-26,081292644629,Bandung,2025-10-25,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-11-04,TikTok Video
+PSN-0801,Ahmad Saputra,Laki-laki,1997-05-30,081229635893,Medan,2024-02-17,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-02-24,Instagram Ads
+PSN-0802,Lia Nugroho,Perempuan,2003-09-01,081286548559,Malang,2025-02-12,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-02-17,Google Maps/Search
+PSN-0803,Taufik Kusuma,Laki-laki,1984-07-17,081231455421,Surabaya,2024-11-26,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-12-04,Spanduk Klinik
+PSN-0804,Santoso Utami,Laki-laki,1979-10-08,081248361959,Pekanbaru,2025-09-27,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-10-11,Instagram Ads
+PSN-0805,Taufik Lestari,Laki-laki,1992-06-28,081280516051,Pekanbaru,2026-03-06,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2026-03-20,Instagram Ads
+PSN-0806,Joko Sari,Laki-laki,1986-10-30,081284349494,Malang,2024-12-03,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2024-12-05,TikTok Video
+PSN-0807,Santoso Nugroho,Laki-laki,1998-08-05,081278873675,Bandung,2025-12-22,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,Tunai,2026-01-05,TikTok Video
+PSN-0808,Fajar Sari,Laki-laki,2012-12-03,081224530839,Medan,2024-10-02,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-10-02,Instagram Ads
+PSN-0809,Prabowo Siregar,Laki-laki,2008-09-01,081289578527,Malang,2024-04-24,Aktif,"Gigi geraham bawah berlubang dan sakit",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2024-04-24,Instagram Ads
+PSN-0810,Maya Siregar,Perempuan,2006-05-12,081233374270,Jakarta,2025-02-19,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-02-22,Rekomendasi Teman
+PSN-0811,Guntur Sari,Laki-laki,2003-11-09,081269307651,Malang,2024-11-14,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-11-15,Rekomendasi Teman
+PSN-0812,Guntur Rahmawati,Laki-laki,1982-09-21,081299363351,Makassar,2024-10-25,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Kartu Kredit,2024-11-05,Spanduk Klinik
+PSN-0813,Maya Kusuma,Perempuan,1993-02-11,081288435565,Palembang,2025-01-28,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2025-02-06,Instagram Ads
+PSN-0814,Kurniawan Santoso,Laki-laki,1981-05-05,081275598931,Yogyakarta,2025-03-02,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2025-03-15,TikTok Video
+PSN-0815,Hadi Kusuma,Laki-laki,1985-01-22,081229776680,Surabaya,2025-09-05,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-09-07,Rekomendasi Teman
+PSN-0816,Lukman Hidayat,Laki-laki,2011-05-14,081236910587,Palembang,2024-04-24,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-04-28,Rekomendasi Teman
+PSN-0817,Hadi Hidayat,Laki-laki,2001-09-02,081262979915,Surabaya,2024-12-01,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-12-11,Instagram Ads
+PSN-0818,Joko Sari,Laki-laki,2002-09-17,081247230663,Palembang,2024-04-11,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-04-12,Instagram Ads
+PSN-0819,Fajar Pratama,Laki-laki,1983-09-16,081214526991,Bandung,2025-12-14,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-12-27,Brosur Komplek
+PSN-0820,Mega Sari,Perempuan,1982-05-01,081258724280,Surabaya,2025-01-01,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2025-01-13,TikTok Video
+PSN-0821,Fajar Siregar,Laki-laki,2010-08-23,081299305128,Jakarta,2025-05-31,Aktif,"Ingin merapikan posisi gigi rahang atas",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-06-02,Google Maps/Search
+PSN-0822,Wahyu Siregar,Laki-laki,1998-08-21,081217358564,Palembang,2025-09-01,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2025-09-14,Spanduk Klinik
+PSN-0823,Kurniawan Siregar,Laki-laki,1991-10-23,081266116871,Surabaya,2025-06-02,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2025-06-10,Rekomendasi Teman
+PSN-0824,Fajar Hidayat,Laki-laki,1993-03-03,081222586324,Bandung,2025-01-19,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-02-02,Brosur Komplek
+PSN-0825,Mega Wibowo,Perempuan,2009-01-25,081235431106,Malang,2025-02-21,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-03-07,Instagram Ads
+PSN-0826,Indah Saputra,Perempuan,1997-05-08,081270828503,Yogyakarta,2024-06-30,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-07-10,Spanduk Klinik
+PSN-0827,Eko Santoso,Laki-laki,1987-08-30,081239061520,Medan,2024-02-04,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-02-10,TikTok Video
+PSN-0828,Mahendra Pratama,Laki-laki,2014-11-02,081289674901,Yogyakarta,2025-02-27,Aktif,"Kontrol rutin behel bulanan",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2025-03-08,Google Maps/Search
+PSN-0829,Ahmad Wibowo,Laki-laki,1990-02-26,081296345992,Palembang,2025-10-20,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-10-23,Instagram Ads
+PSN-0830,Anisa Utami,Perempuan,2008-04-29,081214926214,Yogyakarta,2025-02-20,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-02-26,Google Maps/Search
+PSN-0831,Prabowo Utami,Laki-laki,1995-01-09,081262918110,Jakarta,2025-12-24,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2026-01-02,Rekomendasi Teman
+PSN-0832,Rian Santoso,Laki-laki,2002-08-15,081292307170,Semarang,2025-04-20,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-04-29,Spanduk Klinik
+PSN-0833,Gita Utami,Perempuan,1979-02-02,081211946421,Makassar,2024-03-22,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-03-27,Instagram Ads
+PSN-0834,Kartika Nugroho,Perempuan,2000-11-16,081266653903,Semarang,2025-09-07,Tidak Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-09-19,TikTok Video
+PSN-0835,Taufik Wibowo,Laki-laki,2012-07-23,081268250329,Makassar,2024-11-28,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-12-07,Spanduk Klinik
+PSN-0836,Irfan Siregar,Laki-laki,1975-12-31,081284422563,Palembang,2024-10-12,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2024-10-21,Rekomendasi Teman
+PSN-0837,Siti Saputra,Perempuan,1999-02-15,081216846111,Palembang,2026-01-23,Tidak Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2026-01-31,Google Maps/Search
+PSN-0838,Anisa Lestari,Perempuan,1979-09-12,081235807964,Jakarta,2024-03-07,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2024-03-16,Rekomendasi Teman
+PSN-0839,Nugroho Siregar,Laki-laki,2005-06-03,081272189670,Makassar,2025-03-14,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-03-25,TikTok Video
+PSN-0840,Chandra Nasution,Laki-laki,1985-06-14,081246787975,Surabaya,2025-09-27,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2025-10-09,Brosur Komplek
+PSN-0841,Gita Wibowo,Perempuan,1984-11-01,081270666664,Yogyakarta,2025-09-27,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2025-10-09,Google Maps/Search
+PSN-0842,Mega Siregar,Perempuan,1982-07-30,081259540719,Pekanbaru,2026-04-20,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2026-04-25,Rekomendasi Teman
+PSN-0843,Rian Nasution,Laki-laki,1985-09-01,081214280973,Semarang,2024-08-13,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-08-18,Rekomendasi Teman
+PSN-0844,Rian Santoso,Laki-laki,2013-08-19,081279754119,Malang,2024-05-13,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-05-19,Spanduk Klinik
+PSN-0845,Wati Nugroho,Perempuan,1980-08-14,081240013650,Palembang,2024-11-16,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2024-11-19,Spanduk Klinik
+PSN-0846,Anisa Rahmawati,Perempuan,1996-07-25,081297543328,Surabaya,2024-10-19,Tidak Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-10-29,Rekomendasi Teman
+PSN-0847,Fajar Permata,Laki-laki,1993-06-10,081283782315,Semarang,2024-03-28,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2024-04-10,Brosur Komplek
+PSN-0848,Lia Kusuma,Perempuan,1988-05-08,081249614340,Semarang,2024-10-13,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2024-10-13,Rekomendasi Teman
+PSN-0849,Taufik Utami,Laki-laki,1988-09-23,081263866969,Yogyakarta,2024-12-27,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-01-01,Instagram Ads
+PSN-0850,Dewi Siregar,Perempuan,1983-03-05,081232952800,Jakarta,2024-07-21,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-07-27,TikTok Video
+PSN-0851,Eko Nasution,Laki-laki,1979-10-15,081262270615,Bandung,2024-08-26,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-09-05,TikTok Video
+PSN-0852,Lestari Sari,Perempuan,1983-06-17,081292897826,Medan,2025-08-30,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-09-04,Google Maps/Search
+PSN-0853,Mahendra Pratama,Laki-laki,1994-10-18,081230359299,Surabaya,2024-08-10,Aktif,"Gigi geraham bawah berlubang dan sakit",Perawatan Saluran Akar (Endodontik),1200000,Tunai,2024-08-21,Rekomendasi Teman
+PSN-0854,Budi Santoso,Laki-laki,2000-11-13,081242594771,Palembang,2025-07-28,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-08-08,Instagram Ads
+PSN-0855,Ayu Permata,Perempuan,1986-11-18,081263850830,Makassar,2025-10-02,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2025-10-15,Brosur Komplek
+PSN-0856,Budi Rahmawati,Laki-laki,2004-03-11,081236147280,Makassar,2025-01-12,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-01-25,Instagram Ads
+PSN-0857,Gita Nasution,Perempuan,2005-11-13,081245606843,Semarang,2026-04-26,Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2026-05-04,Google Maps/Search
+PSN-0858,Lukman Nugroho,Laki-laki,2001-11-13,081215482769,Semarang,2025-05-12,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2025-05-18,Rekomendasi Teman
+PSN-0859,Kurniawan Wijaya,Laki-laki,2007-01-24,081287754206,Malang,2024-11-18,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Tunai,2024-11-22,Spanduk Klinik
+PSN-0860,Ayu Wijaya,Perempuan,1978-08-15,081211945699,Yogyakarta,2025-05-13,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-05-26,Spanduk Klinik
+PSN-0861,Lestari Wijaya,Perempuan,1978-04-08,081292521462,Jakarta,2024-04-27,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-04-28,TikTok Video
+PSN-0862,Eko Nasution,Laki-laki,1995-08-19,081243240553,Jakarta,2025-04-02,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-04-10,Google Maps/Search
+PSN-0863,Kartika Kusuma,Perempuan,1981-09-23,081211803400,Palembang,2024-01-15,Tidak Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-01-17,TikTok Video
+PSN-0864,Rini Gunawan,Perempuan,1982-06-02,081233763030,Jakarta,2025-04-06,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-04-15,Spanduk Klinik
+PSN-0865,Dedi Pratama,Laki-laki,2012-01-13,081276005079,Yogyakarta,2024-04-15,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-04-19,Instagram Ads
+PSN-0866,Putri Saputra,Perempuan,1998-06-13,081265360218,Malang,2025-03-24,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-03-26,Brosur Komplek
+PSN-0867,Dewi Permata,Perempuan,1984-10-04,081250439736,Semarang,2025-03-23,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2025-03-28,TikTok Video
+PSN-0868,Dewi Wijaya,Perempuan,1999-08-09,081284575174,Surabaya,2026-03-06,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-03-13,Google Maps/Search
+PSN-0869,Kartika Hidayat,Perempuan,1999-03-03,081269214421,Surabaya,2026-02-01,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2026-02-10,Instagram Ads
+PSN-0870,Diah Lestari,Perempuan,2008-11-30,081291323010,Makassar,2025-04-24,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-04-26,Instagram Ads
+PSN-0871,Maya Sari,Perempuan,1996-12-21,081289892028,Medan,2026-03-04,Tidak Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2026-03-11,Brosur Komplek
+PSN-0872,Wati Wibowo,Perempuan,1996-03-25,081234859943,Pekanbaru,2025-03-27,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-04-09,TikTok Video
+PSN-0873,Eko Sari,Laki-laki,1979-11-17,081246242038,Medan,2026-03-17,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2026-03-23,Google Maps/Search
+PSN-0874,Ayu Sari,Perempuan,1981-06-17,081263367634,Malang,2024-02-03,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-02-17,Google Maps/Search
+PSN-0875,Lestari Nasution,Perempuan,2011-05-04,081294175379,Bandung,2024-06-08,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Tunai,2024-06-12,Spanduk Klinik
+PSN-0876,Prabowo Permata,Laki-laki,1996-11-01,081282472489,Semarang,2025-11-06,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-11-15,Google Maps/Search
+PSN-0877,Irfan Wijaya,Laki-laki,1982-02-21,081259367321,Medan,2025-07-13,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-07-24,Instagram Ads
+PSN-0878,Nugroho Nugroho,Laki-laki,1995-02-07,081227322293,Palembang,2026-03-10,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2026-03-18,Rekomendasi Teman
+PSN-0879,Eko Santoso,Laki-laki,2000-04-27,081270783203,Yogyakarta,2024-01-23,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-02-04,Spanduk Klinik
+PSN-0880,Eko Sari,Laki-laki,2002-06-03,081236007892,Malang,2024-03-30,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-04-08,Instagram Ads
+PSN-0881,Kartika Santoso,Perempuan,2009-05-03,081263712333,Medan,2025-03-23,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-04-04,Google Maps/Search
+PSN-0882,Nugroho Permata,Laki-laki,2013-03-04,081285378236,Malang,2025-05-19,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Transfer BCA,2025-05-23,Google Maps/Search
+PSN-0883,Budi Hidayat,Laki-laki,2011-08-24,081240182410,Semarang,2026-04-02,Tidak Aktif,"Gigi kuning",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2026-04-02,Spanduk Klinik
+PSN-0884,Lukman Wijaya,Laki-laki,2006-12-11,081292692508,Makassar,2025-08-30,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-09-03,Brosur Komplek
+PSN-0885,Ahmad Hidayat,Laki-laki,1997-08-06,081279159658,Makassar,2025-08-15,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-08-26,TikTok Video
+PSN-0886,Kartika Saputra,Perempuan,1997-06-25,081212720681,Makassar,2024-04-29,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2024-05-04,Rekomendasi Teman
+PSN-0887,Hesti Wibowo,Perempuan,1991-01-31,081232791753,Semarang,2024-10-02,Aktif,"Kontrol rutin behel bulanan",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2024-10-16,TikTok Video
+PSN-0888,Mega Sari,Perempuan,2014-01-04,081247800427,Malang,2024-03-13,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Transfer BCA,2024-03-20,Rekomendasi Teman
+PSN-0889,Rian Permata,Laki-laki,1975-05-19,081273752571,Bandung,2024-01-01,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-01-08,Rekomendasi Teman
+PSN-0890,Eko Pratama,Laki-laki,1999-09-23,081237779208,Makassar,2025-05-09,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-05-16,Brosur Komplek
+PSN-0891,Ahmad Permata,Laki-laki,1988-11-19,081230808154,Malang,2024-02-29,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2024-03-14,Brosur Komplek
+PSN-0892,Lukman Permata,Laki-laki,1977-01-10,081290641365,Jakarta,2025-12-12,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-12-15,TikTok Video
+PSN-0893,Dedi Nasution,Laki-laki,2007-01-04,081211106005,Medan,2024-06-22,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-06-23,Instagram Ads
+PSN-0894,Chandra Utami,Laki-laki,1982-03-15,081299696721,Bandung,2025-12-09,Tidak Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-12-16,TikTok Video
+PSN-0895,Anisa Utami,Perempuan,2003-07-02,081262939441,Surabaya,2024-04-18,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-04-20,Rekomendasi Teman
+PSN-0896,Fajar Permata,Laki-laki,1984-04-01,081278880383,Palembang,2024-06-08,Tidak Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-06-10,TikTok Video
+PSN-0897,Fajar Rahmawati,Laki-laki,2008-05-14,081238388181,Palembang,2025-09-04,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-09-11,Rekomendasi Teman
+PSN-0898,Wati Siregar,Perempuan,2008-06-28,081246978691,Makassar,2024-09-10,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-09-23,Spanduk Klinik
+PSN-0899,Eka Pratama,Perempuan,1999-08-28,081223086880,Yogyakarta,2025-04-03,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-04-12,TikTok Video
+PSN-0900,Rini Utami,Perempuan,1996-10-19,081225180553,Pekanbaru,2026-02-09,Aktif,"Gigi depan patah sedikit akibat benturan",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2026-02-23,Google Maps/Search
+PSN-0901,Indah Permata,Perempuan,2013-02-27,081234594454,Makassar,2024-11-18,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,BPJS Kesehatan,2024-11-23,Google Maps/Search
+PSN-0902,Budi Wijaya,Laki-laki,2012-10-04,081218374701,Malang,2024-09-14,Aktif,"Gigi kuning",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-09-24,Google Maps/Search
+PSN-0903,Diah Lestari,Perempuan,1991-04-07,081270053501,Makassar,2025-12-31,Aktif,"Kontrol rutin behel bulanan",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2026-01-12,TikTok Video
+PSN-0904,Eko Wibowo,Laki-laki,1991-01-14,081287833207,Pekanbaru,2025-08-25,Aktif,"Gigi bungsu sakit tumbuh miring",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-08-27,Brosur Komplek
+PSN-0905,Eko Wibowo,Laki-laki,1985-02-05,081284187118,Surabaya,2025-11-24,Aktif,"Gigi depan patah sedikit akibat benturan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-12-04,TikTok Video
+PSN-0906,Chandra Nugroho,Laki-laki,1982-11-04,081265544548,Malang,2025-03-18,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,BPJS Kesehatan,2025-03-23,TikTok Video
+PSN-0907,Prabowo Nasution,Laki-laki,2007-08-04,081249087674,Palembang,2025-08-26,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-09-04,Spanduk Klinik
+PSN-0908,Anisa Wibowo,Perempuan,1978-09-23,081289388950,Surabaya,2025-03-15,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-03-23,Brosur Komplek
+PSN-0909,Putri Permata,Perempuan,2014-04-28,081272837683,Bandung,2025-04-19,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,Tunai,2025-04-29,Brosur Komplek
+PSN-0910,Citra Saputra,Perempuan,1988-11-14,081227320377,Pekanbaru,2025-02-28,Tidak Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-03-01,Spanduk Klinik
+PSN-0911,Ahmad Saputra,Laki-laki,1977-04-18,081241322289,Makassar,2024-09-11,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2024-09-24,Google Maps/Search
+PSN-0912,Ayu Rahmawati,Perempuan,1988-07-27,081273773909,Medan,2025-12-01,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-12-06,Instagram Ads
+PSN-0913,Dewi Wijaya,Perempuan,2006-10-30,081274726694,Jakarta,2026-01-04,Tidak Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2026-01-09,TikTok Video
+PSN-0914,Gita Rahmawati,Perempuan,2006-12-18,081213537652,Pekanbaru,2024-09-13,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-09-27,Spanduk Klinik
+PSN-0915,Rian Lestari,Laki-laki,2007-11-30,081245173817,Surabaya,2026-02-01,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,Tunai,2026-02-10,TikTok Video
+PSN-0916,Rini Siregar,Perempuan,2006-08-21,081297494917,Palembang,2025-04-17,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-04-25,Instagram Ads
+PSN-0917,Wahyu Wibowo,Laki-laki,1977-04-24,081298820563,Bandung,2024-06-30,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2024-07-09,Google Maps/Search
+PSN-0918,Taufik Hidayat,Laki-laki,2003-04-03,081288482372,Medan,2026-01-14,Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Tunai,2026-01-16,Brosur Komplek
+PSN-0919,Eka Lestari,Perempuan,2005-12-22,081287685525,Jakarta,2026-01-06,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,BPJS Kesehatan,2026-01-12,TikTok Video
+PSN-0920,Joko Nasution,Laki-laki,1986-09-02,081226041086,Semarang,2025-04-19,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-04-20,Brosur Komplek
+PSN-0921,Lia Hidayat,Perempuan,1995-10-29,081293589373,Malang,2025-01-01,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Asuransi Swasta,2025-01-15,Instagram Ads
+PSN-0922,Irfan Gunawan,Laki-laki,1986-09-30,081245189731,Pekanbaru,2024-11-09,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Transfer BCA,2024-11-23,Google Maps/Search
+PSN-0923,Maya Santoso,Perempuan,1977-07-03,081217117445,Semarang,2025-06-16,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-06-20,Brosur Komplek
+PSN-0924,Fajar Saputra,Laki-laki,1986-09-19,081228518906,Surabaya,2025-02-25,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2025-03-03,Rekomendasi Teman
+PSN-0925,Putri Utami,Perempuan,1987-05-05,081215531476,Makassar,2024-02-24,Aktif,"Gigi linu pas minum air dingin",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2024-03-02,TikTok Video
+PSN-0926,Irfan Lestari,Laki-laki,1986-07-14,081297334104,Makassar,2025-12-07,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-12-07,Google Maps/Search
+PSN-0927,Mahendra Wijaya,Laki-laki,1996-05-10,081272211429,Makassar,2024-02-24,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2024-02-25,Brosur Komplek
+PSN-0928,Nugroho Nugroho,Laki-laki,1979-06-07,081227856609,Medan,2025-08-25,Aktif,"Gigi linu pas minum air dingin",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2025-08-25,Brosur Komplek
+PSN-0929,Chandra Lestari,Laki-laki,1999-04-05,081233202933,Bandung,2025-01-24,Tidak Aktif,"Bau mulut tidak sedap",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2025-02-02,Brosur Komplek
+PSN-0930,Diah Hidayat,Perempuan,2013-08-30,081264393935,Palembang,2026-03-28,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,BPJS Kesehatan,2026-04-01,Rekomendasi Teman
+PSN-0931,Dewi Permata,Perempuan,1995-12-20,081268107040,Malang,2024-12-20,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-12-26,Instagram Ads
+PSN-0932,Hadi Rahmawati,Laki-laki,1989-03-27,081234859150,Malang,2024-10-03,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-10-04,TikTok Video
+PSN-0933,Fajar Lestari,Laki-laki,2012-03-03,081215359441,Makassar,2025-01-10,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-01-21,Rekomendasi Teman
+PSN-0934,Dedi Siregar,Laki-laki,2010-08-14,081218862615,Palembang,2024-10-15,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-10-24,TikTok Video
+PSN-0935,Fajar Siregar,Laki-laki,1986-09-29,081285581570,Yogyakarta,2026-01-30,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Transfer BCA,2026-02-09,Rekomendasi Teman
+PSN-0936,Chandra Lestari,Laki-laki,1984-12-10,081289485323,Medan,2025-06-10,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2025-06-17,Spanduk Klinik
+PSN-0937,Rini Kusuma,Perempuan,2009-02-05,081221686607,Jakarta,2025-10-05,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-10-09,TikTok Video
+PSN-0938,Taufik Nasution,Laki-laki,2002-03-18,081258109472,Makassar,2025-01-25,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-01-27,Brosur Komplek
+PSN-0939,Ayu Permata,Perempuan,2009-05-21,081241110131,Bandung,2025-12-20,Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-12-23,Rekomendasi Teman
+PSN-0940,Citra Siregar,Perempuan,1985-10-06,081211699610,Yogyakarta,2025-04-10,Aktif,"Noda karang gigi menumpuk di bagian dalam",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-04-11,Google Maps/Search
+PSN-0941,Putri Permata,Perempuan,1982-04-08,081212434467,Makassar,2024-06-09,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-06-14,Instagram Ads
+PSN-0942,Citra Hidayat,Perempuan,2004-08-11,081219385172,Medan,2025-12-28,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2026-01-01,Instagram Ads
+PSN-0943,Diah Siregar,Perempuan,1988-05-03,081250745150,Bandung,2025-03-15,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-03-20,Brosur Komplek
+PSN-0944,Guntur Wijaya,Laki-laki,1990-01-04,081251872891,Jakarta,2026-04-01,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,Transfer BCA,2026-04-13,Rekomendasi Teman
+PSN-0945,Rini Hidayat,Perempuan,1983-08-22,081251293138,Surabaya,2026-01-23,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2026-01-26,Google Maps/Search
+PSN-0946,Citra Wibowo,Perempuan,1982-05-16,081260101248,Medan,2024-09-28,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,Kartu Kredit,2024-10-01,Spanduk Klinik
+PSN-0947,Lestari Rahmawati,Perempuan,2001-04-07,081213577942,Surabaya,2025-01-09,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Transfer BCA,2025-01-14,TikTok Video
+PSN-0948,Wahyu Santoso,Laki-laki,2003-03-06,081245701852,Makassar,2024-08-16,Aktif,"Gigi kuning",Pembersihan Karang Gigi (Scaling),350000,Tunai,2024-08-27,Instagram Ads
+PSN-0949,Wati Pratama,Perempuan,2011-08-20,081210267661,Bandung,2024-03-01,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,QRIS Mandiri,2024-03-15,Spanduk Klinik
+PSN-0950,Santoso Utami,Laki-laki,1981-07-12,081226485142,Malang,2024-08-23,Aktif,"Gusi sering berdarah saat sikat gigi",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-08-26,Rekomendasi Teman
+PSN-0951,Kartika Pratama,Perempuan,1984-04-04,081237635791,Bandung,2025-11-13,Tidak Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2025-11-15,Spanduk Klinik
+PSN-0952,Lukman Siregar,Laki-laki,1982-09-01,081222177963,Palembang,2025-07-01,Aktif,"Gigi bungsu sakit tumbuh miring",Perawatan Saluran Akar (Endodontik),1200000,Asuransi Swasta,2025-07-08,Google Maps/Search
+PSN-0953,Santoso Sari,Laki-laki,1983-06-23,081212583166,Pekanbaru,2025-11-12,Tidak Aktif,"Bau mulut tidak sedap",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-11-15,Spanduk Klinik
+PSN-0954,Mega Lestari,Perempuan,2010-01-08,081242117073,Malang,2025-07-04,Aktif,"Gigi bungsu sakit tumbuh miring",Pencabutan Gigi Bungsu (Odonektomi),2500000,Asuransi Swasta,2025-07-16,Instagram Ads
+PSN-0955,Indah Nasution,Perempuan,1981-07-22,081226059489,Malang,2025-12-24,Tidak Aktif,"Gusi sering berdarah saat sikat gigi",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2025-12-27,Brosur Komplek
+PSN-0956,Citra Permata,Perempuan,2006-04-11,081240498513,Makassar,2024-11-06,Aktif,"Gigi linu pas minum air dingin",Bleaching Gigi (Pemutihan),3000000,QRIS Mandiri,2024-11-06,Rekomendasi Teman
+PSN-0957,Anisa Siregar,Perempuan,2005-07-17,081229234216,Jakarta,2025-07-25,Aktif,"Gigi linu pas minum air dingin",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2025-08-08,Spanduk Klinik
+PSN-0958,Anisa Nugroho,Perempuan,2005-06-09,081238712568,Palembang,2024-09-12,Tidak Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-09-12,Rekomendasi Teman
+PSN-0959,Mahendra Permata,Laki-laki,2010-05-28,081257292084,Yogyakarta,2024-09-03,Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-09-16,Rekomendasi Teman
+PSN-0960,Ayu Saputra,Perempuan,1977-01-05,081250829284,Medan,2024-02-01,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2024-02-11,Instagram Ads
+PSN-0961,Lukman Nugroho,Laki-laki,2007-06-09,081243135077,Malang,2024-10-27,Aktif,"Bau mulut tidak sedap",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-10-29,TikTok Video
+PSN-0962,Budi Utami,Laki-laki,1980-12-29,081279118985,Medan,2025-07-23,Aktif,"Noda karang gigi menumpuk di bagian dalam",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-07-25,TikTok Video
+PSN-0963,Mega Saputra,Perempuan,2001-07-29,081220162470,Pekanbaru,2024-02-03,Aktif,"Gusi sering berdarah saat sikat gigi",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2024-02-10,Instagram Ads
+PSN-0964,Hesti Wibowo,Perempuan,1975-03-07,081234990197,Pekanbaru,2025-06-26,Aktif,"Kontrol rutin behel bulanan",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-07-05,Brosur Komplek
+PSN-0965,Putri Rahmawati,Perempuan,1986-08-27,081227821526,Makassar,2024-06-02,Aktif,"Ingin merapikan posisi gigi rahang atas",Pembersihan Karang Gigi (Scaling),350000,BPJS Kesehatan,2024-06-16,Instagram Ads
+PSN-0966,Indah Hidayat,Perempuan,1977-11-07,081254670263,Pekanbaru,2024-01-09,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-01-17,Spanduk Klinik
+PSN-0967,Putri Wijaya,Perempuan,1995-03-21,081263974185,Semarang,2024-01-16,Aktif,"Gusi sering berdarah saat sikat gigi",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-01-20,Google Maps/Search
+PSN-0968,Putri Lestari,Perempuan,2012-10-23,081263229947,Jakarta,2025-10-24,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,Tunai,2025-11-04,Google Maps/Search
+PSN-0969,Rian Wibowo,Laki-laki,1982-03-27,081291507404,Yogyakarta,2025-12-04,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Tunai,2025-12-04,Instagram Ads
+PSN-0970,Lukman Hidayat,Laki-laki,2015-01-11,081214440609,Makassar,2025-05-31,Aktif,"Gigi depan patah sedikit akibat benturan",Pemasangan Brackets Ortodonti,6000000,Tunai,2025-06-05,Brosur Komplek
+PSN-0971,Maya Saputra,Perempuan,1992-04-09,081271496579,Makassar,2024-05-22,Aktif,"Gigi geraham bawah berlubang dan sakit",Pencabutan Gigi Bungsu (Odonektomi),2500000,Tunai,2024-06-02,Google Maps/Search
+PSN-0972,Wahyu Wibowo,Laki-laki,2013-12-24,081241544685,Bandung,2024-07-06,Aktif,"Gigi kuning",Pemasangan Brackets Ortodonti,6000000,Transfer BCA,2024-07-07,Spanduk Klinik
+PSN-0973,Joko Pratama,Laki-laki,1987-12-04,081249913138,Malang,2025-06-20,Aktif,"Gigi geraham bawah berlubang dan sakit",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-06-23,Rekomendasi Teman
+PSN-0974,Fitri Wibowo,Perempuan,1984-06-19,081262978711,Medan,2024-10-22,Aktif,"Gigi geraham bawah berlubang dan sakit",Pemasangan Brackets Ortodonti,6000000,Tunai,2024-11-01,Spanduk Klinik
+PSN-0975,Lukman Nugroho,Laki-laki,2008-08-07,081224284109,Jakarta,2025-06-03,Aktif,"Noda karang gigi menumpuk di bagian dalam",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2025-06-16,TikTok Video
+PSN-0976,Guntur Kusuma,Laki-laki,1999-04-09,081274202686,Yogyakarta,2025-05-15,Aktif,"Gigi bungsu sakit tumbuh miring",Bleaching Gigi (Pemutihan),3000000,Asuransi Swasta,2025-05-26,TikTok Video
+PSN-0977,Gita Kusuma,Perempuan,1997-11-02,081255092270,Pekanbaru,2024-03-17,Aktif,"Gigi bungsu sakit tumbuh miring",Penambalan Komposit Estetis,450000,Transfer BCA,2024-03-23,Rekomendasi Teman
+PSN-0978,Ahmad Nugroho,Laki-laki,1986-05-27,081280846678,Surabaya,2024-07-27,Aktif,"Kontrol rutin behel bulanan",Pencabutan Gigi Bungsu (Odonektomi),2500000,Transfer BCA,2024-07-31,Brosur Komplek
+PSN-0979,Wahyu Lestari,Laki-laki,1989-05-20,081261045946,Malang,2025-03-30,Tidak Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Kartu Kredit,2025-04-03,TikTok Video
+PSN-0980,Santoso Gunawan,Laki-laki,1981-02-08,081223179362,Bandung,2024-08-12,Aktif,"Kontrol rutin behel bulanan",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-08-13,Rekomendasi Teman
+PSN-0981,Putri Wibowo,Perempuan,2007-05-01,081241458823,Pekanbaru,2024-01-09,Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,QRIS Mandiri,2024-01-17,TikTok Video
+PSN-0982,Budi Nasution,Laki-laki,2014-05-30,081279556018,Palembang,2025-01-31,Aktif,"Ingin merapikan posisi gigi rahang atas",Penambalan Komposit Estetis,450000,QRIS Mandiri,2025-02-09,Instagram Ads
+PSN-0983,Lukman Kusuma,Laki-laki,2013-12-07,081242756333,Medan,2025-12-12,Aktif,"Bau mulut tidak sedap",Penambalan Komposit Estetis,450000,Transfer BCA,2025-12-25,Rekomendasi Teman
+PSN-0984,Fitri Pratama,Perempuan,1979-05-02,081288216570,Pekanbaru,2025-05-28,Aktif,"Noda karang gigi menumpuk di bagian dalam",Bleaching Gigi (Pemutihan),3000000,Kartu Kredit,2025-06-09,TikTok Video
+PSN-0985,Diah Nasution,Perempuan,2002-02-21,081291146700,Surabaya,2025-06-01,Tidak Aktif,"Ingin merapikan posisi gigi rahang atas",Pencabutan Gigi Bungsu (Odonektomi),2500000,BPJS Kesehatan,2025-06-10,Brosur Komplek
+PSN-0986,Siti Santoso,Perempuan,1978-09-11,081255340174,Yogyakarta,2025-08-19,Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2025-08-20,Instagram Ads
+PSN-0987,Guntur Siregar,Laki-laki,1984-07-30,081222114545,Surabaya,2024-07-26,Tidak Aktif,"Bau mulut tidak sedap",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-07-27,Spanduk Klinik
+PSN-0988,Rian Pratama,Laki-laki,1982-04-16,081216872690,Makassar,2024-02-01,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2024-02-13,Brosur Komplek
+PSN-0989,Hadi Utami,Laki-laki,1981-01-06,081245784476,Pekanbaru,2024-08-13,Aktif,"Ingin merapikan posisi gigi rahang atas",Bleaching Gigi (Pemutihan),3000000,Tunai,2024-08-23,Spanduk Klinik
+PSN-0990,Maya Nugroho,Perempuan,2011-08-28,081210700136,Medan,2026-03-14,Tidak Aktif,"Gigi linu pas minum air dingin",Penambalan Komposit Estetis,450000,QRIS Mandiri,2026-03-21,Brosur Komplek
+PSN-0991,Prabowo Pratama,Laki-laki,1977-03-02,081284784212,Malang,2025-07-16,Aktif,"Gigi bungsu sakit tumbuh miring",Pemasangan Brackets Ortodonti,6000000,Asuransi Swasta,2025-07-22,Instagram Ads
+PSN-0992,Budi Pratama,Laki-laki,1993-09-20,081298983030,Pekanbaru,2024-09-22,Aktif,"Gigi kuning",Penambalan Komposit Estetis,450000,Kartu Kredit,2024-09-28,Instagram Ads
+PSN-0993,Mega Utami,Perempuan,1984-07-15,081257031119,Jakarta,2024-05-29,Aktif,"Gigi depan patah sedikit akibat benturan",Perawatan Saluran Akar (Endodontik),1200000,Kartu Kredit,2024-06-10,TikTok Video
+PSN-0994,Mahendra Wijaya,Laki-laki,1978-02-09,081253877690,Surabaya,2026-04-22,Aktif,"Gusi sering berdarah saat sikat gigi",Pemasangan Brackets Ortodonti,6000000,QRIS Mandiri,2026-04-24,TikTok Video
+PSN-0995,Ayu Sari,Perempuan,2009-07-08,081259573498,Jakarta,2025-01-08,Tidak Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,QRIS Mandiri,2025-01-09,Google Maps/Search
+PSN-0996,Mahendra Hidayat,Laki-laki,2000-09-10,081262662964,Yogyakarta,2024-08-24,Tidak Aktif,"Gigi geraham bawah berlubang dan sakit",Penambalan Komposit Estetis,450000,QRIS Mandiri,2024-09-03,Spanduk Klinik
+PSN-0997,Guntur Sari,Laki-laki,1995-10-16,081277392664,Semarang,2024-03-27,Tidak Aktif,"Gigi depan patah sedikit akibat benturan",Pembersihan Karang Gigi (Scaling),350000,Transfer BCA,2024-03-30,Google Maps/Search
+PSN-0998,Indah Wibowo,Perempuan,1992-07-29,081225615983,Pekanbaru,2025-06-06,Aktif,"Ingin merapikan posisi gigi rahang atas",Perawatan Saluran Akar (Endodontik),1200000,Transfer BCA,2025-06-20,Instagram Ads
+PSN-0999,Kartika Lestari,Perempuan,1999-10-15,081260276600,Bandung,2025-01-20,Aktif,"Gigi kuning",Pencabutan Gigi Bungsu (Odonektomi),2500000,Kartu Kredit,2025-01-21,Instagram Ads
+PSN-1000,Anisa Saputra,Perempuan,1996-12-15,081268546287,Yogyakarta,2024-01-29,Aktif,"Bau mulut tidak sedap",Pembersihan Karang Gigi (Scaling),350000,Asuransi Swasta,2024-02-05,TikTok Video
