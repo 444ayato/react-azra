@@ -8,19 +8,20 @@ export default function Login() {
 
   // 2. Fungsi Logika saat tombol Log in ditekan
   const handleSubmit = (e) => {
+    // Mencegah halaman refresh bawaan HTML agar rute tidak ter-reset otomatis
     e.preventDefault();
 
-    // Tentukan email penentu hak akses
-    const EMAIL_GUEST = 'guest@azra.com'; // Mengarah ke halaman guest yang kamu buat
-    const EMAIL_ADMIN = 'admin@azra.com'; // Mengarah ke halaman admin utama
+    // Akun penentu hak akses (Guest dihapus karena guest tidak perlu login)
+    const EMAIL_MEMBER = 'member@azra.com'; 
+    const EMAIL_ADMIN = 'admin@azra.com';   
 
-    if (email.trim().toLowerCase() === EMAIL_GUEST) {
-      navigate('/guest');
+    if (email.trim().toLowerCase() === EMAIL_MEMBER) {
+      navigate('/member'); // Sukses masuk ke halaman khusus member
     } else if (email.trim().toLowerCase() === EMAIL_ADMIN) {
-      navigate('/dashboard'); // Sesuaikan dengan rute admin kamu (misal: /dashboard atau /patients)
+      navigate('/dashboard'); // Sukses masuk ke dashboard admin
     } else {
-      // Jika ketik email lain, beri peringatan agar user tahu email dummy-nya
-      alert('Email tidak dikenali. Gunakan admin@azra.com atau guest@azra.com');
+      // Jika ketik email lain, beri peringatan agar user tahu pilihan email yang valid
+      alert('Email tidak dikenali. Gunakan admin@azra.com atau member@azra.com');
     }
   };
 
@@ -31,7 +32,7 @@ export default function Login() {
         <p className="text-gray-500">Discover a better way of spendings with Azcyra.</p>
       </div>
 
-      <button className="w-full flex items-center justify-center gap-3 border border-gray-200 py-3 rounded-xl hover:bg-gray-50 transition-all mb-8 font-medium">
+      <button type="button" className="w-full flex items-center justify-center gap-3 border border-gray-200 py-3 rounded-xl hover:bg-gray-50 transition-all mb-8 font-medium">
         <img src="https://www.svgrepo.com/show/355037/google.svg" className="w-5 h-5" alt="Google" />
         Log in with Google
       </button>
@@ -49,8 +50,8 @@ export default function Login() {
           {/* 4. Sambungkan input email dengan state */}
           <input 
             type="email" 
-            placeholder="Enter your Email (admin@azra.com / guest@azra.com)" 
-            className="input-field"
+            placeholder="Enter your Email (admin@azra.com / member@azra.com)" 
+            className="w-full bg-gray-50 border border-gray-200 rounded-xl py-3 px-4 focus:ring-2 focus:ring-blue-100 transition-all text-sm outline-none"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -62,7 +63,7 @@ export default function Login() {
           <input 
             type="password" 
             placeholder="Password" 
-            className="input-field"
+            className="w-full bg-gray-50 border border-gray-200 rounded-xl py-3 px-4 focus:ring-2 focus:ring-blue-100 transition-all text-sm outline-none"
             required
           />
         </div>
@@ -77,7 +78,7 @@ export default function Login() {
           </Link>
         </div>
 
-        <button type="submit" className="w-full btn-primary py-4 rounded-xl text-lg shadow-lg shadow-blue-200 mt-4">
+        <button type="submit" className="w-full py-4 rounded-xl text-lg font-medium shadow-lg bg-blue-600 hover:bg-blue-700 text-white shadow-blue-100 mt-4 transition-colors">
           Log in
         </button>
       </form>

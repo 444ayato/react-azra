@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'; // TAMBAHAN: Import Navigate
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import AuthLayout from './layouts/AuthLayout';
 
@@ -20,8 +20,11 @@ const CrmPage = lazy(() => import('./pages/CrmPage'));
 // Diarahkan ke folder components/Components bukan pages/Components
 const ComponentsPage = lazy(() => import('./components/Components'));
 
-// TAMBAHAN: Lazy load untuk halaman Guest (Tampilan Pasien Publik)
+// Tampilan Pasien Publik (GUEST)
 const GuestPage = lazy(() => import('./pages/GuestPage'));
+
+// TAMBAHAN: Lazy load untuk tampilan halaman setelah login MEMBER
+const MemberPage = lazy(() => import('./pages/MemberPage'));
 
 // --- Lazy Load Error Page ---
 const NotFound = lazy(() => import('./components/Error404'));
@@ -45,11 +48,15 @@ function App() {
           */}
           <Route path="/" element={<Navigate to="/login" replace />} />
 
-          {/* TAMBAHAN RUTE BARU (GUEST/PASIEN):
+          {/* RUTE GUEST (PASIEN PUBLIK):
             Diletakkan di luar layout agar tampil penuh tanpa sidebar admin.
-            Bisa diakses lewat URL: http://localhost:5173/guest
           */}
           <Route path="/guest" element={<GuestPage />} />
+
+          {/* RUTE MEMBER RESMI:
+            Diletakkan di luar layout admin agar tampil penuh sebagai portal pasien khusus member.
+          */}
+          <Route path="/member" element={<MemberPage />} />
 
           {/* Auth Group 
             Menggunakan AuthLayout untuk Login & Register 
@@ -61,7 +68,6 @@ function App() {
 
           {/* Main App Group (ADMIN)
             Menggunakan MainLayout (Sidebar + Header internal klinik)
-            SESUAIKAN DI SINI: Mengubah rute penampung utama menjadi /dashboard
           */}
           <Route element={<MainLayout />}>
             <Route path="/dashboard" element={<Dashboard />} />
