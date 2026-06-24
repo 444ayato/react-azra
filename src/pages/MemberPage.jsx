@@ -1,20 +1,43 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
   Award, Percent, Calendar, LogOut, ShieldCheck, 
   FileText, Activity, CreditCard, CheckCircle2, 
-  ChevronRight, Sparkles, Flame, Heart, Info 
+  ChevronRight, Sparkles, Flame, Heart, Info, Loader2 
 } from 'lucide-react';
 
 export default function MemberPage() {
   const navigate = useNavigate();
   
-  // State Interaktif untuk klik Gigi di Odontogram
+  // ================= 1. IMPLEMENTASI USESTATE =================
   const [selectedTooth, setSelectedTooth] = useState(null);
-  
-  // State Kontrol Form Booking
   const [selectedDate, setSelectedDate] = useState('2026-06-15');
   const [selectedDoctor, setSelectedDoctor] = useState('drg. Fauzan, Sp.RKG');
+  const [isLoading, setIsLoading] = useState(true); // State loading untuk useEffect
+
+  // ================= 2. IMPLEMENTASI USEREF =================
+  // Referensi DOM untuk mengontrol scroll otomatis ke form booking
+  const bookingFormRef = useRef(null);
+
+  // ================= 3. IMPLEMENTASI USEEFFECT =================
+  // Simulasi sinkronisasi data rekam medis CRM dari API lokal saat komponen dimuat
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1200);
+    
+    // Clean up function untuk membersihkan memori internal timeout
+    return () => clearTimeout(timer);
+  }, []); // Empty dependency array agar hanya dieksekusi 1x saat aplikasi render awal
+
+  // Fungsi navigasi internal memanfaatkan manipulasi DOM useRef
+  const handleScrollToBooking = () => {
+    bookingFormRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const handleLogout = () => {
+    navigate('/login');
+  };
 
   // Data Komponen Gigi Atas & Bawah (Odontogram Premium)
   const teethUpper = [
@@ -39,9 +62,15 @@ export default function MemberPage() {
     { id: 48, name: 'Geraham Belakang 3', status: 'Impaksi', color: 'bg-gray-700', note: 'Gigi bungsu tumbuh miring. Perlu rontgen Panoramic.' },
   ];
 
-  const handleLogout = () => {
-    navigate('/login');
-  };
+  // Tampilan Loading Spinner Khusus dari Kontrol useEffect
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-[#F1F5F9] flex flex-col items-center justify-center gap-3">
+        <Loader2 className="w-10 h-10 text-blue-600 animate-spin" />
+        <p className="text-sm font-bold text-slate-500 tracking-wide">Sinkronisasi Rekam Medis CRM Azcyra...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-[#F1F5F9] text-slate-800 antialiased font-sans">
@@ -85,6 +114,14 @@ export default function MemberPage() {
                 </div>
                 <h1 className="text-2xl font-extrabold tracking-tight pt-2">Muhammad Rafi Al-zikri</h1>
                 <p className="text-indigo-200/80 text-xs">ID Pasien: <span className="font-mono font-bold text-white">AZC-2026-9912</span></p>
+                
+                {/* TOMBOL SHORTCUT PEMICU USEREF SCROLL */}
+                <button 
+                  onClick={handleScrollToBooking}
+                  className="mt-3 block bg-white/10 hover:bg-white/20 text-amber-300 text-[11px] font-bold py-1.5 px-3 rounded-lg transition-all border border-white/10 cursor-pointer"
+                >
+                  Quick Priority Booking ↓
+                </button>
               </div>
               <div className="text-right">
                 <span className="text-xs text-slate-400 font-medium block">BENEFIT DISKON</span>
@@ -236,7 +273,8 @@ export default function MemberPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           
           {/* KOLOM KIRI: FORM RESERVASI JADWAL DOKTER GIGI */}
-          <div className="bg-white p-6 rounded-3xl border border-slate-200/60 shadow-xs space-y-4">
+          {/* USEREF DITEMPELKAN PADA CONTAINER INI */}
+          <div ref={bookingFormRef} className="bg-white p-6 rounded-3xl border border-slate-200/60 shadow-xs space-y-4scroll-mt-24">
             <h3 className="text-lg font-black text-slate-900 flex items-center gap-2">
               <Calendar size={18} className="text-blue-600" /> Priority Booking Scheduler
             </h3>
