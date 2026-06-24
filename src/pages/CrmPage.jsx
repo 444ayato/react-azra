@@ -1,13 +1,98 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import * as Select from '@radix-ui/react-select';
 import * as Dialog from '@radix-ui/react-dialog';
 import * as Switch from '@radix-ui/react-switch';
 import { Check, ChevronDown, ShieldAlert, UserCheck, X } from 'lucide-react';
+import { userService } from '../services/userService';
+import api from '../services/api'; // Menggunakan Axios instance langsung untuk manipulasi admin patch/delete
 
 export default function CrmPage() {
+  // --- STATE KOMPONEN LAMA (RADIX UI) ---
   const [statusAsuransi, setStatusAsuransi] = useState(false);
   const [layananTerpilih, setLayananTerpilih] = useState("");
   const [isDialogOpen, setIsDialogOpen] = useState(false);
+
+  // --- STATE TAMBAHAN UNTUK CRUD USER (SUPABASE) ---
+  const [users, setUsers] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState('');
+  
+  // State Form Input CRUD
+  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [role, setRole] = useState('member');
+  const [isEditing, setIsEditing] = useState(false);
+  const [editId, setEditId] = useState(null);
+
+  // Fungsi memuat semua data user dari Supabase
+  const loadAllUsers = async () => {
+    setLoading(true);
+    try {
+      const data = await userService.getAllUsers();
+      setUsers(data);
+    } catch (err) {
+      setMessage('Failed to load users from database.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    loadAllUsers();
+  }, []);
+
+  // Fungsi submit form Tambah / Edit User
+  const handleUserSubmit = async (e) => {
+    e.preventDefault();
+    setMessage('');
+
+    try {
+      if (isEditing) {
+        // Aksi Update (PATCH) sesuai modul dosen
+        await api.patch(`/users?id=eq.${editId}`, { username, email, password, role });
+        setMessage('User updated successfully!');
+      } else {
+        // Aksi Create (POST)
+        await userService.registerUser({ username, email, password, role });
+        setMessage('New user added successfully!');
+      }
+      resetForm();
+      loadAllUsers();
+    } catch (err) {
+      setMessage(err.message || 'Operation failed.');
+    }
+  };
+
+  const handleEditTrigger = (user) => {
+    setIsEditing(true);
+    setEditId(user.id);
+    setUsername(user.username);
+    setEmail(user.email);
+    setPassword(user.password);
+    setRole(user.role);
+  };
+
+  const handleDeleteUser = async (id) => {
+    if (window.confirm("Are you sure you want to delete this user account?")) {
+      try {
+        await api.delete(`/users?id=eq.${id}`);
+        setMessage('User deleted successfully.');
+        loadAllUsers();
+      } catch (err) {
+        setMessage('Failed to delete user.');
+      }
+    }
+  };
+
+  const resetForm = () => {
+    setIsEditing(false);
+    setEditId(null);
+    setUsername('');
+    setEmail('');
+    setPassword('');
+    setRole('member');
+  };
 
   return (
     <div className="p-6 space-y-8 max-w-4xl mx-auto">
@@ -16,11 +101,20 @@ export default function CrmPage() {
         <h1 className="text-2xl font-bold text-[#011632] tracking-tight">Sistem Manajemen CRM Pasien</h1>
       </div>
 
+      {/* NOTIFIKASI PESAN DARI SUPABASE */}
+      {message && (
+        <div className="p-4 bg-blue-50 border border-blue-100 text-blue-700 rounded-xl font-medium text-sm shadow-xs">
+          💡 {message}
+        </div>
+      )}
+
+      {/* ==========================================
+          BAGIAN 1: FITUR REGISTRASI MEDIS (KODE LAMA)
+         ========================================== */}
       <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-xs space-y-6">
+        <h2 className="text-lg font-bold text-[#011632]">Registrasi Tindakan Medis</h2>
         
-        {/* ==========================================
-            KOMPONEN 1: RADIX SELECT
-           ========================================== */}
+        {/* KOMPONEN 1: RADIX SELECT */}
         <div className="space-y-2">
           <label className="text-sm font-semibold text-[#011632]">Pilih Tindakan Medis</label>
           <Select.Root value={layananTerpilih} onValueChange={setLayananTerpilih}>
@@ -57,9 +151,7 @@ export default function CrmPage() {
           </Select.Root>
         </div>
 
-        {/* ==========================================
-            KOMPONEN 2: RADIX SWITCH
-           ========================================== */}
+        {/* KOMPONEN 2: RADIX SWITCH */}
         <div className="flex items-center justify-between p-4 rounded-xl bg-gray-50 border border-gray-100 max-w-[380px]">
           <div className="space-y-0.5">
             <label className="text-sm font-semibold text-[#011632]">Metode Jaminan Asuransi</label>
@@ -74,9 +166,7 @@ export default function CrmPage() {
           </Switch.Root>
         </div>
 
-        {/* =========================================
-            KOMPONEN 3: RADIX DIALOG (MODAL)
-           ========================================== */}
+        {/* KOMPONEN 3: RADIX DIALOG (MODAL) */}
         <div className="pt-4 border-t border-gray-100">
           <Dialog.Root open={isDialogOpen} onOpenChange={setIsDialogOpen}>
             <Dialog.Trigger asChild>
@@ -88,7 +178,6 @@ export default function CrmPage() {
               </button>
             </Dialog.Trigger>
 
-            {/* PERBAIKAN: Menggunakan Dialog.Portal yang benar, bukan Select.Portal */}
             <Dialog.Portal>
               <Dialog.Overlay className="fixed inset-0 bg-black/40 backdrop-blur-xs z-50" />
               
@@ -129,8 +218,95 @@ export default function CrmPage() {
             </Dialog.Portal>
           </Dialog.Root>
         </div>
-
       </div>
+
+      {/* ==========================================
+          BAGIAN 2: CRUD DATA USER (SUPABASE NEW)
+         ========================================== */}
+      <div className="space-y-6">
+        {/* Form Tambah/Edit User */}
+        <form onSubmit={handleUserSubmit} className="p-6 bg-white rounded-2xl border border-gray-100 shadow-xs space-y-4">
+          <h3 className="text-lg font-bold text-[#011632]">{isEditing ? "Edit Account Data" : "Add New Account"}</h3>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 items-end">
+            <div>
+              <label className="block text-xs font-semibold text-gray-500 mb-1">Full Name</label>
+              <input type="text" placeholder="Full Name" value={username} onChange={e => setUsername(e.target.value)} required className="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 text-sm outline-none focus:ring-2 focus:ring-blue-100" />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-gray-500 mb-1">Email Address</label>
+              <input type="email" placeholder="Email Address" value={email} onChange={e => setEmail(e.target.value)} required className="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 text-sm outline-none focus:ring-2 focus:ring-blue-100" />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-gray-500 mb-1">Password</label>
+              <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} required={!isEditing} className="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 text-sm outline-none focus:ring-2 focus:ring-blue-100" />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-gray-500 mb-1">Role Type</label>
+              <select value={role} onChange={e => setRole(e.target.value)} className="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 text-sm outline-none focus:ring-2 focus:ring-blue-100 cursor-pointer">
+                <option value="member">Member</option>
+                <option value="admin">Admin</option>
+              </select>
+            </div>
+            <div className="flex gap-2">
+              <button type="submit" className="flex-1 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-xl text-sm font-medium shadow-sm transition-colors cursor-pointer">
+                {isEditing ? 'Update' : 'Save'}
+              </button>
+              {isEditing && (
+                <button type="button" onClick={resetForm} className="bg-gray-500 hover:bg-gray-600 text-white p-3 rounded-xl text-sm font-medium transition-colors cursor-pointer">
+                  Cancel
+                </button>
+              )}
+            </div>
+          </div>
+        </form>
+
+        {/* Tabel Data User Supabase */}
+        <div className="bg-white rounded-2xl border border-gray-100 shadow-xs overflow-hidden">
+          <div className="p-4 border-b border-gray-100">
+            <h3 className="text-base font-bold text-[#011632]">Database Accounts via Supabase</h3>
+          </div>
+          {loading ? (
+            <div className="p-10 text-center text-sm text-gray-400 font-medium">Synchronizing with Supabase server...</div>
+          ) : (
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="bg-gray-50 border-b border-gray-100 text-xs text-gray-400 font-bold uppercase tracking-wider">
+                    <th className="p-4">ID</th>
+                    <th className="p-4">Full Name</th>
+                    <th className="p-4">Email Address</th>
+                    <th className="p-4">Role</th>
+                    <th className="p-4">Actions</th>
+                  </tr>
+                </thead>
+                <tbody className="text-sm text-gray-600 divide-y divide-gray-50">
+                  {users.length === 0 ? (
+                    <tr><td colSpan="5" className="p-6 text-center text-gray-400">No records found.</td></tr>
+                  ) : (
+                    users.map(u => (
+                      <tr key={u.id} className="hover:bg-gray-50/50 transition-colors">
+                        <td className="p-4 font-medium text-gray-400">#{u.id}</td>
+                        <td className="p-4 font-bold text-[#011632]">{u.username}</td>
+                        <td className="p-4">{u.email}</td>
+                        <td className="p-4">
+                          <span className={`text-xs font-bold px-2.5 py-1 rounded-md ${u.role === 'admin' ? 'bg-red-50 text-red-600' : 'bg-blue-50 text-blue-600'}`}>
+                            {u.role}
+                          </span>
+                        </td>
+                        <td className="p-4 flex gap-2">
+                          <button onClick={() => handleEditTrigger(u)} className="text-xs bg-amber-500 hover:bg-amber-600 text-white font-medium py-1.5 px-3 rounded-lg transition-colors cursor-pointer">Edit</button>
+                          <button onClick={() => handleDeleteUser(u.id)} className="text-xs bg-red-600 hover:bg-red-700 text-white font-medium py-1.5 px-3 rounded-lg transition-colors cursor-pointer">Delete</button>
+                        </td>
+                      </tr>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      </div>
+
     </div>
   );
 }

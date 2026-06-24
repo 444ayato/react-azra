@@ -1,27 +1,36 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { userService } from '../../services/userService';
 
 export default function Login() {
-  // 1. Inisialisasi State untuk mengambil data input email
   const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  // 2. Fungsi Logika saat tombol Log in ditekan
-  const handleSubmit = (e) => {
-    // Mencegah halaman refresh bawaan HTML agar rute tidak ter-reset otomatis
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setError('');
+    setLoading(true);
 
-    // Akun penentu hak akses (Guest dihapus karena guest tidak perlu login)
-    const EMAIL_MEMBER = 'member@azra.com'; 
-    const EMAIL_ADMIN = 'admin@azra.com';   
-
-    if (email.trim().toLowerCase() === EMAIL_MEMBER) {
-      navigate('/member'); // Sukses masuk ke halaman khusus member
-    } else if (email.trim().toLowerCase() === EMAIL_ADMIN) {
-      navigate('/dashboard'); // Sukses masuk ke dashboard admin
-    } else {
-      // Jika ketik email lain, beri peringatan agar user tahu pilihan email yang valid
-      alert('Email tidak dikenali. Gunakan admin@azra.com atau member@azra.com');
+    try {
+      // Verifikasi kredensial ke tabel users Supabase
+      const user = await userService.loginUser(email, password);
+      
+      // Simpan session objek ke localStorage
+      localStorage.setItem('userSession', JSON.stringify(user));
+      
+      // Pengalihan halaman dinamis berdasarkan kolom 'role' dari database
+      if (user.role === 'admin') {
+        navigate('/dashboard');
+      } else {
+        navigate('/member');
+      }
+    } catch (err) {
+      setError(err.message || 'Gagal terhubung ke database.');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -31,6 +40,12 @@ export default function Login() {
         <h1 className="text-4xl font-bold text-[var(--dark-blue)] mb-2">Welcome Back</h1>
         <p className="text-gray-500">Discover a better way of spendings with Azcyra.</p>
       </div>
+
+      {error && (
+        <div className="mb-4 p-3 bg-red-50 text-red-600 rounded-xl border border-red-100 text-sm font-medium">
+          ⚠️ {error}
+        </div>
+      )}
 
       <button type="button" className="w-full flex items-center justify-center gap-3 border border-gray-200 py-3 rounded-xl hover:bg-gray-50 transition-all mb-8 font-medium">
         <img src="https://www.svgrepo.com/show/355037/google.svg" className="w-5 h-5" alt="Google" />
@@ -43,17 +58,16 @@ export default function Login() {
         <div className="flex-grow border-t border-gray-200"></div>
       </div>
 
-      {/* 3. Pasang fungsi handleSubmit ke dalam tag form */}
       <form className="space-y-5" onSubmit={handleSubmit}>
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
-          {/* 4. Sambungkan input email dengan state */}
           <input 
             type="email" 
-            placeholder="Enter your Email (admin@azra.com / member@azra.com)" 
+            placeholder="name@company.com" 
             className="w-full bg-gray-50 border border-gray-200 rounded-xl py-3 px-4 focus:ring-2 focus:ring-blue-100 transition-all text-sm outline-none"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            disabled={loading}
             required
           />
         </div>
@@ -64,6 +78,9 @@ export default function Login() {
             type="password" 
             placeholder="Password" 
             className="w-full bg-gray-50 border border-gray-200 rounded-xl py-3 px-4 focus:ring-2 focus:ring-blue-100 transition-all text-sm outline-none"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            disabled={loading}
             required
           />
         </div>
@@ -78,8 +95,12 @@ export default function Login() {
           </Link>
         </div>
 
-        <button type="submit" className="w-full py-4 rounded-xl text-lg font-medium shadow-lg bg-blue-600 hover:bg-blue-700 text-white shadow-blue-100 mt-4 transition-colors">
-          Log in
+        <button 
+          type="submit" 
+          disabled={loading}
+          className="w-full py-4 rounded-xl text-lg font-medium shadow-lg bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white shadow-blue-100 mt-4 transition-colors"
+        >
+          {loading ? 'Verifying Credentials...' : 'Log in'}
         </button>
       </form>
 
