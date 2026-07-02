@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { userService } from '../../services/userService';
+import { customerService } from '../../services/customerService';
 
 export default function Register() {
   const [firstName, setFirstName] = useState('');
@@ -22,12 +23,29 @@ export default function Register() {
       // Gabungkan first name dan last name menjadi kolom username tunggal di tabel Supabase
       const fullName = `${firstName.trim()} ${lastName.trim()}`;
 
-      await userService.registerUser({
+      // 1. Buat akun user
+      const newUser = await userService.registerUser({
         username: fullName,
         email: email,
         password: password,
-        role: 'member' // Default register sebagai portal pasien khusus member
+        role: 'member'
       });
+
+      // 2. Auto-buat customer record untuk member baru (bonus 100 poin)
+      if (newUser && newUser.id) {
+        try {
+          await customerService.createCustomer({
+            user_id: newUser.id,
+            full_name: fullName,
+            email: email,
+            points: 100,
+            tier: 'regular'
+          });
+        } catch (custErr) {
+          // Jika gagal bikin customer (misal RLS blokir), tidak perlu gagalkan registrasi
+          console.warn('Customer record creation skipped:', custErr);
+        }
+      }
 
       setSuccess('Account created successfully! Redirecting to login page...');
       setTimeout(() => {
