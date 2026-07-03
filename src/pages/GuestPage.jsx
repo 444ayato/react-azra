@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
-import { Calendar, ShieldCheck, Clock, CheckCircle2, ArrowRight, X, Phone, MapPin, Loader2, AlertCircle } from 'lucide-react';
+import { Calendar, ShieldCheck, Clock, CheckCircle2, ArrowRight, X, Phone, MapPin, Loader2, AlertCircle, Sparkles, Activity } from 'lucide-react';
 import api from '../services/api';
 import { servicesService, formatRupiah, formatDuration } from '../services/servicesService';
 import { appointmentService } from '../services/appointmentService';
@@ -30,7 +30,7 @@ export default function GuestPage() {
         const data = await servicesService.getAllServices();
         setLayananList(data);
       } catch (err) {
-        setServicesError('Gagal memuat data layanan. Silakan refresh halaman.');
+        setServicesError('Gagal memuat data layanan. Silakan periksa koneksi atau refresh halaman.');
         console.error('Error fetching services:', err);
       } finally {
         setLoadingServices(false);
@@ -44,7 +44,7 @@ export default function GuestPage() {
 
   // Handling submit reservasi
   const handleSubmitReservasi = async () => {
-    if (!namaPasien.trim() || !tanggalKunjungan || !layananTerpilih) return;
+    if (!namaPasien.trim() || !noTelepon.trim() || !tanggalKunjungan || !layananTerpilih) return;
 
     setIsSubmitting(true);
     setSubmitError('');
@@ -109,23 +109,28 @@ export default function GuestPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#fafbfe] text-slate-800 antialiased selection:bg-blue-500 selection:text-white">
+    <div className="min-h-screen bg-slate-50 text-slate-800 antialiased selection:bg-indigo-500 selection:text-white relative overflow-x-hidden">
       
-      {/* HEADER NAVBAR */}
-      <nav className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-100 px-6 py-4">
+      {/* BACKGROUND DEKORASI GRADIENT (Gaya Startup Modern) */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[500px] bg-gradient-to-r from-indigo-500/10 to-cyan-500/10 blur-3xl -z-10 rounded-full scale-90" />
+
+      {/* HEADER NAVBAR (Efek Glassmorphism Modern) */}
+      <nav className="sticky top-0 z-40 bg-white/70 backdrop-blur-xl border-b border-slate-200/50 px-6 py-4">
         <div className="max-w-5xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2.5">
-            <div className="bg-[#1376f8] text-white w-9 h-9 rounded-xl flex items-center justify-center font-bold text-lg shadow-sm">Az</div>
+            <div className="bg-gradient-to-tr from-indigo-600 to-cyan-500 text-white w-9 h-9 rounded-xl flex items-center justify-center font-bold text-lg shadow-md shadow-indigo-200">Az</div>
             <div>
-              <span className="font-bold text-base text-slate-900 block leading-tight">Azra Dental Care</span>
-              <span className="text-[10px] text-slate-400 tracking-wider uppercase font-semibold">Portal Pasien</span>
+              <span className="font-extrabold text-base text-slate-900 block leading-tight tracking-tight">Azra Dental Care</span>
+              <span className="text-[10px] text-indigo-600 tracking-wider uppercase font-bold flex items-center gap-1">
+                <Sparkles className="w-2.5 h-2.5" /> Portal Pasien Publik
+              </span>
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <a href="/login" className="text-xs font-semibold text-[#1376f8] hover:text-blue-700 border border-[#1376f8]/30 hover:border-[#1376f8]/60 px-3.5 py-2 rounded-xl transition-all">
-              Masuk →
+            <a href="/login" className="text-xs font-bold text-indigo-600 hover:text-indigo-700 border border-indigo-200 hover:border-indigo-400 px-4 py-2 rounded-xl transition-all bg-white/50 backdrop-blur-xs shadow-xs">
+              Masuk Akun →
             </a>
-            <a href="/admin" className="text-xs font-semibold text-slate-600 hover:text-[#1376f8] border border-slate-200 hover:border-[#1376f8]/30 px-3.5 py-2 rounded-xl transition-all bg-white hidden sm:block">
+            <a href="/admin" className="text-xs font-bold text-slate-600 hover:text-indigo-600 border border-slate-200 hover:border-indigo-200 px-4 py-2 rounded-xl transition-all bg-white/80 hidden sm:block shadow-xs">
               Panel Admin
             </a>
           </div>
@@ -133,22 +138,25 @@ export default function GuestPage() {
       </nav>
 
       {/* HERO SECTION */}
-      <header className="max-w-3xl mx-auto text-center pt-16 pb-12 px-6 space-y-4">
-        <span className="inline-flex items-center gap-1.5 bg-blue-50 text-[#1376f8] text-xs font-medium px-3 py-1.5 rounded-full border border-blue-100/50">
-          <Clock className="w-3.5 h-3.5" /> Reservasi Online Instan 24/7
+      <header className="max-w-3xl mx-auto text-center pt-20 pb-16 px-6 space-y-6">
+        <span className="inline-flex items-center gap-1.5 bg-indigo-50 text-indigo-600 text-xs font-bold px-3.5 py-1.5 rounded-full border border-indigo-100 shadow-xs">
+          <Clock className="w-3.5 h-3.5" /> Reservasi Online Cloud Instan 24/7
         </span>
-        <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight sm:text-4xl">
-          Solusi Rawat Gigi Tanpa Antre Lama
+        <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight sm:text-5xl leading-tight">
+          Solusi Rawat Gigi Modern <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-cyan-500">
+            Tanpa Antre Tradisional
+          </span>
         </h1>
-        <p className="text-slate-500 max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
-          Pilih penanganan medis yang Anda butuhkan, periksa estimasi biaya secara transparan, dan kunci nomor antrean Anda sekarang juga.
+        <p className="text-slate-500 max-w-xl mx-auto text-sm sm:text-base leading-relaxed font-medium">
+          Pilih penanganan medis yang Anda butuhkan, periksa estimasi biaya secara transparan, dan kunci nomor antrean Anda saat ini juga.
         </p>
-        <div className="flex justify-center gap-4 pt-2">
-          <a href="#layanan" className="inline-flex items-center gap-1.5 bg-[#1376f8] hover:bg-blue-700 text-white text-xs font-bold px-5 py-2.5 rounded-xl transition-all shadow-sm cursor-pointer">
-            Lihat Layanan <ArrowRight className="w-3.5 h-3.5" />
+        <div className="flex justify-center gap-3 pt-2">
+          <a href="#layanan" className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-700 hover:to-cyan-700 text-white text-xs font-bold px-6 py-3 rounded-xl transition-all shadow-md shadow-indigo-100 scale-100 hover:scale-[1.02] active:scale-[0.98]">
+            Lihat Katalog Tarif <ArrowRight className="w-3.5 h-3.5" />
           </a>
-          <a href="tel:+6281234567890" className="inline-flex items-center gap-1.5 bg-white border border-slate-200 hover:border-slate-300 text-slate-700 text-xs font-bold px-5 py-2.5 rounded-xl transition-all shadow-sm">
-            <Phone className="w-3.5 h-3.5" /> Hubungi Klinik
+          <a href="tel:+6281234567890" className="inline-flex items-center gap-1.5 bg-white border border-slate-200 hover:border-slate-300 text-slate-700 text-xs font-bold px-6 py-3 rounded-xl transition-all shadow-xs">
+            <Phone className="w-3.5 h-3.5 text-slate-400" /> Hubungi Klinik
           </a>
         </div>
       </header>
@@ -158,16 +166,16 @@ export default function GuestPage() {
         
         {/* KOLOM KIRI: DAFTAR KATALOG LAYANAN (2/3) */}
         <section className="md:col-span-2 space-y-4">
-          <h2 className="text-sm font-bold uppercase tracking-wider text-slate-400 flex items-center gap-2 mb-2">
-            <ShieldCheck className="w-4 h-4 text-[#1376f8]" /> Pilihan Tindakan Medis
+          <h2 className="text-xs font-extrabold uppercase tracking-wider text-slate-400 flex items-center gap-2 mb-2">
+            <ShieldCheck className="w-4 h-4 text-indigo-600" /> Pilihan Tindakan Medis & Tarif Transparan
           </h2>
           
           {/* Loading State */}
           {loadingServices && (
-            <div className="flex items-center justify-center py-16">
+            <div className="flex items-center justify-center py-16 bg-white/50 border border-slate-200/60 rounded-2xl backdrop-blur-sm">
               <div className="text-center space-y-3">
-                <Loader2 className="w-8 h-8 text-[#1376f8] animate-spin mx-auto" />
-                <p className="text-sm text-slate-400 font-medium">Memuat daftar layanan...</p>
+                <Loader2 className="w-8 h-8 text-indigo-600 animate-spin mx-auto" />
+                <p className="text-sm text-slate-400 font-bold">Sinkronisasi database cloud...</p>
               </div>
             </div>
           )}
@@ -176,31 +184,31 @@ export default function GuestPage() {
           {servicesError && (
             <div className="bg-red-50 border border-red-100 rounded-2xl p-6 text-center space-y-3">
               <AlertCircle className="w-8 h-8 text-red-400 mx-auto" />
-              <p className="text-sm text-red-600 font-medium">{servicesError}</p>
+              <p className="text-sm text-red-600 font-semibold">{servicesError}</p>
             </div>
           )}
 
-          {/* Daftar Layanan dari Supabase */}
+          {/* Daftar Layanan */}
           {!loadingServices && !servicesError && (
             <div className="grid gap-4">
               {layananList.length === 0 ? (
-                <div className="bg-white p-8 rounded-2xl border border-slate-100 text-center">
-                  <p className="text-sm text-slate-400">Belum ada layanan tersedia saat ini.</p>
+                <div className="bg-white p-8 rounded-2xl border border-slate-200/60 text-center shadow-xs">
+                  <p className="text-sm text-slate-400 font-medium">Belum ada katalog layanan aktif saat ini.</p>
                 </div>
               ) : (
                 layananList.map((layanan) => (
-                  <div key={layanan.id} className="bg-white p-5 rounded-2xl border border-slate-100 shadow-xs flex flex-col justify-between space-y-4 transition-all hover:border-slate-200/80 hover:shadow-sm">
-                    <div className="space-y-1">
+                  <div key={layanan.id} className="bg-white/90 p-5 rounded-2xl border border-slate-200/60 shadow-xs flex flex-col justify-between space-y-4 transition-all hover:border-indigo-200 hover:shadow-md hover:shadow-indigo-50/50 group">
+                    <div className="space-y-1.5">
                       <div className="flex justify-between items-start gap-4">
                         <div>
-                          <h3 className="font-bold text-sm text-slate-900">{layanan.name}</h3>
+                          <h3 className="font-bold text-sm text-slate-900 group-hover:text-indigo-600 transition-colors">{layanan.name}</h3>
                           {layanan.category && (
-                            <span className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider">
+                            <span className="inline-block text-[9px] font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-md uppercase tracking-wider mt-1">
                               {layanan.category}
                             </span>
                           )}
                         </div>
-                        <span className="text-sm font-extrabold text-[#1376f8] whitespace-nowrap bg-blue-50/50 px-2.5 py-1 rounded-lg">
+                        <span className="text-sm font-black text-indigo-600 whitespace-nowrap bg-indigo-50/50 px-3 py-1 rounded-xl border border-indigo-100/40">
                           {formatRupiah(layanan.price)}
                         </span>
                       </div>
@@ -211,9 +219,9 @@ export default function GuestPage() {
                       )}
                     </div>
                     
-                    <div className="flex items-center justify-between pt-3 border-t border-slate-50">
-                      <span className="flex items-center gap-1 text-[11px] text-slate-400 font-medium bg-slate-50 px-2 py-1 rounded-md">
-                        <Clock className="w-3 h-3 text-slate-400" /> Estimasi: {formatDuration(layanan.duration_minutes)}
+                    <div className="flex items-center justify-between pt-3 border-t border-slate-100">
+                      <span className="flex items-center gap-1 text-[11px] text-slate-500 font-semibold bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-100">
+                        <Activity className="w-3 h-3 text-indigo-500" /> Estimasi Durasi: {formatDuration(layanan.duration_minutes)}
                       </span>
 
                       {/* MODAL DIALOG RESERVASI */}
@@ -225,21 +233,21 @@ export default function GuestPage() {
                               setIsBooked(false); 
                               setSubmitError('');
                             }}
-                            className="bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold px-4 py-2 rounded-xl flex items-center gap-1.5 transition-all shadow-xs cursor-pointer active:scale-95"
+                            className="bg-slate-900 hover:bg-indigo-600 text-white text-xs font-bold px-4 py-2.5 rounded-xl flex items-center gap-1.5 transition-all shadow-xs cursor-pointer active:scale-95"
                           >
                             Ambil Jadwal <ArrowRight className="w-3.5 h-3.5" />
                           </button>
                         </Dialog.Trigger>
                         
                         <Dialog.Portal>
-                          <Dialog.Overlay className="fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-50 animate-fade-in" />
+                          <Dialog.Overlay className="fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-50" />
                           <Dialog.Content className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-2xl p-6 w-full max-w-sm border border-slate-100 shadow-2xl z-50 focus:outline-none">
                             
                             <div className="flex justify-between items-center mb-4">
-                              <Dialog.Title className="font-bold text-sm text-slate-900 flex items-center gap-2">
-                                <Calendar className="w-4 h-4 text-[#1376f8]" /> Formulir Reservasi
+                              <Dialog.Title className="font-extrabold text-sm text-slate-900 flex items-center gap-2">
+                                <Calendar className="w-4 h-4 text-indigo-600" /> Formulir Reservasi Instan
                               </Dialog.Title>
-                              <Dialog.Close className="text-slate-400 hover:text-slate-600 transition cursor-pointer">
+                              <Dialog.Close className="text-slate-400 hover:text-slate-600 transition cursor-pointer p-1 rounded-lg hover:bg-slate-50">
                                 <X className="w-4 h-4" />
                               </Dialog.Close>
                             </div>
@@ -247,23 +255,23 @@ export default function GuestPage() {
                             {!isBooked ? (
                               <div className="space-y-4">
                                 {/* Info layanan terpilih */}
-                                <div className="text-xs bg-slate-50 p-3 rounded-xl border border-slate-100 text-slate-500 leading-normal">
-                                  <span>Tindakan Terpilih:</span>
-                                  <strong className="text-slate-900 block mt-0.5">{layananTerpilih?.name}</strong>
-                                  <span className="text-[#1376f8] font-bold mt-1 block">
+                                <div className="text-xs bg-slate-50 p-3.5 rounded-xl border border-slate-200/60 text-slate-500 leading-normal">
+                                  <span className="font-medium">Tindakan Medis Terpilih:</span>
+                                  <strong className="text-slate-900 block mt-0.5 text-sm">{layananTerpilih?.name}</strong>
+                                  <span className="text-indigo-600 font-extrabold mt-1 block text-sm">
                                     {layananTerpilih ? formatRupiah(layananTerpilih.price) : ''}
                                   </span>
                                 </div>
 
                                 {/* Field Nama */}
                                 <div className="space-y-1.5">
-                                  <label className="text-xs font-bold text-slate-700 block">Nama Lengkap <span className="text-red-400">*</span></label>
+                                  <label className="text-xs font-bold text-slate-700 block tracking-wide">Nama Lengkap Pasien <span className="text-red-400">*</span></label>
                                   <input 
                                     type="text" 
                                     placeholder="Contoh: Budi Santoso" 
                                     value={namaPasien}
                                     onChange={(e) => setNamaPasien(e.target.value)}
-                                    className="w-full text-xs px-3 py-2.5 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1376f8]/20 focus:border-[#1376f8] transition-all text-slate-700"
+                                    className="w-full text-xs px-3.5 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all text-slate-700 font-medium"
                                     disabled={isSubmitting}
                                     required
                                   />
@@ -271,26 +279,27 @@ export default function GuestPage() {
 
                                 {/* Field No Telepon */}
                                 <div className="space-y-1.5">
-                                  <label className="text-xs font-bold text-slate-700 block">Nomor Telepon / WhatsApp</label>
+                                  <label className="text-xs font-bold text-slate-700 block tracking-wide">Nomor WhatsApp / HP <span className="text-red-400">*</span></label>
                                   <input 
                                     type="tel" 
-                                    placeholder="Contoh: 0812-3456-7890" 
+                                    placeholder="Contoh: 081234567890" 
                                     value={noTelepon}
                                     onChange={(e) => setNoTelepon(e.target.value)}
-                                    className="w-full text-xs px-3 py-2.5 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1376f8]/20 focus:border-[#1376f8] transition-all text-slate-700"
+                                    className="w-full text-xs px-3.5 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all text-slate-700 font-medium"
                                     disabled={isSubmitting}
+                                    required
                                   />
                                 </div>
 
                                 {/* Field Tanggal */}
                                 <div className="space-y-1.5">
-                                  <label className="text-xs font-bold text-slate-700 block">Tanggal Kunjungan <span className="text-red-400">*</span></label>
+                                  <label className="text-xs font-bold text-slate-700 block tracking-wide">Tanggal Kunjungan <span className="text-red-400">*</span></label>
                                   <input 
                                     type="date" 
                                     min={today}
                                     value={tanggalKunjungan}
                                     onChange={(e) => setTanggalKunjungan(e.target.value)}
-                                    className="w-full text-xs px-3 py-2.5 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1376f8]/20 focus:border-[#1376f8] transition-all text-slate-700"
+                                    className="w-full text-xs px-3.5 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all text-slate-700 font-medium"
                                     disabled={isSubmitting}
                                     required
                                   />
@@ -298,27 +307,28 @@ export default function GuestPage() {
 
                                 {/* Field Waktu */}
                                 <div className="space-y-1.5">
-                                  <label className="text-xs font-bold text-slate-700 block">Waktu Kunjungan (Opsional)</label>
+                                  <label className="text-xs font-bold text-slate-700 block tracking-wide">Waktu Kedatangan</label>
                                   <select
                                     value={waktuKunjungan}
                                     onChange={(e) => setWaktuKunjungan(e.target.value)}
-                                    className="w-full text-xs px-3 py-2.5 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1376f8]/20 focus:border-[#1376f8] transition-all text-slate-700"
+                                    className="w-full text-xs px-3.5 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 transition-all text-slate-700 font-medium"
                                     disabled={isSubmitting}
                                   >
-                                    <option value="">Pilih waktu (opsional)</option>
-                                    <option value="09:00">09:00 - 10:00</option>
-                                    <option value="10:00">10:00 - 11:00</option>
-                                    <option value="11:00">11:00 - 12:00</option>
-                                    <option value="13:00">13:00 - 14:00</option>
-                                    <option value="14:00">14:00 - 15:00</option>
-                                    <option value="15:00">15:00 - 16:00</option>
-                                    <option value="16:00">16:00 - 17:00</option>
+                                    <option value="">Pilih jam operasional</option>
+                                    <option value="09:00">09:00 - 10:00 WIB</option>
+                                    <option value="10:00">10:00 - 11:00 WIB</option>
+                                    <option value="11:00">11:00 - 12:00 WIB</option>
+                                    <option value="13:00">13:00 - 14:00 WIB</option>
+                                    <option value="14:00">14:00 - 15:00 WIB</option>
+                                    <option value="15:00">15:00 - 16:00 WIB</option>
+                                    <option value="16:00">16:00 - 17:00 WIB</option>
+                                    <option value="18:30">18:30 - 20:00 WIB</option>
                                   </select>
                                 </div>
 
                                 {/* Error message */}
                                 {submitError && (
-                                  <div className="p-3 bg-red-50 border border-red-100 rounded-xl text-xs text-red-600 font-medium flex items-center gap-2">
+                                  <div className="p-3 bg-red-50 border border-red-100 rounded-xl text-xs text-red-600 font-semibold flex items-center gap-2">
                                     <AlertCircle className="w-4 h-4 shrink-0" /> {submitError}
                                   </div>
                                 )}
@@ -326,43 +336,43 @@ export default function GuestPage() {
                                 {/* Tombol Submit */}
                                 <button 
                                   onClick={handleSubmitReservasi}
-                                  disabled={!namaPasien.trim() || !tanggalKunjungan || isSubmitting}
-                                  className="w-full bg-[#1376f8] hover:bg-blue-700 disabled:opacity-40 disabled:cursor-not-allowed text-white text-xs font-bold py-2.5 rounded-xl shadow-xs transition-all cursor-pointer flex items-center justify-center gap-2"
+                                  disabled={!namaPasien.trim() || !noTelepon.trim() || !tanggalKunjungan || isSubmitting}
+                                  className="w-full h-11 bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-700 hover:to-cyan-700 disabled:opacity-40 disabled:cursor-not-allowed text-white text-xs font-bold rounded-xl shadow-md shadow-indigo-100 transition-all cursor-pointer flex items-center justify-center gap-2"
                                 >
                                   {isSubmitting ? (
                                     <>
                                       <Loader2 className="w-4 h-4 animate-spin" /> 
-                                      Menyimpan Reservasi...
+                                      Sinkronisasi Cloud CRM...
                                     </>
                                   ) : (
-                                    'Konfirmasi Antrean Saya'
+                                    'Kunci Slot Antrean Saya Sekarang'
                                   )}
                                 </button>
                               </div>
                             ) : (
                               /* SUCCESS STATE */
                               <div className="text-center py-4 space-y-4">
-                                <div className="w-12 h-12 bg-emerald-50 rounded-full flex items-center justify-center mx-auto text-emerald-500">
+                                <div className="w-12 h-12 bg-emerald-50 rounded-full flex items-center justify-center mx-auto text-emerald-500 border border-emerald-100 shadow-xs">
                                   <CheckCircle2 className="w-6 h-6" />
                                 </div>
                                 <div className="space-y-1">
-                                  <h3 className="font-bold text-slate-900 text-sm">Reservasi Berhasil!</h3>
-                                  <p className="text-xs text-slate-400 leading-relaxed px-2">
-                                    Halo <strong>{namaPasien}</strong>, jadwal Anda telah tercatat di sistem CRM internal.
+                                  <h3 className="font-extrabold text-slate-900 text-sm">Reservasi Berhasil Dicatat!</h3>
+                                  <p className="text-xs text-slate-500 leading-relaxed px-2">
+                                    Halo <strong>{namaPasien}</strong>, jadwal Anda telah sukses masuk ke antrean sistem CRM Admin.
                                   </p>
                                   {tanggalKunjungan && (
-                                    <p className="text-xs text-[#1376f8] font-bold pt-1">
-                                      📅 {new Date(tanggalKunjungan).toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
-                                      {waktuKunjungan && ` ⏰ ${waktuKunjungan}`}
+                                    <p className="text-xs text-indigo-600 font-extrabold pt-2 flex items-center justify-center gap-1">
+                                      <span>📅 {new Date(tanggalKunjungan).toLocaleDateString('id-ID', { weekday: 'long', day: 'numeric', month: 'short' })}</span>
+                                      {waktuKunjungan && <span>• ⏰ {waktuKunjungan} WIB</span>}
                                     </p>
                                   )}
                                 </div>
                                 <Dialog.Close asChild>
                                   <button 
                                     onClick={handleResetForm}
-                                    className="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold py-2 rounded-xl transition cursor-pointer"
+                                    className="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold py-2.5 rounded-xl transition cursor-pointer"
                                   >
-                                    Buat Reservasi Lain
+                                    Selesai & Tutup Laporan
                                   </button>
                                 </Dialog.Close>
                               </div>
@@ -381,26 +391,26 @@ export default function GuestPage() {
 
         {/* KOLOM KANAN: INFORMASI KLINIK SIDEBAR (1/3) */}
         <aside className="space-y-4">
-          <h2 className="text-sm font-bold uppercase tracking-wider text-slate-400">Jam Operasional</h2>
-          <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-xs space-y-4">
-            <div className="text-xs space-y-2">
-              <div className="flex justify-between text-slate-500"><span>Senin - Sabtu:</span><strong className="text-slate-800">09:00 - 21:00</strong></div>
-              <div className="flex justify-between text-slate-500"><span>Minggu:</span><strong className="text-amber-600 font-semibold">Dengan Perjanjian</strong></div>
+          <h2 className="text-xs font-extrabold uppercase tracking-wider text-slate-400">Jam Operasional Klinik</h2>
+          <div className="bg-white/80 backdrop-blur-sm p-5 rounded-2xl border border-slate-200/60 shadow-xs space-y-4">
+            <div className="text-xs space-y-2.5">
+              <div className="flex justify-between text-slate-500 font-medium"><span>Senin - Sabtu:</span><strong className="text-slate-800">09:00 - 21:00</strong></div>
+              <div className="flex justify-between text-slate-500 font-medium"><span>Minggu / Libur:</span><strong className="text-cyan-600 font-bold bg-cyan-50 px-2 py-0.5 rounded-md">Dengan Janji</strong></div>
             </div>
-            <div className="pt-4 border-t border-slate-50 space-y-2.5 text-xs text-slate-500">
-              <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-slate-400 shrink-0" /> <span>Jl. Jenderal Sudirman No. 45, Pekanbaru</span></div>
-              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-slate-400 shrink-0" /> <span>+62 812-3456-7890</span></div>
+            <div className="pt-4 border-t border-slate-100 space-y-3 text-xs text-slate-500 font-medium">
+              <div className="flex items-start gap-2"><MapPin className="w-4 h-4 text-indigo-500 shrink-0 mt-0.5" /> <span className="leading-normal text-slate-600">Jl. Jenderal Sudirman No. 45, Kota Pekanbaru</span></div>
+              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-indigo-500 shrink-0" /> <span className="text-slate-600">+62 812-3456-7890</span></div>
             </div>
 
-            {/* CTA Daftar Member */}
-            <div className="pt-4 border-t border-slate-50">
+            {/* CTA DAFTAR MEMBER */}
+            <div className="pt-4 border-t border-slate-100">
               <a 
                 href="/register"
-                className="block w-full text-center bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-xs font-bold py-2.5 rounded-xl transition-all shadow-sm hover:shadow-md hover:from-blue-700 hover:to-indigo-700"
+                className="block w-full text-center bg-gradient-to-r from-indigo-600 to-cyan-600 text-white text-xs font-bold py-3 rounded-xl transition-all shadow-sm hover:shadow-md hover:from-indigo-700 hover:to-cyan-700 scale-100 hover:scale-[1.01]"
               >
-                Daftar Member untuk Diskon →
+                Daftar Member Eksklusif →
               </a>
-              <p className="text-[10px] text-slate-400 text-center mt-2">Dapatkan poin loyalitas & harga spesial</p>
+              <p className="text-[10px] text-slate-400 text-center font-medium mt-2">Dapatkan akumulasi poin loyalitas & tier reward spesial</p>
             </div>
           </div>
         </aside>

@@ -26,6 +26,7 @@ export const servicesService = {
    * Mengambil semua layanan yang aktif
    */
   getAllServices: async () => {
+    // Catatan: Jika nama tabel di Supabase menggunakan S besar, ganti '/services' menjadi '/Services'
     const response = await api.get('/services?is_active=eq.true&order=category.asc');
     return response.data;
   },
