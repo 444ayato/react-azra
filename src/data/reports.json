@@ -1,5 +1,25 @@
 {
   "monthlyRevenue": "$12,450",
   "patientGrowth": "15%",
-  "topService": "Root Canal Treatment"
+  "topService": "Root Canal Treatment",
+  "totalPatients": 284,
+  "appointmentRate": "92%",
+  "avgRating": 4.8,
+  "pendingReviews": 3,
+  "services": [
+    { "name": "Root Canal", "count": 45, "revenue": "$6,750" },
+    { "name": "Teeth Whitening", "count": 32, "revenue": "$4,800" },
+    { "name": "Dental Implant", "count": 28, "revenue": "$8,400" },
+    { "name": "Braces", "count": 24, "revenue": "$7,200" },
+    { "name": "Scaling", "count": 38, "revenue": "$3,800" },
+    { "name": "Crowns", "count": 19, "revenue": "$9,500" }
+  ],
+  "monthlyData": [
+    { "month": "Jan", "revenue": 8200, "patients": 45 },
+    { "month": "Feb", "revenue": 9100, "patients": 52 },
+    { "month": "Mar", "revenue": 7800, "patients": 48 },
+    { "month": "Apr", "revenue": 10200, "patients": 58 },
+    { "month": "May", "revenue": 9400, "patients": 55 },
+    { "month": "Jun", "revenue": 12450, "patients": 67 }
+  ]
 }

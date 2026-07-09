@@ -3,12 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import { 
   Award, Calendar, LogOut, 
   FileText, Activity, CheckCircle2, 
-  Sparkles, Flame, Info, Loader2, AlertCircle 
+  Sparkles, Flame, Info, Loader2, AlertCircle,
+  Shield, ArrowRight
 } from 'lucide-react';
 import { customerService } from '../services/customerService';
 import { appointmentService } from '../services/appointmentService';
 import { servicesService, formatRupiah } from '../services/servicesService';
 import api from '../services/api';
+import supabase from '../lib/supabase';
 
 /**
  * Helper: tier badge config
@@ -68,6 +70,47 @@ export default function MemberPage() {
   const bookingFormRef = useRef(null);
   const today = new Date().toISOString().split('T')[0];
 
+  // ================= FUNGSI UNTUK MEMBUAT CUSTOMER OTOMATIS =================
+  const ensureCustomerExists = async (user) => {
+    try {
+      // Cek apakah customer sudah ada
+      let customer = await customerService.getCustomerByUserId(user.id);
+      
+      if (!customer) {
+        console.log('Customer tidak ditemukan, membuat baru...');
+        
+        // Buat customer baru dengan Supabase langsung
+        const { data: newCustomer, error: insertError } = await supabase
+          .from('customers')
+          .insert({
+            user_id: user.id,
+            full_name: user.username || user.full_name || 'Member',
+            email: user.email || null,
+            phone: user.phone || null,
+            points: 0,
+            tier: 'regular',
+            total_orders: 0,
+            total_spent: 0
+          })
+          .select()
+          .single();
+
+        if (insertError) {
+          console.error('Error creating customer:', insertError);
+          throw new Error('Gagal membuat data customer: ' + insertError.message);
+        }
+
+        console.log('Customer berhasil dibuat:', newCustomer);
+        customer = newCustomer;
+      }
+      
+      return customer;
+    } catch (err) {
+      console.error('Error ensuring customer exists:', err);
+      throw new Error('Gagal memuat atau membuat data customer. Silakan coba lagi.');
+    }
+  };
+
   // ================= FETCH DATA from SUPABASE =================
   useEffect(() => {
     const fetchMemberData = async () => {
@@ -83,15 +126,22 @@ export default function MemberPage() {
         const user = JSON.parse(stored);
         setSessionUser(user);
 
-        // 2. Ambil data customer berdasarkan user_id
-        const customer = await customerService.getCustomerByUserId(user.id);
+        // 2. Pastikan customer ada, buat jika belum
+        const customer = await ensureCustomerExists(user);
         setCustomerData(customer);
 
         if (customer) {
           // 3. Ambil orders dari tabel orders
           try {
-            const orders = await api.get(`/orders?customer_id=eq.${customer.id}&order=order_date.desc`);
-            setOrdersData(orders.data || []);
+            const { data: orders, error: ordersError } = await supabase
+              .from('orders')
+              .select('*')
+              .eq('customer_id', customer.id)
+              .order('order_date', { ascending: false });
+
+            if (!ordersError) {
+              setOrdersData(orders || []);
+            }
           } catch (e) {
             console.warn('Orders fetch skipped:', e);
           }
@@ -99,17 +149,14 @@ export default function MemberPage() {
           // 4. Ambil appointments
           try {
             const apts = await appointmentService.getAppointmentsByCustomerId(customer.id);
-            setAppointmentsData(apts);
+            setAppointmentsData(apts || []);
           } catch (e) {
             console.warn('Appointments fetch skipped:', e);
           }
         }
       } catch (err) {
-        // Graceful: jika customer blm ada (baru daftar) atau query gagal,
-        // jangan tampilkan error keras — cukup log dan render dgn data seadanya
-        console.warn('Member data fetch issue (non-critical):', err?.message || err);
-        // Pastikan customerData tetap null agar komponen render partial
-        setCustomerData(null);
+        console.error('Error fetching member data:', err);
+        setError(err.message || 'Gagal memuat data member.');
       } finally {
         setIsLoading(false);
       }
@@ -129,31 +176,88 @@ export default function MemberPage() {
   };
 
   const handleBookingSubmit = async () => {
-    if (!bookingDate || !customerData) return;
+    // Validasi input
+    if (!bookingDate) {
+      setBookingError('⚠️ Silakan pilih tanggal kunjungan terlebih dahulu!');
+      setBookingSuccess('');
+      return;
+    }
+
+    if (!customerData) {
+      setBookingError('⚠️ Data customer tidak ditemukan. Silakan refresh halaman.');
+      setBookingSuccess('');
+      return;
+    }
 
     setIsBooking(true);
     setBookingError('');
     setBookingSuccess('');
 
     try {
-      await appointmentService.createAppointment({
-        customer_id: customerData.id,
-        patient_name: customerData.full_name,
-        appointment_date: bookingDate,
-        appointment_time: null,
-        doctor_name: bookingDoctor,
-        source: 'member',
-        notes: ''
+      // Cek apakah ada appointment di tanggal yang sama
+      const existingAppointments = appointmentsData.filter(
+        a => a.appointment_date === bookingDate && 
+        (a.status === 'scheduled' || a.status === 'confirmed' || a.status === 'pending')
+      );
+
+      if (existingAppointments.length > 0) {
+        setBookingError('⚠️ Anda sudah memiliki janji temu di tanggal ini. Silakan pilih tanggal lain.');
+        setIsBooking(false);
+        return;
+      }
+
+      // Create appointment langsung dengan supabase
+      const { data: newAppointment, error: insertError } = await supabase
+        .from('appointments')
+        .insert({
+          customer_id: customerData.id,
+          patient_name: customerData.full_name,
+          appointment_date: bookingDate,
+          appointment_time: null,
+          doctor_name: bookingDoctor,
+          source: 'member',
+          status: 'scheduled',
+          notes: `Booking melalui VIP Member Lounge. Tier: ${tier.toUpperCase()}`
+        })
+        .select()
+        .single();
+
+      if (insertError) {
+        throw new Error(insertError.message);
+      }
+
+      console.log('Appointment created:', newAppointment);
+
+      // Format tanggal untuk pesan sukses
+      const formattedDate = new Date(bookingDate).toLocaleDateString('id-ID', { 
+        weekday: 'long', 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric' 
       });
 
-      setBookingSuccess(`✅ Booking berhasil! Silakan datang ke klinik pada tanggal ${new Date(bookingDate).toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}.`);
+      setBookingSuccess(`✅ Booking berhasil! Janji temu dengan ${bookingDoctor} pada ${formattedDate} telah dikonfirmasi. Silakan datang 15 menit sebelum jadwal.`);
+      
+      // Reset form setelah sukses
+      setBookingDate('');
       
       // Refresh appointments
       const apts = await appointmentService.getAppointmentsByCustomerId(customerData.id);
-      setAppointmentsData(apts);
+      setAppointmentsData(apts || []);
+
+      // Auto close success message after 8 seconds
+      setTimeout(() => {
+        setBookingSuccess('');
+      }, 8000);
+
     } catch (err) {
-      setBookingError('Gagal menyimpan booking. Silakan coba lagi.');
       console.error('Booking error:', err);
+      setBookingError(`❌ Gagal melakukan booking: ${err.message || 'Terjadi kesalahan. Silakan coba lagi.'}`);
+      
+      // Auto close error message after 5 seconds
+      setTimeout(() => {
+        setBookingError('');
+      }, 5000);
     } finally {
       setIsBooking(false);
     }
@@ -393,7 +497,7 @@ export default function MemberPage() {
             {/* SIDE BOX PANEL */}
             <div className="bg-white p-5 rounded-xl border border-slate-200 shadow-xs h-full flex flex-col justify-center min-h-[160px]">
               {selectedTooth ? (
-                <div className="space-y-3 animation-fade-in">
+                <div className="space-y-3">
                   <div className="flex items-center gap-2">
                     <span className={`w-3 h-3 ${selectedTooth.color} rounded-full`}></span>
                     <h4 className="text-sm font-extrabold text-slate-900">Gigi #{selectedTooth.id}</h4>
@@ -469,12 +573,16 @@ export default function MemberPage() {
               <button 
                 onClick={handleBookingSubmit}
                 disabled={!bookingDate || isBooking}
-                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 disabled:opacity-40 disabled:cursor-not-allowed text-white font-bold py-3.5 rounded-xl text-xs transition-all shadow-md shadow-blue-100 mt-2 cursor-pointer flex items-center justify-center gap-2"
+                className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 disabled:opacity-40 disabled:cursor-not-allowed text-white font-bold py-3.5 rounded-xl text-xs transition-all shadow-md shadow-blue-100 mt-2"
               >
                 {isBooking ? (
                   <><Loader2 className="w-4 h-4 animate-spin" /> Memproses Booking...</>
                 ) : (
-                  'Amankan Antrean Priority Member'
+                  <>
+                    <Shield className="w-4 h-4" />
+                    Amankan Antrean Priority Member
+                    <ArrowRight className="w-4 h-4" />
+                  </>
                 )}
               </button>
             </div>
@@ -556,6 +664,17 @@ export default function MemberPage() {
         </div>
 
       </main>
+
+      {/* CSS untuk animasi */}
+      <style>{`
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(-10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .animation-fade-in {
+          animation: fadeIn 0.3s ease-out;
+        }
+      `}</style>
     </div>
   );
 }

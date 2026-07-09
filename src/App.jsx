@@ -1,7 +1,10 @@
 import { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import AuthLayout from './layouts/AuthLayout';
+
+// --- TAMBAHAN: Lazy Load Halaman Landing Page Baru ---
+const LandingPage = lazy(() => import('./pages/LandingPage'));
 
 // --- Lazy Load Auth Pages ---
 const Login = lazy(() => import('./pages/auth/Login'));
@@ -43,32 +46,22 @@ function App() {
       <Suspense fallback={<PageLoading />}>
         <Routes>
           
-          {/* PENGALIHAN UTAMA: 
-            Jika user membuka http://localhost:5173/, otomatis dialihkan ke halaman /login 
-          */}
-          <Route path="/" element={<Navigate to="/login" replace />} />
+          {/* SEKARANG SUDAH ADA LANDING PAGE DI SINI 🚀 */}
+          <Route path="/" element={<LandingPage />} />
 
-          {/* RUTE GUEST (PASIEN PUBLIK):
-            Diletakkan di luar layout agar tampil penuh tanpa sidebar admin.
-          */}
+          {/* RUTE GUEST (PASIEN PUBLIK): */}
           <Route path="/guest" element={<GuestPage />} />
 
-          {/* RUTE MEMBER RESMI:
-            Diletakkan di luar layout admin agar tampil penuh sebagai portal pasien khusus member.
-          */}
+          {/* RUTE MEMBER RESMI: */}
           <Route path="/member" element={<MemberPage />} />
 
-          {/* Auth Group 
-            Menggunakan AuthLayout untuk Login & Register 
-          */}
+          {/* Auth Group */}
           <Route element={<AuthLayout />}>
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
           </Route>
 
-          {/* Main App Group (ADMIN)
-            Menggunakan MainLayout (Sidebar + Header internal klinik)
-          */}
+          {/* Main App Group (ADMIN) */}
           <Route element={<MainLayout />}>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/calendar" element={<Calendar />} />
@@ -82,9 +75,7 @@ function App() {
             <Route path="/components" element={<ComponentsPage />} />
           </Route>
 
-          {/* 404 Page 
-            Menangkap semua path yang tidak terdaftar
-          */}
+          {/* 404 Page */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

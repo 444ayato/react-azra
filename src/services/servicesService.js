@@ -1,10 +1,12 @@
-import api from './api';
+// C:\azra-core\src\services\servicesService.js
+import supabase from '../lib/supabase';
 
 /**
  * Memformat angka ke format Rupiah
  * Contoh: 350000 -> "Rp 350.000"
  */
 export const formatRupiah = (amount) => {
+  if (!amount && amount !== 0) return 'Rp 0';
   return 'Rp ' + Number(amount).toLocaleString('id-ID');
 };
 
@@ -26,65 +28,143 @@ export const servicesService = {
    * Mengambil semua layanan yang aktif
    */
   getAllServices: async () => {
-    // Catatan: Jika nama tabel di Supabase menggunakan S besar, ganti '/services' menjadi '/Services'
-    const response = await api.get('/services?is_active=eq.true&order=category.asc');
-    return response.data;
+    try {
+      const { data, error } = await supabase
+        .from('services')
+        .select('*')
+        .eq('is_active', true)
+        .order('category', { ascending: true });
+
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('Error fetching services:', error);
+      return [];
+    }
   },
 
   /**
    * Mengambil layanan berdasarkan ID
    */
   getServiceById: async (id) => {
-    const response = await api.get(`/services?id=eq.${id}`);
-    return response.data[0] || null;
+    try {
+      const { data, error } = await supabase
+        .from('services')
+        .select('*')
+        .eq('id', id)
+        .single();
+
+      if (error) throw error;
+      return data || null;
+    } catch (error) {
+      console.error('Error fetching service by ID:', error);
+      return null;
+    }
   },
 
   /**
    * Mengambil layanan berdasarkan kategori
    */
   getServicesByCategory: async (category) => {
-    const response = await api.get(
-      `/services?category=eq.${encodeURIComponent(category)}&is_active=eq.true&order=name.asc`
-    );
-    return response.data;
+    try {
+      const { data, error } = await supabase
+        .from('services')
+        .select('*')
+        .eq('category', category)
+        .eq('is_active', true)
+        .order('name', { ascending: true });
+
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.error('Error fetching services by category:', error);
+      return [];
+    }
   },
 
   /**
    * Membuat layanan baru (Admin)
    */
   createService: async (data) => {
-    const response = await api.post('/services', {
-      name: data.name,
-      description: data.description || null,
-      price: data.price,
-      duration_minutes: data.duration_minutes || null,
-      category: data.category || null,
-      is_active: data.is_active !== undefined ? data.is_active : true
-    });
-    return response.data;
+    try {
+      const { data: result, error } = await supabase
+        .from('services')
+        .insert({
+          name: data.name,
+          description: data.description || null,
+          price: data.price,
+          duration_minutes: data.duration_minutes || null,
+          category: data.category || null,
+          is_active: data.is_active !== undefined ? data.is_active : true
+        })
+        .select()
+        .single();
+
+      if (error) throw error;
+      return result;
+    } catch (error) {
+      console.error('Error creating service:', error);
+      throw error;
+    }
   },
 
   /**
    * Update layanan (Admin)
    */
   updateService: async (id, data) => {
-    const response = await api.patch(`/services?id=eq.${id}`, data);
-    return response.data;
+    try {
+      const { data: result, error } = await supabase
+        .from('services')
+        .update(data)
+        .eq('id', id)
+        .select()
+        .single();
+
+      if (error) throw error;
+      return result;
+    } catch (error) {
+      console.error('Error updating service:', error);
+      throw error;
+    }
   },
 
   /**
    * Soft delete — nonaktifkan layanan (Admin)
    */
   deactivateService: async (id) => {
-    const response = await api.patch(`/services?id=eq.${id}`, { is_active: false });
-    return response.data;
+    try {
+      const { data, error } = await supabase
+        .from('services')
+        .update({ is_active: false })
+        .eq('id', id)
+        .select()
+        .single();
+
+      if (error) throw error;
+      return data;
+    } catch (error) {
+      console.error('Error deactivating service:', error);
+      throw error;
+    }
   },
 
   /**
    * Hard delete layanan (Admin)
    */
   deleteService: async (id) => {
-    const response = await api.delete(`/services?id=eq.${id}`);
-    return response.data;
+    try {
+      const { error } = await supabase
+        .from('services')
+        .delete()
+        .eq('id', id);
+
+      if (error) throw error;
+      return true;
+    } catch (error) {
+      console.error('Error deleting service:', error);
+      throw error;
+    }
   }
 };
+
+export default servicesService;
