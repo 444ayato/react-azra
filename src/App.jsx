@@ -20,6 +20,9 @@ const Reports = lazy(() => import('./pages/ReportsPage'));
 // Lazy load untuk halaman CRM dengan komponen Radix UI
 const CrmPage = lazy(() => import('./pages/CrmPage'));
 
+// --- TAMBAHAN BARU: Lazy Load Halaman Otomatisasi (6.2 & 6.3) ---
+const AutomationPage = lazy(() => import('./pages/AutomationPage'));
+
 // Diarahkan ke folder components/Components bukan pages/Components
 const ComponentsPage = lazy(() => import('./components/Components'));
 
@@ -71,6 +74,9 @@ function App() {
             
             {/* Halaman CRM Manajemen Khusus Admin */}
             <Route path="/crm" element={<CrmPage />} />
+            
+            {/* RUTE BARU: Halaman Otomatisasi Pemasaran & Layanan Khusus Admin */}
+            <Route path="/automation" element={<AutomationPage />} />
             
             <Route path="/components" element={<ComponentsPage />} />
           </Route>

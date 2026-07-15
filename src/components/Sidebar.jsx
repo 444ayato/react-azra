@@ -7,7 +7,8 @@ import {
   BarChart3, 
   Settings,
   Component, // Icon untuk halaman playground komponen
-  UserCheck // TAMBAHAN: Icon untuk halaman CRM Pasien
+  UserCheck, // TAMBAHAN: Icon untuk halaman CRM Pasien
+  Cpu // TAMBAHAN BARU: Icon untuk halaman Automation Control
 } from 'lucide-react';
 
 export default function Sidebar() {
@@ -19,6 +20,7 @@ export default function Sidebar() {
     { name: 'Reports', path: '/reports', icon: <BarChart3 size={20}/> },
     { name: 'Components', path: '/components', icon: <Component size={20}/> }, // Playground komponen
     { name: 'CRM Pasien', path: '/crm', icon: <UserCheck size={20}/> }, // TAMBAHAN RUTE BARU DI SIDEBAR
+    { name: 'Automation Control', path: '/automation', icon: <Cpu size={20}/> }, // TAMBAHAN BARU: Rute otomatisasi (6.2 & 6.3)
   ];
 
   return (

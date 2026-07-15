@@ -1,4 +1,3 @@
-// C:\azra-core\src\services\profileService.js
 import supabase from '../lib/supabase';
 
 export const profileService = {

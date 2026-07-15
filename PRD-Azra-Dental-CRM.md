@@ -1,5 +1,5 @@
 # Product Requirements Document (PRD)
-## Azra Dental Care — Sistem Manajemen CRM Klinik Gigi
+## Azcyra Dental — Sistem Manajemen CRM Klinik Gigi
 
 **Versi Dokumen:** 1.0  
 **Tanggal:** 2 Juli 2026  
@@ -24,7 +24,7 @@
 
 ## 1. Ringkasan Eksekutif
 
-Azra Dental Care membutuhkan sistem Customer Relationship Management (CRM) terintegrasi yang melayani tiga kelompok pengguna:
+Azcyra Dental membutuhkan sistem Customer Relationship Management (CRM) terintegrasi yang melayani tiga kelompok pengguna:
 
 | Role | Deskripsi | Akses |
 |------|-----------|-------|

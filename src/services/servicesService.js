@@ -1,4 +1,3 @@
-// C:\azra-core\src\services\servicesService.js
 import supabase from '../lib/supabase';
 
 /**

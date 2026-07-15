@@ -1,4 +1,3 @@
-// C:\azra-core\src\services\appointmentService.js
 import supabase from '../lib/supabase';
 
 export const appointmentService = {

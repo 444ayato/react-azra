@@ -42,6 +42,15 @@ export default function GuestPage() {
   // Set minimal tanggal ke hari ini
   const today = new Date().toISOString().split('T')[0];
 
+  // Handler untuk mengarahkan langsung ke WhatsApp owner/klinik
+  const handleHubungiKlinik = (e) => {
+    if (e) e.preventDefault();
+    const nomorWa = "6285156845682"; // Nomor HP kamu yang sudah diformat ke kode negara 62
+    const pesan = encodeURIComponent("Halo Azcyra Dental, saya ingin bertanya mengenai jadwal dokter dan tarif layanan gigi.");
+    const urlWhatsapp = `https://wa.me/${nomorWa}?text=${pesan}`;
+    window.open(urlWhatsapp, '_blank');
+  };
+
   // Handling submit reservasi
   const handleSubmitReservasi = async () => {
     if (!namaPasien.trim() || !noTelepon.trim() || !tanggalKunjungan || !layananTerpilih) return;
@@ -120,7 +129,7 @@ export default function GuestPage() {
           <div className="flex items-center gap-2.5">
             <div className="bg-gradient-to-tr from-indigo-600 to-cyan-500 text-white w-9 h-9 rounded-xl flex items-center justify-center font-bold text-lg shadow-md shadow-indigo-200">Az</div>
             <div>
-              <span className="font-extrabold text-base text-slate-900 block leading-tight tracking-tight">Azra Dental Care</span>
+              <span className="font-extrabold text-base text-slate-900 block leading-tight tracking-tight">Azcyra Dental</span>
               <span className="text-[10px] text-indigo-600 tracking-wider uppercase font-bold flex items-center gap-1">
                 <Sparkles className="w-2.5 h-2.5" /> Portal Pasien Publik
               </span>
@@ -155,9 +164,12 @@ export default function GuestPage() {
           <a href="#layanan" className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-700 hover:to-cyan-700 text-white text-xs font-bold px-6 py-3 rounded-xl transition-all shadow-md shadow-indigo-100 scale-100 hover:scale-[1.02] active:scale-[0.98]">
             Lihat Katalog Tarif <ArrowRight className="w-3.5 h-3.5" />
           </a>
-          <a href="tel:+6281234567890" className="inline-flex items-center gap-1.5 bg-white border border-slate-200 hover:border-slate-300 text-slate-700 text-xs font-bold px-6 py-3 rounded-xl transition-all shadow-xs">
+          <button 
+            onClick={handleHubungiKlinik} 
+            className="inline-flex items-center gap-1.5 bg-white border border-slate-200 hover:border-slate-300 text-slate-700 text-xs font-bold px-6 py-3 rounded-xl transition-all shadow-xs cursor-pointer"
+          >
             <Phone className="w-3.5 h-3.5 text-slate-400" /> Hubungi Klinik
-          </a>
+          </button>
         </div>
       </header>
 
@@ -399,7 +411,13 @@ export default function GuestPage() {
             </div>
             <div className="pt-4 border-t border-slate-100 space-y-3 text-xs text-slate-500 font-medium">
               <div className="flex items-start gap-2"><MapPin className="w-4 h-4 text-indigo-500 shrink-0 mt-0.5" /> <span className="leading-normal text-slate-600">Jl. Jenderal Sudirman No. 45, Kota Pekanbaru</span></div>
-              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-indigo-500 shrink-0" /> <span className="text-slate-600">+62 812-3456-7890</span></div>
+              <button 
+                onClick={handleHubungiKlinik}
+                className="flex items-center gap-2 hover:text-indigo-600 transition-colors cursor-pointer text-left w-full text-slate-600"
+              >
+                <Phone className="w-4 h-4 text-indigo-500 shrink-0" /> 
+                <span>+62 851-5684-5682</span>
+              </button>
             </div>
 
             {/* CTA DAFTAR MEMBER */}

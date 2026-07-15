@@ -16,7 +16,7 @@ export default function LandingPage() {
               A
             </div>
             <span className="font-black text-xl tracking-tight text-slate-900">
-              Azra<span className="text-indigo-600">Dental</span>
+              Azcyra<span className="text-indigo-600">Dental</span>
             </span>
           </div>
           
@@ -42,7 +42,7 @@ export default function LandingPage() {
           </div>
           
           <h1 className="text-4xl sm:text-6xl font-black text-slate-900 tracking-tight leading-[1.1] max-w-4xl mx-auto">
-            Selamat Datang di <span className="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">Azra Dental Care</span>
+            Selamat Datang di <span className="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">Azcyra Dental</span>
           </h1>
           
           <p className="text-slate-500 text-base sm:text-lg max-w-2xl mx-auto font-medium leading-relaxed">
@@ -132,7 +132,7 @@ export default function LandingPage() {
 
       {/* FOOTER */}
       <footer className="border-t border-slate-100 bg-white py-8 px-6 text-center text-xs text-slate-400 font-medium">
-        &copy; {new Date().getFullYear()} Azra Dental Core Enterprise. All rights reserved.
+        &copy; {new Date().getFullYear()} Azcyra Dental Enterprise. All rights reserved.
       </footer>
     </div>
   );
